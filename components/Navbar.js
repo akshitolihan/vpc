@@ -14,7 +14,7 @@ const Navbar = () => {
       <Head></Head>
       <header
         id={navbar.font}
-        className="shadow-sm text-center bg-[#ffff] rounded-b-2xl "
+        className="shadow-md text-center rounded-b-2xl "
       >
         <nav className="flex items-center  justify-between w-full mx-auto flex-wrap flex-col md:flex-row ">
           <div className="lg:justify-start md:inline-flex ml-4">

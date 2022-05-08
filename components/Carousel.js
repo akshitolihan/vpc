@@ -5,9 +5,9 @@ import navbar from "../styles/Navbar.module.css";
 const Carousel = (props) => {
   return (
     <>
-      <section className="inline-flex">
-        <section className="flex justify-center items-center ">
-          <div className="pt-4 justify-center hidden md:block md:w-full">
+      <section className="inline-flex ">
+        <section className="flex justify-center items-center  ">
+          <div className="pt-4 justify-center hidden md:block md:w-full ">
             <Image
               className="origin-top-left animate-waving- hidden lg:block lg:w-1/2 rounded-lg rounded-r-xl  justify-center -rotate-3"
               src={props.img}

@@ -30,7 +30,7 @@ const index = () => {
       </Head>
       <Navbar />
       <Carousel
-        img="/village.jpg"
+        img="/villagepur.jpg"
         height="500px"
         width="910 px"
         heading="Welcome To Villagepur"
@@ -45,6 +45,16 @@ const index = () => {
       <Heading heading="Our Latest Blogs" refer="/blog" />
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
+        <Books
+          img="/education.jpg"
+          height="250px"
+          width="400px"
+          download="Read More"
+          refer1="/blog/right-to-education-and-right-education"
+          refer2="/blog/right-to-education-and-right-education"
+          heading="Right To Education and Right Education"
+          para="There is not any clearcut answer to this question. We can consider the good or the bad things about social media. In this article, we will be having a..."
+        />
           <Books
             refer1="/blog/social-media-good-or-bad"
             refer2="/blog/social-media-good-or-bad"
@@ -55,7 +65,7 @@ const index = () => {
             heading="Social Media, Good or Bad?"
             para="There is not any clearcut answer to this question. We can consider the good or the bad things about social media. In this article, we will be having a view on that.Social media has its pros and ..."
           />
-          <Books
+          {/* <Books
             refer1="/blog/robots-will-reduce-employment"
             refer2="/blog/robots-will-reduce-employment"
             img="/Robots.jpg"
@@ -66,7 +76,7 @@ const index = () => {
             para="Good Evening to Respected juries and my fellow participants, My
           name is Akshit Kumar Today I am going to share my viewpoint
           opposing ..."
-          />
+          /> */}
           <Books
             refer1="/blog/role-of-society-protecting-online"
             refer2="/blog/role-of-society-protecting-online"
@@ -145,42 +155,42 @@ const index = () => {
           img="/avatar.svg"
           height="84px"
           width="84px"
-          heading="Any Philosopher"
+          heading="Someone"
           para="Things are declined that are not up to the requirements."
         />
         <Quotes
           img="/avatar.svg"
           height="84px"
           width="84px"
-          heading="Any Philosopher"
+          heading="Someone"
           para="Dedication is the best virtue."
         />
         <Quotes
           img="/avatar.svg"
           height="84px"
           width="84px"
-          heading="Any Philosopher"
+          heading="Someone"
           para="Learn from your failures to achieve success."
         />
         <Quotes
           img="/avatar.svg"
           height="84px"
           width="84px"
-          heading="Any Philosopher"
+          heading="Someone"
           para="Honesty is the best policy."
         />
         <Quotes
           img="/avatar.svg"
           height="84px"
           width="84px"
-          heading="Any Philosopher"
+          heading="Someone"
           para="Communication works for those who work on communication."
         />
         <Quotes
           img="/avatar.svg"
           height="84px"
           width="84px"
-          heading="Any Philosopher"
+          heading="Someone"
           para="Choose your words wisely while speaking."
         />
       </div>

@@ -7,6 +7,7 @@ import Button from "../../components/Button";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import Carousel from "../../components/Carousel";
+import Card from "../../components/Card";
 
 const blog3 = () => {
   return (
@@ -124,6 +125,28 @@ const blog3 = () => {
           </section>
         </section>
       </section>
+      <div className="flex justify-center">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3">
+      <Card
+        heading="Connect on Telegram"
+        para="This is Akshit Kumar. Join our telegram group. Link Below."
+        refer="https://t.me/thevillagepur"
+        name="Join"
+      />
+      <Card
+        heading="Connect on Facebook"
+        para="This is Akshit Kumar. Follow our facebook page and connect with us."
+        refer="https://www.facebook.com/villagepur/"
+        name="Follow"
+      />
+      <Card
+        heading="Connect on Instagram"
+        para="This is Akshit Kumar. Follow our page and connect with us. "
+        refer="https://www.instagram.com/thevillagepur"
+        name="Follow"
+      />
+      </div>
+      </div>
       <Footer />
     </>
   );
