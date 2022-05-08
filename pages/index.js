@@ -227,7 +227,7 @@ const index = () => {
         Creator
       </h1>
       <div className="flex justify-center">
-        <div className=" shadow-aksh m-2 bg-[#E8F5E9] rounded-3xl p-0  scale-100 transition mt-[150px] max-w-3xl sm:m-12 grid">
+        <div className=" shadow-aksh m-2 bg-[#E8F5E9] rounded-3xl p-0  scale-100 transition max-w-3xl sm:m-12 grid">
           <div>
             <h1
               className="text-[#363636] text-lg text-justify font-normal  p-6"
