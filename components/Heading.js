@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import navbar from "../styles/Navbar.module.css";
-import Link from "next/Link";
+import Link from "next/link";
 
 const Heading = (props) => {
   return (
