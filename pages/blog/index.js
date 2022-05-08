@@ -17,8 +17,7 @@ const blog = () => {
         height="500px"
         width="910 px"
         heading="Welcome To Blogs"
-        para="You can read the blogs on the latest topics and topics that are important to you. We are bringing to you some good articles on diffev6+
-        -fsd zdszrent topics daily. Read our blogs and give your valuable feedback as well."
+        para="You can read the blogs on the latest topics and topics that are important to you. We are bringing to you some good articles on different topics daily. Read our blogs and give your valuable feedback as well."
         one="Blogs"
         two="Quotes"
         three="Books"
