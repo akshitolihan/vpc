@@ -9,11 +9,12 @@ const Books = (props) => {
     <>
       <div className="flex justify-center max-w-[500px] ">
         <div className="shadow-2xl shadow-top m-2 md:m-10 bg-white rounded-3xl p-6 text-white  scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl mt-[16px] ">
-          <Link href={props.refer1} >
+          <Link href={props.refer1} scroll={false}>
             <a
               className="cursor-pointer"
             >
               <Image
+              alt="image"
                 className="rounded-xl"
                 src={props.img}
                 height={props.height}

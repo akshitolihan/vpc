@@ -30,7 +30,7 @@ const index = () => {
       </Head>
       <Navbar />
       <Carousel
-        img="/villagepur.jpg"
+        img="/home.jpg"
         height="500px"
         width="910 px"
         heading="Welcome To Villagepur"
@@ -317,6 +317,7 @@ const index = () => {
               className="cursor-pointer"
             >
               <Image
+              alt="image"
                 className="rounded-full justify-between mr-4"
                 src="/A8.jpg"
                 height="128px"

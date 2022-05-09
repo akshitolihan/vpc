@@ -15,9 +15,7 @@ const blog2 = () => {
       <Head>
         <title>Role of Society in protecting children online</title>
       </Head>
-      <Head>
-        <title>Villagepur ~ Learn</title>
-      </Head>
+
       <Navbar />
 
       <section className="flex justify-center flex-wrap md:flex-nowrap">
@@ -35,6 +33,7 @@ const blog2 = () => {
 
             <div className="flex justify-center p-0 md:p-4 pt-4">
               <Image
+                alt="image"
                 className="rounded-2xl flex justify-center mr-4"
                 src="/people.jpg"
                 height="500px"
@@ -128,26 +127,26 @@ const blog2 = () => {
         </section>
       </section>
       <div className="flex justify-center">
-      <div className="grid md:grid-cols-2 lg:grid-cols-3">
-      <Card
-        heading="Connect on Telegram"
-        para="This is Akshit Kumar. Join our telegram group. Link Below."
-        refer="https://t.me/thevillagepur"
-        name="Join"
-      />
-      <Card
-        heading="Connect on Facebook"
-        para="This is Akshit Kumar. Follow our facebook page and connect with us."
-        refer="https://www.facebook.com/villagepur/"
-        name="Follow"
-      />
-      <Card
-        heading="Connect on Instagram"
-        para="This is Akshit Kumar. Follow our page and connect with us. "
-        refer="https://www.instagram.com/thevillagepur"
-        name="Follow"
-      />
-      </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3">
+          <Card
+            heading="Connect on Telegram"
+            para="This is Akshit Kumar. Join our telegram group. Link Below."
+            refer="https://t.me/thevillagepur"
+            name="Join"
+          />
+          <Card
+            heading="Connect on Facebook"
+            para="This is Akshit Kumar. Follow our facebook page and connect with us."
+            refer="https://www.facebook.com/villagepur/"
+            name="Follow"
+          />
+          <Card
+            heading="Connect on Instagram"
+            para="This is Akshit Kumar. Follow our page and connect with us. "
+            refer="https://www.instagram.com/thevillagepur"
+            name="Follow"
+          />
+        </div>
       </div>
       <Footer />
     </>

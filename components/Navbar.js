@@ -14,11 +14,11 @@ const Navbar = () => {
       <Head></Head>
       <header
         id={navbar.font}
-        className="shadow-md text-center rounded-b-2xl "
+        className="shadow-md text-center rounded-b-2xl overflow-hidden"
       >
-        <nav className="flex items-center  justify-between w-full mx-auto flex-wrap flex-col md:flex-row ">
+        <nav className="flex items-center  justify-between w-full mx-auto flex-wrap flex-col md:flex-row card">
           <div className="lg:justify-start md:inline-flex ml-4">
-            <Link href="/" className="justify-items-start ">
+            <Link href="/" className="justify-items-start " passHref>
               <Image
                 src="/vp.svg"
                 width={102 + "px"}
