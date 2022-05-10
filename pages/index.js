@@ -65,18 +65,7 @@ const index = () => {
             heading="Social Media, Good or Bad?"
             para="There is not any clearcut answer to this question. We can consider the good or the bad things about social media. In this article, we will be having a view on that.Social media has its pros and ..."
           />
-          {/* <Books
-            refer1="/blog/robots-will-reduce-employment"
-            refer2="/blog/robots-will-reduce-employment"
-            img="/Robots.jpg"
-            height="250px"
-            width="400px"
-            download="Read More"
-            heading="Robots Will Reduce Human Employment"
-            para="Good Evening to Respected juries and my fellow participants, My
-          name is Akshit Kumar Today I am going to share my viewpoint
-          opposing ..."
-          /> */}
+
           <Books
             refer1="/blog/role-of-society-protecting-online"
             refer2="/blog/role-of-society-protecting-online"
@@ -256,6 +245,12 @@ const index = () => {
                 className="text-[#2F4858] text-2xl text-justify font-bold"
               >
                 Akshit Kumar
+              </h1>
+              <h1
+                id={navbar.font2}
+                className="text-[#43A047] text-2xl text-justify font-bold"
+              >
+                @akshitvillager
               </h1>
               <h1
                 id={navbar.font2}

@@ -13,11 +13,11 @@ const Blog = (props) => {
           {props.date}
           </h1>
           <h1 className="flex justify-center text-4xl font-bold p-4">
-            {" "}
             {props.heading}{" "}
           </h1>
           <div className="flex justify-center p-4">
-            <Image
+            <Image 
+            alt="image"
               className="rounded-2xl flex justify-center mr-4"
               src={props.img}
               height={props.height}
