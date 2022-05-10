@@ -1,20 +1,11 @@
 import React from "react";
 import Head from "next/head";
-import { FaApple, BiHome } from "react-icons/fa";
-import Navbar from "../components/Navbar";
-import Carousel from "../components/Carousel";
-import Image from "next/dist/client/image";
-import Footer from "../components/Footer";
-import Code from "../components/Code";
-import Books from "../components/Books";
-import Video from "../components/Video";
-import Heading from "../components/Heading";
-import Quotes from "../components/Quotes";
-import Blog from "../components/Blog";
-import navbar from "../styles/Navbar.module.css";
-import Book1 from "../components/Book1";
-import Link from "next/link";
-import Card2 from "../components/Card2";
+import Navbar from "../../components/Navbar";
+import Carousel from "../../components/Carousel";
+import Footer from "../../components/Footer";
+import Heading from "../../components/Heading";
+import Book1 from "../../components/Book1";
+import Card2 from "../../components/Card2";
 const entertainment = () => {
   return (
     <>

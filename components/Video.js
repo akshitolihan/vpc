@@ -15,6 +15,7 @@ const Video = (props) => {
             className="cursor-pointer"
           >
             <Image
+            alt="image"
               className="m-auto rounded-md"
               src={props.img}
               height={props.height}
