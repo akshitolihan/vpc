@@ -27,6 +27,10 @@ const index = () => {
     <>
       <Head>
         <title>Villagepur ~ Home</title>
+        <meta
+          name="google-site-verification"
+          content="5P3r_-9DRMSS2coMO412nNDmsXRWk3W4zECVmpBexvY"
+        />
       </Head>
       <Navbar />
       <Carousel

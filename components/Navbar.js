@@ -11,7 +11,12 @@ const Navbar = () => {
 
   return (
     <>
-      <Head></Head>
+      <Head>
+      <meta
+          name="google-site-verification"
+          content="5P3r_-9DRMSS2coMO412nNDmsXRWk3W4zECVmpBexvY"
+        />
+      </Head>
       <header
         id={navbar.font}
         className="shadow-md text-center rounded-b-2xl overflow-hidden"
