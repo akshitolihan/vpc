@@ -29,7 +29,7 @@ const blog5 = () => {
               13 May 2022
             </h1>
             <h1 className="flex justify-center text-4xl font-bold p-0 pt-4 md:p-4">
-              Online Learning : Courses Offered By Upgrad
+              Online Learning : Courses Offered By upGrad
             </h1>
 
             <div className="flex justify-center p-0 pt-4 md:p-4">

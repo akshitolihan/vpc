@@ -50,6 +50,18 @@ const index = () => {
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
         <Books
+            img="/upgrad.jpg"
+            height="250px"
+            width="400px"
+            download="Read More"
+            refer1="/blog/upgrad-courses"
+            refer2="/blog/upgrad-courses"
+            heading="Online Learning : Courses Offered By upGrad"
+            para=" Online education has become an important part of one’s learning
+                process. We have evolved so much that we can educate ourselves
+                by sitting at home. There are so many platforms that are..."
+          />
+        <Books
           img="/education.jpg"
           height="250px"
           width="400px"
@@ -70,7 +82,7 @@ const index = () => {
             para="There is not any clearcut answer to this question. We can consider the good or the bad things about social media. In this article, we will be having a view on that.Social media has its pros and ..."
           />
 
-          <Books
+          {/* <Books
             refer1="/blog/role-of-society-protecting-online"
             refer2="/blog/role-of-society-protecting-online"
             img="/people.jpg"
@@ -79,7 +91,7 @@ const index = () => {
             download="Read More"
             heading="Role of Society Protecting Online"
             para="Society has a great role in protecting children online. This protection might be related to many things. If the children are given the facility of the internet at a young age it might be unfruitful for the ..."
-          />
+          /> */}
         </div>
       </div>
 
