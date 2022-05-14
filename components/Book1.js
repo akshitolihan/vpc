@@ -16,6 +16,7 @@ const Book1 = (props) => {
               className="cursor-pointer"
             >
               <Image
+              alt="image"
                 className="rounded-xl"
                 src={props.img}
                 height={props.height}

@@ -26,48 +26,6 @@ const Page = () => {
         two="Not"
         three="Found"
       />
-      {/* <Link href="/">
-        <a className="cursor-pointer">
-          <Image
-            className="rounded-xl"
-            src="/404.svg"
-            height="500px"
-            width="500px"
-          />
-        </a>
-      </Link> */}
-      {/* <div className="m-12 bg-white rounded-3xl p-6 text-black  scale-100 transition mt-[150px] ">
-        <div className="flex justify-center ">
-          <div className="grid  ">
-            <h1
-              id={navbar.font3}
-              className="p-4 text-2xl font-bold text-center"
-            >
-              404 Error
-            </h1>
-            <h1
-              id={navbar.font3}
-              className="p-4 text-2xl font-bold  text-center"
-            >
-              Page not Found
-            </h1>
-            <h1
-              id={navbar.font3}
-              className="p-4 text-2xl font-bold  text-center"
-            >
-              Go to Home
-            </h1>
-            <h1
-              id={navbar.font3}
-              className="p-4 text-2xl font-bold flex justify-center text-center"
-            >
-              <Link href="/">
-                <BiHome className="cursor-pointer" size={100} color="#" />
-              </Link>
-            </h1>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 };

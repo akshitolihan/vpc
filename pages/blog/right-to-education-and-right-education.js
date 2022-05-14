@@ -19,7 +19,7 @@ const blog4 = () => {
 
       <section className="flex justify-center flex-wrap md:flex-nowrap">
         <section className="w-auto flex justify-center">
-          <section className="shadow-lg shadow-top m-0 md:m-0 rounded-3xl text-black lg:w-[1000px] ">
+          <section className="shadow-top m-0 md:m-0 rounded-3xl text-black lg:w-[1000px] ">
             <h1
               id={navbar.font}
               className="flex justify-center text-xl font-bold text-[#2F4858] p-0 md:p-4 pt-4"

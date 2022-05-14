@@ -47,7 +47,7 @@ function MyApp({ Component, pageProps }) {
         color="#42e798"
         startPosition={0.5}
         stopDelayMs={100}
-        height={2}
+        height={3}
         showOnShallow={true}
       />
 
