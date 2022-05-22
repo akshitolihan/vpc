@@ -15,6 +15,7 @@ import navbar from "../styles/Navbar.module.css";
 import Book1 from "../components/Book1";
 import Link from "next/link";
 import {
+  FaLinkedin,
   FaFacebook,
   FaGithub,
   FaYoutube,
@@ -49,7 +50,7 @@ const index = () => {
       <Heading heading="Our Latest Blogs" refer="/blog" />
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
-        <Books
+          <Books
             img="/upgrad.jpg"
             height="250px"
             width="400px"
@@ -61,16 +62,16 @@ const index = () => {
                 process. We have evolved so much that we can educate ourselves
                 by sitting at home. There are so many platforms that are..."
           />
-        <Books
-          img="/education.jpg"
-          height="250px"
-          width="400px"
-          download="Read More"
-          refer1="/blog/right-to-education-and-right-education"
-          refer2="/blog/right-to-education-and-right-education"
-          heading="Right To Education and Right Education"
-          para="There is not any clearcut answer to this question. We can consider the good or the bad things about social media. In this article, we will be having a..."
-        />
+          <Books
+            img="/education.jpg"
+            height="250px"
+            width="400px"
+            download="Read More"
+            refer1="/blog/right-to-education-and-right-education"
+            refer2="/blog/right-to-education-and-right-education"
+            heading="Right To Education and Right Education"
+            para="There is not any clearcut answer to this question. We can consider the good or the bad things about social media. In this article, we will be having a..."
+          />
           <Books
             refer1="/blog/social-media-good-or-bad"
             refer2="/blog/social-media-good-or-bad"
@@ -203,7 +204,7 @@ const index = () => {
 
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
-        <Book1
+          <Book1
             img="/html5.png"
             height="400px"
             width="300px"
@@ -211,7 +212,6 @@ const index = () => {
             heading="HTML Notes For Professionals"
             para=""
             refer="https://books.goalkicker.com/HTML5Book/"
-
           />
           <Book1
             img="/css.png"
@@ -280,6 +280,14 @@ const index = () => {
               >
                 <div className="flex text-[#2F4858] text-2xl text-justify font-bold">
                   <a
+                    className="p-3 text-xl"
+                    href="https://www.linkedin.com/in/akshitvillager/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedin />
+                  </a>
+                  <a
                     className="p-3 pl-0 text-xl"
                     href="https://www.youtube.com/channel/UCR3Py_Ko1w8Y8tK8rg5wwqA"
                     target="_blank"
@@ -328,7 +336,7 @@ const index = () => {
               className="cursor-pointer"
             >
               <Image
-              alt="image"
+                alt="image"
                 className="rounded-full justify-between mr-4"
                 src="/A8.jpg"
                 height="128px"

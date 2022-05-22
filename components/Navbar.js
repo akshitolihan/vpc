@@ -50,6 +50,9 @@ const Navbar = () => {
             <Link href="/book">
               <a className="p-4 text-xl block">Books</a>
             </Link>
+            <Link href="/entertainment">
+              <a className="p-4 text-xl block">Enjoy</a>
+            </Link>
             <Link href="/contact">
               <a className="p-4 text-xl block">Contact</a>
             </Link>
@@ -78,7 +81,7 @@ const Navbar = () => {
 
           <button
             type="button"
-            className="text-left no-underline text-[#2F4858] font-extrabold justify-center "
+            className="text-left no-underline text-[#2F4858] font-extrabold justify-center"
           >
             AkshitA
           </button>
@@ -112,12 +115,12 @@ const Navbar = () => {
                   <Link href="/book">
                     <a className="p-2 text-xl block">Books</a>
                   </Link>
+                  <Link href="/entertainment">
+                    <a className="p-2 text-xl block">Enjoy</a>
+                  </Link>
                   <Link href="/contact">
                     <a className="p-2 text-xl block">Contact</a>
                   </Link>
-                  {/* <Link href="/cu">
-                    <a className="p-2 text-xl block">CU</a>
-                  </Link> */}
                 </div>
               </div>
             )}

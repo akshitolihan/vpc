@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Transition } from "@headlessui/react";
 import {
+  FaLinkedin,
   FaFacebook,
   FaGithub,
   FaYoutube,
@@ -28,7 +29,15 @@ const Footer = () => {
             <h1 className="text-center p-3 text-xl font-bold text-[#2F4858]">
              ~ Our Social Media ~
             </h1> */}
-        <div className="flex justify-center ">
+        <div className="flex justify-center text-white">
+        <a
+            className="p-3 text-xl"
+            href="https://www.linkedin.com/in/akshitvillager/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin />
+          </a>
           <a
             className="p-3 text-xl"
             href="https://www.youtube.com/channel/UCR3Py_Ko1w8Y8tK8rg5wwqA"

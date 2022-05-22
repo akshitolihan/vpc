@@ -1,29 +1,24 @@
-import React from 'react'
-import Prism from 'prismjs';
-import { useEffect } from 'react';
-import { CopyBlock,dracula } from "react-code-blocks";
+import React from "react";
+import Head from "next/head";
+import Script from 'next/script'
 
 const Code = (props) => {
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            Prism.highlightAll();
-        }
-    }, []);
   return (
     <>
-    <div>
-      <h3>Code Snip</h3>
-      <CopyBlock
-      text="print('Akshit Kumar')\n input('hi')"
-
-      language='python'
-      showLineNumbers='true'
-      wrapLines
-      theme={dracula}
-    />
-    </div>
-    </>
-  )
-}
+    <Head>
+    </Head>
+    <Script src="https://gist.github.com/akshitvillager/4ab22427c166619d5212079ac67ccb9b" strategy="beforeInteractive"/>
+   </>
+  ) 
+};
 
 export default Code;
+// import Script from 'next/script'
+
+// export default function Home() {
+//   return (
+//     <>
+//       <Script src="https://www.google-analytics.com/analytics.js" />
+//     </>
+//   )
+// }
