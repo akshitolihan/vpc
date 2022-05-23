@@ -1,24 +1,22 @@
-import React from "react";
-import Head from "next/head";
-import Script from 'next/script'
+import { useEffect } from "react";
+import Prism from "prismjs";
+import "prismjs/themes/prism-okaidia.css";
+import "prismjs/components/prism-jsx.js";
+import "prismjs/plugins/line-numbers/prism-line-numbers.js";
+import "prismjs/plugins/line-numbers/prism-line-numbers.css";
 
-const Code = (props) => {
+export default function Page(props) {
+  useEffect(() => {
+    Prism.highlightAll();
+  }, []);
+  var codeSample = `print("Hello world")
+print("Hello world")`;
+
   return (
-    <>
-    <Head>
-    </Head>
-    <Script src="https://gist.github.com/akshitvillager/4ab22427c166619d5212079ac67ccb9b" strategy="beforeInteractive"/>
-   </>
-  ) 
-};
-
-export default Code;
-// import Script from 'next/script'
-
-// export default function Home() {
-//   return (
-//     <>
-//       <Script src="https://www.google-analytics.com/analytics.js" />
-//     </>
-//   )
-// }
+    <main>
+      <pre className="line-numbers">
+        <code className="language-jsx">{codeSample}</code>
+      </pre>
+    </main>
+  );
+}
