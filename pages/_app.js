@@ -8,7 +8,7 @@
 
 import "../styles/globals.css";
 // import "../styles/tomorrow.css";
-import "prismjs/themes/prism-tomorrow.css";
+import "prismjs/themes/prism-tomorrow.min.css";
 
 import { useEffect } from "react";
 import Script from "next/script";

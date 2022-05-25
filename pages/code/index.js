@@ -2,6 +2,7 @@ import React from "react";
 import Code from "../../components/Code";
 import { useEffect } from "react";
 import Prism from "prismjs";
+import "prismjs/themes/prism-tomorrow.css";
 
 export default function Page(props) {
   useEffect(() => {
