@@ -7,7 +7,7 @@
 // export default MyApp
 
 import "../styles/globals.css";
-import "prismjs-tomorrow-theme/prism-tomorrow.css";
+import "../styles/tomorrow.css";
 
 import { useEffect } from "react";
 import Script from "next/script";
