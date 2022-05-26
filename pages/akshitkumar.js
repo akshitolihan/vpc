@@ -11,6 +11,9 @@ const Me = () => {
 
   return (
     <>
+    <Head>
+    <title>Me ~ Akshit Kumar</title>
+  </Head>
       <section className="md:flex md:justify-center mt-20">
         <section className="hidden md:flex justify-center">
         <section className="pr-20">
