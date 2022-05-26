@@ -19,9 +19,9 @@ const Navbar = () => {
       </Head>
       <header
         id={navbar.font}
-        className="shadow-md text-center rounded-b-2xl overflow-hidden"
+        className="shadow-md text-center rounded-b-2xl "
       >
-        <nav className="flex items-center  justify-between w-full mx-auto flex-wrap flex-col md:flex-row card ">
+        <nav className="flex items-center justify-between w-full mx-auto flex-wrap flex-col md:flex-row card ">
           <div className="lg:justify-start md:inline-flex ml-4">
             <Link href="/" className="justify-items-start " passHref>
               <Image
@@ -56,15 +56,18 @@ const Navbar = () => {
             <Link href="/contact">
               <a className="p-4 text-xl block">Contact</a>
             </Link>
-            {/* <Link href="/chandigarh-university">
-              <a className="p-4 text-xl block">CU</a>
-            </Link> */}
-            <button
-              type="button"
-              className="text-center mr-6 no-underline text-[#2F4858] font-extrabold justify-center bg-[#42e798] mt-4 w-16 h-8 rounded-t-[50px]  rounded-r-[50px]"
-            >
-              AkshitA
-            </button>
+            <Link href="/akshitkumar">
+              <a target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer">
+                <button
+                  type="button"
+                  className="text-center mr-6 no-underline text-[#2F4858] font-extrabold justify-center bg-[#42e798] mt-4 w-16 h-8 rounded-t-[50px]  rounded-r-[50px]"
+                >
+                  AkshitA
+                </button>
+              </a>
+            </Link>
           </div>
         </nav>
         <div className="mr-10 flex justify-between md:hidden ">
@@ -78,13 +81,18 @@ const Navbar = () => {
             <span className="sr-only">Open main menu</span>
             {!isOpen ? <FaWineBottle /> : <FaAngleUp />}
           </button>
-
+          <Link href="/akshitkumar">
+              <a target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer">
           <button
             type="button"
             className="text-left no-underline text-[#2F4858] font-extrabold justify-center"
           >
             AkshitA
           </button>
+          </a>
+            </Link>
           <Transition
             show={isOpen}
             enter="transition ease-out duration-100 transform"
