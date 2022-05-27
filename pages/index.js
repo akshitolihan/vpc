@@ -35,7 +35,7 @@ const index = () => {
       </Head>
       <Navbar />
       <Carousel
-        img="/home.jpg"
+        img="/home.svg"
         height="500px"
         width="910 px"
         heading="Welcome To Villagepur"

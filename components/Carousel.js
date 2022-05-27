@@ -7,9 +7,10 @@ const Carousel = (props) => {
     <>
       <section className="inline-flex ">
         <section className="flex justify-center items-center  ">
-          <div className="pt-4 justify-center hidden md:block md:w-full ">
+          <div className="pt-2 justify-center animate-waving-hand hidden md:block md:w-full rounded-2xl -skew-x-6 shadow-xl">
             <Image
-              className="origin-top-left animate-waving- hidden lg:block lg:w-1/2 rounded-lg rounded-r-xl  justify-center -rotate-3"
+              alt="home"
+              className="origin-top-left hidden lg:block lg:w-1/2 rounded-lg justify-center "
               src={props.img}
               height={props.height}
               width={props.width}
@@ -19,14 +20,13 @@ const Carousel = (props) => {
             <button
               id={navbar.font}
               type="button"
-              className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block animate-translate"
+              className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block "
             >
-              {props.heading} 
+              {props.heading}
             </button>
 
             <p className="m-auto p-10 w-auto md:w-auto lg:w-auto justify-center text-justify">
-            {props.para}
-              
+              {props.para}
             </p>
             <div className="grid md:grid-cols-3 justify-center">
               <button

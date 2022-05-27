@@ -16,7 +16,7 @@ module.exports = {
       },
       
       animation: {
-        "waving-hand": "wave 5s linear infinite ",
+        "waving-hand": "wave 4s linear infinite ",
         "translate":"trans 1s linear infinite",
       },
       boxShadow: {
