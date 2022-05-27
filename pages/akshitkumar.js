@@ -4,7 +4,6 @@ import { FaApple, BiHome } from "react-icons/fa";
 import Navbar from "../components/Navbar";
 import Carousel from "../components/Carousel";
 import Image from "next/dist/client/image";
-import Footer from "../components/Footer";
 import Code from "../components/Code";
 import Books from "../components/Books";
 import Video from "../components/Video";
