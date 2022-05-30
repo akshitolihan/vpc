@@ -20,10 +20,10 @@ module.exports = {
         "translate":"trans 1s linear infinite",
       },
       boxShadow: {
-        'aksh': '0px 8px 24px rgba(149, 157, 165, 0.2)',
+        'aksh': '0px 0px 10px rgba(100, 100, 111, 0.2)',
       }
     },
   },
   plugins: [],
-  // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+//  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 };

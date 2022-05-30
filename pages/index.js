@@ -10,7 +10,6 @@ import Books from "../components/Books";
 import Video from "../components/Video";
 import Heading from "../components/Heading";
 import Quotes from "../components/Quotes";
-import Blog from "../components/Blog";
 import navbar from "../styles/Navbar.module.css";
 import Book1 from "../components/Book1";
 import Link from "next/link";
@@ -218,7 +217,7 @@ const index = () => {
             height="400px"
             width="300px"
             download="Download"
-            heading="CSS Notes For Professionals"
+            heading="CSS Notes For Professionals . . . "
             para=""
             refer="https://books.goalkicker.com/CSSBook/"
           />
@@ -234,18 +233,13 @@ const index = () => {
         </div>
       </div>
 
-      <h1
-        type="button"
-        id={navbar.font}
-        className="text-center mr-6 no-underline text-[#ffffff] font-extrabold flex justify-center bg-[#ffffff] mt-4 w-auto h-auto text-4xl rounded-t-[50px]  rounded-r-[50px] "
-      >
-        Creator
-      </h1>
+      <Heading heading="Creator" refer="#creator" />
+
       <div className="flex justify-center pb-4">
-        <div className=" shadow-aksh m-2 bg-[#E8F5E9] rounded-3xl p-0  scale-100 transition max-w-3xl sm:m-12 grid">
-          <div>
+        <div className=" shadow-aksh m-2 bg-[#1DE9B6] rounded-3xl p-0  scale-100 transition max-w-3xl sm:m-12 grid">
+          <div className="bg-[#ebf9ff]">
             <h1
-              className="text-[#363636] text-lg text-justify font-normal  p-6"
+              className="text-[#2F4858] text-lg text-justify font-normal max-w-[800px] p-6"
               style={{ fontFamily: "Georgia serif" }}
             >
               Hi, This is Akshit Kumar. I am a CSE student at Chandigarh
@@ -258,27 +252,27 @@ const index = () => {
             <div>
               <h1
                 id={navbar.font2}
-                className="text-[#2F4858] text-2xl text-justify font-bold"
+                className="text-[#fff] text-2xl text-justify font-bold"
               >
                 Akshit Kumar
               </h1>
               <h1
                 id={navbar.font2}
-                className="text-[#43A047] text-2xl text-justify font-bold"
+                className="text-[#fff] text-2xl text-justify font-bold"
               >
                 @akshitvillager
               </h1>
               <h1
                 id={navbar.font2}
-                className="text-[#2F4858] text-xl text-justify font-normal pr-3"
+                className="text-[#fff] text-xl text-justify font-normal pr-3"
               >
-                Frontend, Designer, and Content Writer
+                Frontend Developer, Designer, and Content Writer
               </h1>
               <h1
                 id={navbar.font2}
-                className="text-[#2F4858] text-2xl text-justify font-bold"
+                className="text-[#fff] text-2xl text-justify font-bold"
               >
-                <div className="flex text-[#2F4858] text-2xl text-justify font-bold">
+                <div className="flex text-[#ffffff] text-2xl text-justify font-bold">
                   <a
                     className="p-3 text-xl"
                     href="https://www.linkedin.com/in/akshitvillager/"

@@ -22,16 +22,15 @@ const Video = (props) => {
               width={props.width}
             />
           </a>
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <button
               type="button"
               id={navbar.font2}
-              className="text-center mr-6 no-underline text-white font-extrabold flex justify-center bg-[#2F4858] mt-4 w-auto h-auto rounded-t-[50px]  rounded-r-[50px] "
+              className="text-center mr-6 no-underline text-white font-extrabold flex justify-center bg-[#2F4858] mt-4 w-auto h-auto rounded-t-[50px] px-1 rounded-r-[50px] "
             >
               Latest By Akshit Kumar
-              {/* {props.download} */}
             </button>
-          </div>
+          </div> */}
           <h1
             id={navbar.font1}
             className="text-black text-xl text-justify font-bold pt-5 block"
@@ -42,8 +41,8 @@ const Video = (props) => {
             rel="noopener noreferrer"
             className="cursor-pointer">
           <button
-            type="button" id={navbar.font}
-            className="text-center mr-6 no-underline text-[#2F4858] font-extrabold flex justify-center bg-[#42e798] mt-4 w-auto h-auto rounded-t-[50px]  rounded-r-[50px] "
+            type="button" id={navbar.font2}
+            className="text-center mr-6 no-underline text-[#fff] font-extrabold flex justify-center bg-[#1DE9B6] mt-4 w-auto h-auto px-1  rounded-t-[50px]  rounded-r-[50px] "
           >
             Watch for Free
           </button>

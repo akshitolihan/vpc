@@ -34,14 +34,13 @@ const book = () => {
             heading="HTML Notes For Professionals"
             para=""
             refer="https://books.goalkicker.com/HTML5Book/"
-
           />
           <Book1
             img="/css.png"
             height="400px"
             width="300px"
             download="Download"
-            heading="CSS Notes For Professionals"
+            heading="CSS Notes For  Professionals . . .    "
             para=""
             refer="https://books.goalkicker.com/CSSBook/"
           />
@@ -56,8 +55,7 @@ const book = () => {
           />
         </div>
       </div>
-      <Footer/>
-
+      <Footer />
     </>
   );
 };

@@ -6,6 +6,7 @@ import Heading from "../components/Heading";
 import Button from "../components/Button";
 import Link from "next/link";
 import navbar from "../styles/Navbar.module.css";
+import Book2 from "../components/Book2";
 const apk = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const apk = () => {
         />
       </Head>
       <Navbar />
-      <Carousel
+      {/* <Carousel
         img="/apk.jpg"
         height="500px"
         width="910 px"
@@ -38,7 +39,18 @@ const apk = () => {
           Connect Chat
         </button>
       </Link>
-      </div>
+      </div> */}
+      <Book2
+            img="/js.png"
+            height="300px"
+            width="220px"
+            download="Download"
+            heading="JavaScript Notes For Professionals"
+            para="Hi, This is Akshit Kumar. I am a CSE student at Chandigarh
+            University.Hi, This is Akshit Kumar. I am a CSE student at Chandigarh
+            University. "
+            refer="https://books.goalkicker.com/JavaScriptBook/"
+          />
     </>
   );
 };

@@ -40,8 +40,8 @@ const Books = (props) => {
 
           <button
             type="button"
-            id={navbar.font}
-            className="text-center mr-6 no-underline text-[#2F4858] font-extrabold justify-center bg-[#42e798] mt-4 w-auto h-8 rounded-t-[50px]  rounded-r-[50px] align-bottom "
+            id={navbar.font2}
+            className="text-center mr-6 no-underline text-[#fff] font-extrabold justify-center bg-[#1DE9B6] mt-4 w-auto h-auto px-1 rounded-t-[50px]  rounded-r-[50px] align-bottom "
           >
             <Link href={props.refer2}>{props.download}</Link>
           </button>

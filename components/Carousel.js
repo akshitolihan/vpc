@@ -18,9 +18,9 @@ const Carousel = (props) => {
           </div>
           <div>
             <button
-              id={navbar.font}
+              id={navbar.font2}
               type="button"
-              className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block "
+              className="text-4xl no-underline font-extrabold justify-center bg-gradient-to-r from-[#42e798] via-[#1DE9B6] to-[#00B0FF]  text-transparent bg-clip-text hover:bg-gradient-to-l   mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block "
             >
               {props.heading}
             </button>
@@ -32,21 +32,21 @@ const Carousel = (props) => {
               <button
                 id={navbar.font2}
                 type="button"
-                className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#2F4858] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
+                className="text-xl no-underline text-[#ffffff] font-extrabold justify-center bg-gradient-to-r from-[#42e798] via-[#1DE9B6] to-[#00B0FF] hover:bg-gradient-to-l py-1 px-2 mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
               >
                 {props.one}
               </button>
               <button
                 id={navbar.font2}
                 type="button"
-                className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#2F4858] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
+                className="text-xl no-underline text-[#ffffff] font-extrabold justify-center bg-gradient-to-r from-[#42e798] via-[#1DE9B6] to-[#00B0FF] hover:bg-gradient-to-l py-1 px-2 mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
               >
                 {props.two}
               </button>
               <button
                 id={navbar.font2}
                 type="button"
-                className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#2F4858] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
+                className="text-xl no-underline text-[#ffffff] font-extrabold justify-center bg-gradient-to-r from-[#42e798] via-[#1DE9B6] to-[#00B0FF] hover:bg-gradient-to-l py-1 px-2 mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
               >
                 {props.three}
               </button>

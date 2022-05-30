@@ -7,10 +7,14 @@ import navbar from "../styles/Navbar.module.css";
 const Course = (props) => {
   return (
     <>
-          <div className="flex justify-center max-w-[460px] ">
-            <div className="shadow-2xl shadow-top m-2 md:m-10 bg-white rounded-3xl p-6 text-white  scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl mt-[16px] ">
-      <Link href={props.refer} scroll={false} passHref>
-        <a className="cursor-pointer" target="_blank" rel="noopener noreferrer">
+      <div className="flex justify-center max-w-[460px] ">
+        <div className="shadow-2xl shadow-top m-2 md:m-10 bg-white rounded-3xl p-6 text-white  scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl mt-[16px] ">
+          <Link href={props.refer} scroll={false} passHref>
+            <a
+              className="cursor-pointer"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 alt="image"
                 className="rounded-xl"
@@ -39,10 +43,10 @@ const Course = (props) => {
                 id={navbar.font}
                 className="text-center mr-6 no-underline text-[#2F4858] font-extrabold justify-center bg-[#42e798] mt-4 w-auto h-8 rounded-t-[50px]  rounded-r-[50px] align-bottom "
               ></button>
-        </a>
-      </Link>
-            </div>
-          </div>
+            </a>
+          </Link>
+        </div>
+      </div>
     </>
   );
 };

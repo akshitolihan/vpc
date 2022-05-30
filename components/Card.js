@@ -17,7 +17,7 @@ const Card = (props) => {
             href={props.refer}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-center mr-6 no-underline text-[#2F4858] font-extrabold justify-center bg-[#42e798] mt-4 w-auto h-8 rounded-t-[50px]  rounded-r-[50px] align-bottom px-2"
+            className="text-center mr-6 no-underline text-[#2F4858] font-extrabold justify-center bg-[#1DE9B6] mt-4 w-auto h-auto px-2 rounded-t-[50px]  rounded-r-[50px] align-bottom"
           >
             {props.name}
           </a>
