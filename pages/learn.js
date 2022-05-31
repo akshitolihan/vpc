@@ -62,7 +62,7 @@ const learn = () => {
           watch="https://www.youtube.com/embed/I84YeM5lHhM"
         />
         <Video
-          img="/thumbnail/VS_Code_For_C++.png"
+          img="/thumbnail/VS_Code_For_Cpp.png"
           height="250px"
           width="500px"
           heading="VS CODE FOR C++"
