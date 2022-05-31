@@ -30,11 +30,6 @@ const blog6 = () => {
                 right education. We will be looking at their importance and the
                 impact of these things on the society."
             />
-            <Para
-              para="Today we are discussing about the Right to education and the
-                right education. We will be looking at their importance and the
-                impact of these things on the society."
-            />
             
             <End />
           </section>
