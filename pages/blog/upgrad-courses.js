@@ -19,7 +19,7 @@ const blog5 = () => {
 
       <Navbar />
 
-      <section className="flex justify-center flex-wrap md:flex-nowrap md:bg-[#1DE9B6] ">
+      <section className="flex justify-center flex-wrap md:flex-nowrap md:bg-[#F8F9FA] ">
         <section className="w-auto flex justify-center bg-white rounded-xl shadow-lg my-10">
           <section className=" m-2 md:m-10   rounded-3xl text-black lg:w-[900px] ">
             <h1
@@ -42,14 +42,14 @@ const blog5 = () => {
               />
             </div>
             <button
-              id={navbar.font2}
+              id={navbar.font}
               type="button"
               className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
             >
               Akshit Kumar Here
             </button>
             <button
-              id={navbar.font2}
+              id={navbar.font}
               type="button"
               className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
             >
@@ -193,33 +193,35 @@ const blog5 = () => {
                 11. Job Guaranteed
               </h1>
               <div className=" flex justify-center">
-              <div className="max-w-lg shadow-2xl shadow-top m-2 md:m-10  bg-white rounded-3xl p-6 text-white  scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl mt-[16px]">
-              <h1
-                id={navbar.font2}
-                type="button"
-                className="text-center max-w-[300px] text-3xl no-underline text-[#ffffff] cursor-text font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
-              >
-                If you want to enroll, use Our Code for discount.
-              </h1>
-              <h1
-                id={navbar.font3}
-                type="button"
-                className="text-center max-w-[120px] text-xl no-underline cursor-text text-[#000000] font-extrabold justify-center mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
-              >
-                X7arUU
-              </h1>
-             
+                <div className="max-w-lg shadow-2xl shadow-top m-2 md:m-10  bg-white rounded-3xl p-6 text-white  scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl mt-[16px]">
+                  <h1
+                    id={navbar.font}
+                    type="button"
+                    className="text-center max-w-[300px] text-3xl no-underline text-[#ffffff] cursor-text font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
+                  >
+                    If you want to enroll, use Our Code for discount.
+                  </h1>
+                  <h1
+                    id={navbar.font3}
+                    type="button"
+                    className="text-center max-w-[120px] text-xl no-underline cursor-text text-[#000000] font-extrabold justify-center mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
+                  >
+                    X7arUU
+                  </h1>
+                </div>
               </div>
-              </div>
-              <a href="https://www.upgrad.com/" target="_blank"
-            rel="noopener noreferrer">
-              <h1
-                id={navbar.font2}
-                type="button"
-                className="text-center max-w-[350px] text-3xl no-underline text-[#ffffff] cursor-pointer font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
+              <a
+                href="https://www.upgrad.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-               Checkout courses here
-              </h1>
+                <h1
+                  id={navbar.font}
+                  type="button"
+                  className="text-center max-w-[350px] text-3xl no-underline text-[#ffffff] cursor-pointer font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
+                >
+                  Checkout courses here
+                </h1>
               </a>
               <br />
             </div>
@@ -574,14 +576,14 @@ const blog5 = () => {
         </div>
       </div>
       <button
-        id={navbar.font2}
+        id={navbar.font}
         type="button"
         className="flex justify-center text-3xl no-underline text-[#2F4858] font-extrabold mt-16 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto  mb-4 "
       >
         Thank you
       </button>
       <button
-        id={navbar.font2}
+        id={navbar.font}
         type="button"
         className="text-3xl no-underline text-[#2F4858] font-extrabold justify-start  mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block mb-4"
       >

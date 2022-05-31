@@ -10,11 +10,9 @@ const Books = (props) => {
       <div className="flex justify-center max-w-[460px] ">
         <div className="shadow-2xl shadow-top m-2 md:m-10 bg-white rounded-3xl p-6 text-white  scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl mt-[16px] ">
           <Link href={props.refer1} scroll={false}>
-            <a
-              className="cursor-pointer"
-            >
+            <a className="cursor-pointer">
               <Image
-              alt="image"
+                alt="image"
                 className="rounded-xl"
                 src={props.img}
                 height={props.height}
@@ -40,7 +38,7 @@ const Books = (props) => {
 
           <button
             type="button"
-            id={navbar.font2}
+            id={navbar.font}
             className="text-center mr-6 no-underline text-[#fff] font-extrabold justify-center bg-[#1DE9B6] mt-4 w-auto h-auto px-1 rounded-t-[50px]  rounded-r-[50px] align-bottom "
           >
             <Link href={props.refer2}>{props.download}</Link>

@@ -1,22 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif:ital@0;1&display=swap');
 #font {
   font-family: "Grape Nuts", cursive;
-  color: #2F4858;
 }
-#font1 {
-    font-family: 'Roboto Slab', serif;
-}
-#font2{
-    font-family: "Grape Nuts", cursive;
-}
-#font3{
-  font-family: 'Noto Serif', serif;
-}
-#bg{
-  background-color: hsl(0, 0%, 34%);
+#georgia {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }

@@ -18,7 +18,7 @@ const blog3 = () => {
 
       <Navbar />
 
-      <section className="flex justify-center flex-wrap md:flex-nowrap md:bg-[#1DE9B6] ">
+      <section className="flex justify-center flex-wrap md:flex-nowrap md:bg-[#F8F9FA] ">
         <section className="w-auto flex justify-center bg-white rounded-xl shadow-lg my-10">
           <section className=" m-2 md:m-10   rounded-3xl text-black lg:w-[900px] ">
             <h1
@@ -41,14 +41,14 @@ const blog3 = () => {
               />
             </div>
             <button
-              id={navbar.font2}
+              id={navbar.font}
               type="button"
               className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
             >
               Akshit Kumar Here
             </button>
             <button
-              id={navbar.font2}
+              id={navbar.font}
               type="button"
               className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
             >
@@ -108,14 +108,14 @@ const blog3 = () => {
               </p>
             </div>
             <button
-              id={navbar.font2}
+              id={navbar.font}
               type="button"
               className="flex justify-start text-3xl no-underline text-[#2F4858] font-extrabold mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto  mb-4"
             >
               Thank you
             </button>
             <button
-              id={navbar.font2}
+              id={navbar.font}
               type="button"
               className="text-3xl no-underline text-[#2F4858] font-extrabold justify-start  mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block mb-4"
             >

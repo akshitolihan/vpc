@@ -10,10 +10,8 @@ const Quotes = (props) => {
       <div className="flex justify-center w-auto ">
         <div className="shadow-2xl w-full shadow-top bg-[#] rounded-3xl text-white scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl leading-relaxed m-2 md:m-10">
           <div>
-            <p
-              className="text-[#ffffff] bg-[#1DE9B6] font-serif hover:bg-gradient-to-l text-justify rounded-t-2xl rounded-b-3xl text-xl font-normal pt-4 p-6" 
-            >
-             &#8220;{props.para}&#8221;
+            <p className="text-[#ffffff] bg-[#1DE9B6] font-serif hover:bg-gradient-to-l text-justify rounded-t-2xl rounded-b-3xl text-xl font-normal pt-4 p-6">
+              &#8220;{props.para}&#8221;
             </p>
           </div>
           <div className="flex justify-between bg-[#] rounded-xl p-6">
@@ -69,21 +67,21 @@ const Quotes = (props) => {
             </p>
             <div className="grid md:grid-cols-3 justify-center">
               <button
-                id={navbar.font2}
+                id={navbar.font}
                 type="button"
                 className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#2F4858] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
               >
                 {props.one}
               </button>
               <button
-                id={navbar.font2}
+                id={navbar.font}
                 type="button"
                 className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#2F4858] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
               >
                 {props.two}
               </button>
               <button
-                id={navbar.font2}
+                id={navbar.font}
                 type="button"
                 className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#2F4858] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
               >

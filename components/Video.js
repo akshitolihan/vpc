@@ -9,13 +9,14 @@ const Video = (props) => {
     <>
       <div className="flex justify-center">
         <div className="shadow-2xl shadow-top m-2 md:m-10  bg-white rounded-3xl p-6 text-white  scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl mt-[16px]">
-          <a href={props.refer}
+          <a
+            href={props.refer}
             target="_blank"
             rel="noopener noreferrer"
             className="cursor-pointer"
           >
             <Image
-            alt="image"
+              alt="image"
               className="m-auto rounded-md"
               src={props.img}
               height={props.height}
@@ -25,7 +26,7 @@ const Video = (props) => {
           {/* <div className="flex justify-center">
             <button
               type="button"
-              id={navbar.font2}
+              id={navbar.font}
               className="text-center mr-6 no-underline text-white font-extrabold flex justify-center bg-[#2F4858] mt-4 w-auto h-auto rounded-t-[50px] px-1 rounded-r-[50px] "
             >
               Latest By Akshit Kumar
@@ -37,15 +38,19 @@ const Video = (props) => {
           >
             {props.heading}
           </h1>
-          <a href={props.watch} target="_blank"
+          <a
+            href={props.watch}
+            target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer">
-          <button
-            type="button" id={navbar.font2}
-            className="text-center mr-6 no-underline text-[#fff] font-extrabold flex justify-center bg-[#1DE9B6] mt-4 w-auto h-auto px-1  rounded-t-[50px]  rounded-r-[50px] "
+            className="cursor-pointer"
           >
-            Watch for Free
-          </button>
+            <button
+              type="button"
+              id={navbar.font}
+              className="text-center mr-6 no-underline text-[#fff] font-extrabold flex justify-center bg-[#1DE9B6] mt-4 w-auto h-auto px-1  rounded-t-[50px]  rounded-r-[50px] "
+            >
+              Watch for Free
+            </button>
           </a>
         </div>
       </div>

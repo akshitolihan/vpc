@@ -31,47 +31,47 @@ const Me = () => {
           <section className="hidden md:flex justify-center">
             <section className="pr-20">
               <h1
-                id={navbar.font2}
+                id={navbar.font}
                 className=" text-center text-3xl font-bold mt-8 text-white"
               >
                 Me
               </h1>
               <h1
-                id={navbar.font2}
+                id={navbar.font}
                 className="text-center text-3xl font-bold mt-2"
               >
                 Akshit Kumar
               </h1>
               <h1
-                id={navbar.font2}
+                id={navbar.font}
                 className="text-center text-3xl mt-12 font-extrabold text-white"
               >
                 I am a
               </h1>
               <div className="grid grid-cols-2">
                 <button
-                  id={navbar.font2}
+                  id={navbar.font}
                   type="button"
                   className=" mt-8 px-2 bg-white  text-3xl no-underline text-whitet-extrabold justify-center w-auto rounded-lg scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl m-auto block"
                 >
                   Web Developer
                 </button>
                 <button
-                  id={navbar.font2}
+                  id={navbar.font}
                   type="button"
                   className=" mt-8 px-2 bg-white  text-3xl no-underline text-whitet-extrabold justify-center w-auto rounded-lg scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl m-auto block"
                 >
                   Web Designer
                 </button>
                 <button
-                  id={navbar.font2}
+                  id={navbar.font}
                   type="button"
                   className=" mt-8 px-2 bg-white  text-3xl no-underline text-whitet-extrabold justify-center w-auto rounded-lg scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl m-auto block"
                 >
                   Content Writer
                 </button>
                 <button
-                  id={navbar.font2}
+                  id={navbar.font}
                   type="button"
                   className=" mt-8 px-2 bg-white  text-3xl no-underline text-whitet-extrabold justify-center w-auto rounded-lg scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl m-auto block"
                 >
@@ -102,47 +102,47 @@ const Me = () => {
           </section>
           <section className="px-20 md:hidden">
             <h1
-              id={navbar.font2}
+              id={navbar.font}
               className=" text-center text-3xl font-bold mt-8 text-white"
             >
               Me
             </h1>
             <h1
-              id={navbar.font2}
+              id={navbar.font}
               className="text-center text-3xl font-bold mt-2"
             >
               Akshit Kumar
             </h1>
             <h1
-              id={navbar.font2}
+              id={navbar.font}
               className="text-center text-3xl font-extrabold mt-12 text-white "
             >
               I am a
             </h1>
 
             <button
-              id={navbar.font2}
+              id={navbar.font}
               type="button"
               className=" mt-8 px-2 bg-white  text-3xl no-underline text-whitet-extrabold justify-center w-auto rounded-lg scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl m-auto block"
             >
               Web Developer
             </button>
             <button
-              id={navbar.font2}
+              id={navbar.font}
               type="button"
               className=" mt-8 px-2 bg-white  text-3xl no-underline text-whitet-extrabold justify-center w-auto rounded-lg scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl m-auto block"
             >
               Web Designer
             </button>
             <button
-              id={navbar.font2}
+              id={navbar.font}
               type="button"
               className=" mt-8 px-2 bg-white  text-3xl no-underline text-whitet-extrabold justify-center w-auto rounded-lg scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl m-auto block"
             >
               Content Writer
             </button>
             <button
-              id={navbar.font2}
+              id={navbar.font}
               type="button"
               className=" mt-8 px-2 bg-white  text-3xl no-underline text-whitet-extrabold justify-center w-auto rounded-lg scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl m-auto block"
             >
@@ -151,7 +151,7 @@ const Me = () => {
           </section>
         </section>
         <h1
-          id={navbar.font2}
+          id={navbar.font}
           className="text-center no-underline text-white font-bold flex justify-center mt-20 w-auto h-auto text-3xl rounded-t-[50px]  rounded-r-[50px] cursor-text"
         >
           My Social Media
@@ -219,28 +219,28 @@ export default Me;
 
 {
   /* <button
-        id={navbar.font2}
+        id={navbar.font}
         type="button"
         className=" mt-8 px-2 bg-gradient-to-r from-[#448AFF] to-[#FF6E40] hover:bg-gradient-to-l  text-3xl no-underline text-white font-extrabold justify-center w-auto rounded-lg scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl m-auto block"
       >
         Akshit Kumar
       </button>
       <button
-        id={navbar.font2}
+        id={navbar.font}
         type="button"
         className=" mt-8 px-2 bg-gradient-to-r from-[#1DE9B6] to-[#00B0FF] hover:bg-gradient-to-l  text-3xl no-underline text-white font-extrabold justify-center w-auto rounded-lg scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl m-auto block"
       >
         Akshit Kumar
       </button>
       <button
-        id={navbar.font2}
+        id={navbar.font}
         type="button"
         className=" mt-8 px-2 bg-gradient-to-r from-[#7485FF] to-[#E96590] hover:bg-gradient-to-l  text-3xl no-underline text-white font-extrabold justify-center w-auto rounded-lg scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl m-auto block"
       >
         Akshit Kumar
       </button>
       <button
-        id={navbar.font2}
+        id={navbar.font}
         type="button"
         className=" mt-8 px-2 bg-gradient-to-r from-[#7485FF] to-[#FFC107] hover:bg-gradient-to-l  text-3xl no-underline text-white font-extrabold justify-center w-auto rounded-lg scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl m-auto block"
       >
@@ -248,7 +248,7 @@ export default Me;
       </button> */
 }
 <button
-  id={navbar.font2}
+  id={navbar.font}
   type="button"
   className=" mt-8 px-2 bg-white  text-3xl no-underline text-whitet-extrabold justify-center w-auto rounded-lg scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl m-auto block"
 >

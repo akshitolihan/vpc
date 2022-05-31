@@ -18,7 +18,7 @@ const Carousel = (props) => {
           </div>
           <div>
             <button
-              id={navbar.font2}
+              id={navbar.font}
               type="button"
               className="text-4xl no-underline font-extrabold justify-center bg-gradient-to-r from-[#42e798] via-[#1DE9B6] to-[#00B0FF]  text-transparent bg-clip-text hover:bg-gradient-to-l   mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block "
             >
@@ -30,21 +30,21 @@ const Carousel = (props) => {
             </p>
             <div className="grid md:grid-cols-3 justify-center">
               <button
-                id={navbar.font2}
+                id={navbar.font}
                 type="button"
                 className="text-xl no-underline text-[#ffffff] font-extrabold justify-center bg-gradient-to-r from-[#42e798] via-[#1DE9B6] to-[#00B0FF] hover:bg-gradient-to-l py-1 px-2 mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
               >
                 {props.one}
               </button>
               <button
-                id={navbar.font2}
+                id={navbar.font}
                 type="button"
                 className="text-xl no-underline text-[#ffffff] font-extrabold justify-center bg-gradient-to-r from-[#42e798] via-[#1DE9B6] to-[#00B0FF] hover:bg-gradient-to-l py-1 px-2 mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
               >
                 {props.two}
               </button>
               <button
-                id={navbar.font2}
+                id={navbar.font}
                 type="button"
                 className="text-xl no-underline text-[#ffffff] font-extrabold justify-center bg-gradient-to-r from-[#42e798] via-[#1DE9B6] to-[#00B0FF] hover:bg-gradient-to-l py-1 px-2 mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
               >

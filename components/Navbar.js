@@ -47,9 +47,9 @@ const Navbar = () => {
             <Link href="/book">
               <a className="p-4 text-xl block">Books</a>
             </Link>
-            <Link href="/entertainment">
+            {/* <Link href="/entertainment">
               <a className="p-4 text-xl block">Enjoy</a>
-            </Link>
+            </Link> */}
             <Link href="/contact">
               <a className="p-4 text-xl block">Contact</a>
             </Link>
@@ -124,9 +124,9 @@ const Navbar = () => {
                   <Link href="/book">
                     <a className="p-2 text-xl block">Books</a>
                   </Link>
-                  <Link href="/entertainment">
+                  {/* <Link href="/entertainment">
                     <a className="p-2 text-xl block">Enjoy</a>
-                  </Link>
+                  </Link> */}
                   <Link href="/contact">
                     <a className="p-2 text-xl block">Contact</a>
                   </Link>

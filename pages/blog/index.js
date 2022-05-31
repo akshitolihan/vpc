@@ -25,6 +25,26 @@ const blog = () => {
       <Heading heading="Blogs Here" refer="/blog" />
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
+          {/* <Books
+            img="/top-learning-platforms.jpg"
+            height="250px"
+            width="400px"
+            download="Read More"
+            refer1="/blog/top-online-learning-platforms"
+            refer2="/blog/top-online-learning-platforms"
+            heading="Top Online Learning Platforms"
+            para="In this blog are going to talk about the top online learning platform that are available for the people of different grades. We will be talking about both free and paid platforms that are availabe to us for enriching ourselves..."
+          /> */}
+          <Books
+            img="/internshala.svg"
+            height="250px"
+            width="400px"
+            download="Read More"
+            refer1="/blog/internshala"
+            refer2="/blog/internshala"
+            heading="Internshala: Trainings and Internships"
+            para="Today we are going to talk about a platform that is very useful for college students. In this blog, we are going to talk about what is Internshala and it can be useful  ..."
+          />
           <Books
             img="/upgrad.jpg"
             height="250px"
@@ -45,7 +65,7 @@ const blog = () => {
             refer1="/blog/right-to-education-and-right-education"
             refer2="/blog/right-to-education-and-right-education"
             heading="Right To Education and Right Education"
-            para="There is not any clearcut answer to this question. We can consider the good or the bad things about social media. In this article, we will be having a view on that.Social media has its pros and cons as other things have. It In the past 10 years..."
+            para="There is not any clearcut answer to this question. We can consider the good or the bad things about social media. In this article, we will be having a view on that.Social media has its pros an ..."
           />
           <Books
             img="/Social_media.jpg"
@@ -65,9 +85,9 @@ const blog = () => {
             refer1="/blog/robots-will-reduce-employment"
             refer2="/blog/robots-will-reduce-employment"
             heading="Robots Will Reduce Human Employment"
-            para="Good Evening to Respected juries and my fellow participants, My
-          name is Akshit Kumar Today I am going to share my viewpoint
-          opposing the motion, Robots will reduce Human Employment. Starting off by saying a famous line, change..."
+            para="Starting off by saying a famous line change is the only
+            constant. So, what I mean is that every then and now the world
+            is changing rapidly. Robot advancement is a part of that ..."
           />
           <Books
             img="/people.jpg"
@@ -77,7 +97,10 @@ const blog = () => {
             refer1="/blog/role-of-society-protecting-online"
             refer2="/blog/role-of-society-protecting-online"
             heading="Role of Society Protecting Online"
-            para="Society has a great role in protecting children online. This protection might be related to many things. If the children are given the facility of the internet at a young age it might be unfruitful for the ..."
+            para="Society has a great role in protecting children online. This
+            protection might be related to many things. If the children are
+            given the facility of the internet at a young age it might be
+            unfruitful for the children’s future..."
           />
         </div>
       </div>

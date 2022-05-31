@@ -49,6 +49,26 @@ const index = () => {
       <Heading heading="Our Latest Blogs" refer="/blog" />
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
+        {/* <Books
+            img="/top-learning-platforms.jpg"
+            height="250px"
+            width="400px"
+            download="Read More"
+            refer1="/blog/top-online-learning-platforms"
+            refer2="/blog/top-online-learning-platforms"
+            heading="Top Online Learning Platforms"
+            para="In this blog are going to talk about the top online learning platform that are available for the people of different grades. We will be talking about both free and paid platforms that are availabe to us for enriching ourselves..."
+          /> */}
+          <Books
+            img="/internshala.svg"
+            height="250px"
+            width="400px"
+            download="Read More"
+            refer1="/blog/internshala"
+            refer2="/blog/internshala"
+            heading="Internshala: Trainings and Internships"
+            para="Today we are going to talk about a platform that is very useful for college students. In this blog, we are going to talk about what is Internshala and it can be useful  ..."
+          />
           <Books
             img="/upgrad.jpg"
             height="250px"
@@ -69,29 +89,8 @@ const index = () => {
             refer1="/blog/right-to-education-and-right-education"
             refer2="/blog/right-to-education-and-right-education"
             heading="Right To Education and Right Education"
-            para="There is not any clearcut answer to this question. We can consider the good or the bad things about social media. In this article, we will be having a..."
+            para="There is not any clearcut answer to this question. We can consider the good or the bad things about social media. In this article, we will be having a view on that.Social media has its pros an ..."
           />
-          <Books
-            refer1="/blog/social-media-good-or-bad"
-            refer2="/blog/social-media-good-or-bad"
-            img="/Social_media.jpg"
-            height="250px"
-            width="400px"
-            download="Read More"
-            heading="Social Media, Good or Bad?"
-            para="There is not any clearcut answer to this question. We can consider the good or the bad things about social media. In this article, we will be having a view on that.Social media has its pros and ..."
-          />
-
-          {/* <Books
-            refer1="/blog/role-of-society-protecting-online"
-            refer2="/blog/role-of-society-protecting-online"
-            img="/people.jpg"
-            height="250px"
-            width="400px"
-            download="Read More"
-            heading="Role of Society Protecting Online"
-            para="Society has a great role in protecting children online. This protection might be related to many things. If the children are given the facility of the internet at a young age it might be unfruitful for the ..."
-          /> */}
         </div>
       </div>
 
@@ -251,25 +250,25 @@ const index = () => {
           <div className="flex justify-between rounded-xl p-6">
             <div>
               <h1
-                id={navbar.font2}
+                id={navbar.font}
                 className="text-[#fff] text-2xl text-justify font-bold"
               >
                 Akshit Kumar
               </h1>
               <h1
-                id={navbar.font2}
+                id={navbar.font}
                 className="text-[#fff] text-2xl text-justify font-bold"
               >
                 @akshitvillager
               </h1>
               <h1
-                id={navbar.font2}
+                id={navbar.font}
                 className="text-[#fff] text-xl text-justify font-normal pr-3"
               >
                 Frontend Developer, Designer, and Content Writer
               </h1>
               <h1
-                id={navbar.font2}
+                id={navbar.font}
                 className="text-[#fff] text-2xl text-justify font-bold"
               >
                 <div className="flex text-[#ffffff] text-2xl text-justify font-bold">

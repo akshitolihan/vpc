@@ -37,9 +37,9 @@ const Book2 = (props) => {
                 rel="noopener noreferrer"
                 className="cursor-pointer"
               >
-                  <button
+                <button
                   type="button"
-                  id={navbar.font2}
+                  id={navbar.font}
                   className="text-[#fff] font-extrabold flex justify-center bg-[#1DE9B6] w-auto h-auto px-2 py-1 rounded-t-[50px] rounded-r-[50px]"
                 >
                   {props.download}
