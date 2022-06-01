@@ -216,7 +216,7 @@ const index = () => {
             height="400px"
             width="300px"
             download="Download"
-            heading="CSS Notes For Professionals . . . "
+            heading="CSS Notes For Professionals"
             para=""
             refer="https://books.goalkicker.com/CSSBook/"
           />
@@ -225,7 +225,7 @@ const index = () => {
             height="400px"
             width="300px"
             download="Download"
-            heading="JavaScript Notes For Professionals"
+            heading="JavaScript Notes For Profess"
             para=""
             refer="https://books.goalkicker.com/JavaScriptBook/"
           />

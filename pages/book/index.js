@@ -26,7 +26,7 @@ const book = () => {
 
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          <Book1
+        <Book1
             img="/html5.png"
             height="400px"
             width="300px"
@@ -40,7 +40,7 @@ const book = () => {
             height="400px"
             width="300px"
             download="Download"
-            heading="CSS Notes For  Professionals . . .    "
+            heading="CSS Notes For Professionals"
             para=""
             refer="https://books.goalkicker.com/CSSBook/"
           />
@@ -49,7 +49,7 @@ const book = () => {
             height="400px"
             width="300px"
             download="Download"
-            heading="JavaScript Notes For Professionals"
+            heading="JavaScript Notes For Profess"
             para=""
             refer="https://books.goalkicker.com/JavaScriptBook/"
           />
