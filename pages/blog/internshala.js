@@ -79,6 +79,17 @@ const internshala = () => {
               refer="https://isp.internshala.com/?utm_source=ISP30&utm_medium=1819887&utm_campaign=Chandigarh%20University"
               name="Join here"
             />
+            <Para
+              para="IST Practicals is a series of free online masterclasses delivered by Industry experts. These 45 minutes sessions are all about teaching students important concepts, softwares and tools.
+              Every IST Practical is an opportunity to experience practical learning!
+              "
+            />
+            <Card
+              heading="IST Practicals"
+              para="You can join IST Practicals with the below given link."
+              refer="https://trainings.internshala.com/Ist_practicals/refer/whatsapp/15733753"
+              name="Join here"
+            />
             <End />
           </section>
         </section>
