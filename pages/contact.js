@@ -45,6 +45,14 @@ const contact = () => {
       />
       </div>
       </div>
+      <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="2888842434"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+
       <Footer/>
     </>
   );

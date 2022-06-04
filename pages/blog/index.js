@@ -57,6 +57,14 @@ const blog = () => {
                 process. We have evolved so much that we can educate ourselves
                 by sitting at home. There are so many platforms that are..."
           />
+          <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-format="fluid"
+        data-ad-layout-key="-en+4-f-xh+1ff"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="4463995591"
+      ></ins>
+
           <Books
             img="/education.jpg"
             height="250px"
@@ -89,6 +97,14 @@ const blog = () => {
             constant. So, what I mean is that every then and now the world
             is changing rapidly. Robot advancement is a part of that ..."
           />
+                <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-format="fluid"
+        data-ad-layout-key="-6m+cm+h-9i+l9"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="6707015556"
+      ></ins>
+
           <Books
             img="/people.jpg"
             height="250px"
@@ -104,6 +120,13 @@ const blog = () => {
           />
         </div>
       </div>
+      <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="2888842434"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
       <Footer />
     </>
   );

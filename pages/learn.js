@@ -52,6 +52,14 @@ const learn = () => {
           refer="https://www.youtube.com/embed/YkjPeFRTfGk"
           watch="https://www.youtube.com/embed/YkjPeFRTfGk"
         />
+        <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-format="fluid"
+        data-ad-layout-key="-en+4-f-xh+1ff"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="4463995591"
+      ></ins>
+
         <Video
           img="/thumbnail/VS_Code_For_Java.png"
           height="250px"
@@ -79,6 +87,14 @@ const learn = () => {
           refer="https://www.youtube.com/embed/o5ZoQc3Zv4c"
           watch="https://www.youtube.com/embed/o5ZoQc3Zv4c"
         />
+              <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-format="fluid"
+        data-ad-layout-key="-6m+cm+h-9i+l9"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="6707015556"
+      ></ins>
+
         <Video
           img="/thumbnail/R.png"
           height="250px"
@@ -107,6 +123,13 @@ const learn = () => {
           watch="https://www.youtube.com/embed/uJKUnkCB7Qg"
         />
       </div>
+      <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="2888842434"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
       <Footer/>
 
     </>

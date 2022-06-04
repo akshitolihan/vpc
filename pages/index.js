@@ -102,10 +102,8 @@ const index = () => {
           data-ad-format="auto"
           data-full-width-responsive="true"
         ></ins>
-        
       </div>
 
-   
       <Heading heading="Our Latest Videos" refer="/learn" />
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3">
@@ -164,6 +162,14 @@ const index = () => {
           watch="https://www.youtube.com/embed/o5ZoQc3Zv4c"
         />
       </div>
+      <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="9100394540"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+
       <Heading heading="Quotes" refer="/quotes" />
 
       <div className="grid md:grid-cols-2">
@@ -210,6 +216,14 @@ const index = () => {
           para="Choose your words wisely while speaking."
         />
       </div>
+      <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="4412024707"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+
       <Heading heading="Books" refer="/book" />
 
       <div className="flex justify-center">
@@ -243,6 +257,14 @@ const index = () => {
           />
         </div>
       </div>
+
+      <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="9071107405"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
 
       <Heading heading="Creator" refer="#creator" />
 

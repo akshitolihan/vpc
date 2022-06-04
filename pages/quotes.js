@@ -47,6 +47,8 @@ const quotes = () => {
           heading="Someone"
           para="Learn from your failures to achieve success."
         />
+
+
         <Quotes
           img="/avatar.svg"
           height="84px"
@@ -61,6 +63,14 @@ const quotes = () => {
           heading="Someone"
           para="Communication works for those who work on communication."
         />
+        <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-format="fluid"
+        data-ad-layout-key="-en+4-f-xh+1ff"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="4463995591"
+      ></ins>
+
         <Quotes
           img="/avatar.svg"
           height="84px"
@@ -96,6 +106,14 @@ const quotes = () => {
           heading="Someone"
           para="Become your best friend."
         />
+              <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-format="fluid"
+        data-ad-layout-key="-6m+cm+h-9i+l9"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="6707015556"
+      ></ins>
+
         <Quotes
           img="/avatar.svg"
           height="84px"
@@ -124,6 +142,14 @@ const quotes = () => {
           heading="Someone"
           para="Good surrounding makes you a good person."
         />
+              <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-format="fluid"
+        data-ad-layout-key="-6m+cm+h-9i+l9"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="6707015556"
+      ></ins>
+
         <Quotes
           img="/avatar.svg"
           height="84px"
@@ -159,6 +185,14 @@ const quotes = () => {
           heading="Someone"
           para="Sleep adequate, not more not less."
         />
+        <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-format="fluid"
+        data-ad-layout-key="-en+4-f-xh+1ff"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="4463995591"
+      ></ins>
+
         <Quotes
           img="/avatar.svg"
           height="84px"
@@ -181,6 +215,13 @@ const quotes = () => {
           para="Introspection helps you to become better in your life in all aspects."
         />
       </div>
+      <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="2888842434"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
       <Footer />
     </>
   );
