@@ -44,14 +44,6 @@ const book = () => {
             para=""
             refer="https://books.goalkicker.com/CSSBook/"
           />
-          <ins
-        className="adsbygoogle  flex justify-center"
-        data-ad-format="fluid"
-        data-ad-layout-key="-en+4-f-xh+1ff"
-        data-ad-client="ca-pub-6898963328156558"
-        data-ad-slot="4463995591"
-      ></ins>
-
           <Book1
             img="/js.png"
             height="400px"
@@ -61,16 +53,8 @@ const book = () => {
             para=""
             refer="https://books.goalkicker.com/JavaScriptBook/"
           />
-          
         </div>
       </div>
-      <ins
-        className="adsbygoogle  flex justify-center"
-        data-ad-client="ca-pub-6898963328156558"
-        data-ad-slot="2888842434"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
       <Footer />
     </>
   );
