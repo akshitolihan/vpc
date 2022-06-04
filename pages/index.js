@@ -49,7 +49,7 @@ const index = () => {
       <Heading heading="Our Latest Blogs" refer="/blog" />
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
-        {/* <Books
+          {/* <Books
             img="/top-learning-platforms.jpg"
             height="250px"
             width="400px"
@@ -94,6 +94,18 @@ const index = () => {
         </div>
       </div>
 
+      <div>
+        <ins
+          className="adsbygoogle flex justify-center"
+          data-ad-client="ca-pub-6898963328156558"
+          data-ad-slot="2888842434"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        
+      </div>
+
+   
       <Heading heading="Our Latest Videos" refer="/learn" />
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3">
