@@ -8,7 +8,7 @@ const Course = (props) => {
   return (
     <>
       <div className="flex justify-center max-w-[460px] ">
-        <div className="shadow-2xl shadow-top m-2 md:m-10 bg-white rounded-3xl p-6 text-white  scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl mt-[16px] ">
+        <div className="shadow-2xl shadow-top m-2 md:m- bg-white rounded-3xl p-2 text-white  scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl mt-[16px] ">
           <Link href={props.refer} scroll={false} passHref>
             <a
               className="cursor-pointer"

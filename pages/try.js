@@ -4,21 +4,7 @@ import Image from "next/dist/client/image";
 const trys = () => {
   return (
     <>
-      <ins
-        className="adsbygoogle  flex justify-center"
-        data-ad-format="fluid"
-        data-ad-layout-key="-en+4-f-xh+1ff"
-        data-ad-client="ca-pub-6898963328156558"
-        data-ad-slot="4463995591"
-      ></ins>
-
-      <ins
-        className="adsbygoogle  flex justify-center"
-        data-ad-format="fluid"
-        data-ad-layout-key="-6m+cm+h-9i+l9"
-        data-ad-client="ca-pub-6898963328156558"
-        data-ad-slot="6707015556"
-      ></ins>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FWDhVBkcTqo" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
 
       {/* <section classNameName='shadow-lg max-w-lg flex justify-between p-'>
             <Image

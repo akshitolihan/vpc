@@ -225,392 +225,393 @@ const blog5 = () => {
               </a>
               <br />
             </div>
+
+            <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
+              What are the Data Science courses offered by upGrad?
+            </h1>
+            <div className="flex justify-center">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                <Course
+                  img="/data-science.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/data-science-masters-degree-iiitb?ref=X7arUU"
+                  heading="Master of Science in Data Science | Master of Science"
+                  para="Liverpool John Moores University"
+                />
+                <Course
+                  img="/data-science.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/data-science-pgd-iiitb?ref=X7arUU"
+                  heading="Executive PG Programme in Data Science | Executive PG Programme"
+                  para="IIIT Bangalore"
+                />
+                <Course
+                  img="/data-science.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/data-science-professional-certificate-bdm-iimk/?ref=X7arUU"
+                  heading="Professional Certificate Program in Data Science for Business Decision Making | Professional Certification"
+                  para="IIM Kozhikode"
+                />
+              </div>
+            </div>
+            <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
+              What are the MBA courses offered by upGrad?
+            </h1>
+            <div className="flex justify-center">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                <Course
+                  img="/mba.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/mba-liverpool-business-school?ref=X7arUU"
+                  heading="Master of Business Administration (MBA) Liverpool Business School | MBA"
+                  para="Liverpool John Moores University"
+                />
+                <Course
+                  img="/mba.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/executive-mba-ssbm/?ref=X7arUU"
+                  heading="Executive MBA | MBA"
+                  para=" SSBM Geneva"
+                />
+                <Course
+                  img="/mba.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/mba-business-analytics-nmims?ref=X7arUU"
+                  heading="MBA (Executive) with Specialisation in Business Analytics | MBA"
+                  para="NMIMS Global CE"
+                />
+              </div>
+            </div>
+            <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
+              What are the Doctorate courses offered by upGrad?
+            </h1>
+            <div className="flex justify-center">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                <Course
+                  img="/phd.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/doctor-of-business-administration-ssbm?ref=X7arUU"
+                  heading="Doctor of Business Administration | Swiss School of Business Management | Doctorate"
+                  para="SSBM Geneva"
+                />
+              </div>
+            </div>
+            <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
+              What are the Software and Technology courses offered by upGrad?
+            </h1>
+            <div className="flex justify-center">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                <Course
+                  img="/software.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/software-engineering-mcs-ljmu/?ref=X7arUU"
+                  heading="Master of Science in Computer Science | Master's Degree"
+                  para="Liverpool John Moores University"
+                />
+                <Course
+                  img="/software.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/full-stack-developer-course-pgd-iiitb/?ref=X7arUU"
+                  heading="Executive PGP in Software Development - Full Stack | Executive PG Programme"
+                  para="IIIT Bangalore"
+                />
+                <Course
+                  img="/software.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/full-stack-development-bootcamp/?ref=X7arUU"
+                  heading="Full Stack Development Bootcamp | Bootcamp"
+                  para="upGrad"
+                />
+              </div>
+            </div>
+            <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
+              What are the Management courses offered by upGrad?
+            </h1>
+            <div className="flex justify-center">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                <Course
+                  img="/management.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/leadership-and-management-certificate-program-wharton?ref=X7arUU"
+                  heading="Leadership and Management in New Age Business | Certification"
+                  para="University of Pennsylvania"
+                />
+                <Course
+                  img="/management.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/product-management?ref=X7arUU"
+                  heading="Product Management Certification Program | Certification"
+                  para="Duke Corporate Education"
+                />
+                <Course
+                  img="/management.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/human-resource-management-epgp-liba?ref=X7arUU"
+                  heading="Executive PG Programme in Human Resource Management | Executive PG Programme"
+                  para="Loyola Institute of Business Administration"
+                />
+              </div>
+            </div>
+            <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
+              What are the Business Analytics courses offered by upGrad?
+            </h1>
+            <div className="flex justify-center">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                <Course
+                  img="/analytics.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/master-certificate-business-analytics-msu?ref=X7arUU"
+                  heading="Global Master Certificate - Business Analytics | Global Master Certificate"
+                  para="Michigan State University"
+                />
+                <Course
+                  img="/analytics.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/business-analytics-epgp-liba/?ref=X7arUU"
+                  heading="Executive PG Programme in Business Analytics | Executive PG Programme"
+                  para="Loyola Institute of Business Administration"
+                />
+                <Course
+                  img="/analytics.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/business-analytics-certification/?ref=X7arUU"
+                  heading="Business Analytics Certification Program | Certification"
+                  para="upGrad"
+                />
+              </div>
+            </div>
+            <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
+              What are the Law courses offered by upGrad?
+            </h1>
+            <div className="flex justify-center">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                <Course
+                  img="/law.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/law-llm-intellectual-property-technology-law-jgls?ref=X7arUU"
+                  heading="LL.M. in Intellectual Property & Technology Law | LL.M."
+                  para="Jindal Global Law School (JGLS)"
+                />
+                <Course
+                  img="/law.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/law-llm-corporate-and-finance-jgu/?ref=X7arUU"
+                  heading="LL.M. in Corporate & Financial Law | LL.M. in Corporate & Financial Law (Degree)"
+                  para="Jindal Global Law School (JGLS)"
+                />
+                <Course
+                  img="/law.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/law-llm-dispute-resolution-jgls?ref=X7arUU"
+                  heading="LL.M. in Dispute Resolution | LL.M."
+                  para="Jindal Global Law School (JGLS)"
+                />
+              </div>
+            </div>
+            <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
+              What are the Marketing courses offered by upGrad?
+            </h1>
+            <div className="flex justify-center">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                <Course
+                  img="/marketing.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/digital-marketing-and-communication-pgc-mica?ref=X7arUU"
+                  heading="Advanced Certificate in Digital Marketing and Communication | MICA, upGrad | Advanced Certificate"
+                  para="MICA and upGrad"
+                />
+                <Course
+                  img="/marketing.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/edp-in-digital-marketing-from-xlri/?ref=X7arUU"
+                  heading="Executive Development Program In Digital Marketing"
+                  para="Xavier School of Management"
+                />
+              </div>
+            </div>
+            <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
+              What are the AI/ML courses offered by upGrad?
+            </h1>
+            <div className="flex justify-center">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                <Course
+                  img="/ai.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/machine-learning-ms-ljmu-iitm/?ref=X7arUU"
+                  heading="MS in Machine Learning & AI | Master of Science"
+                  para="IIT Madras and Liverpool John Moores University"
+                />
+                <Course
+                  img="/ai.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/masters-in-ml-ai-ljmu-iiitb/?ref=X7arUU"
+                  heading="MS in Machine Learning & AI | Master of Science"
+                  para="IIIT Bangalore"
+                />
+                <Course
+                  img="/ai.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/machine-learning-ai-pgd-iiitb/?ref=X7arUU"
+                  heading="Executive PG Programme in Machine Learning & AI | Executive PG Programme"
+                  para="IIIT Bangalore"
+                />
+              </div>
+            </div>
+            <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
+              How to study abroad with upGrad?
+            </h1>
+            <div className="flex justify-center">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                <Course
+                  img="/abroad.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/study-abroad-mba-in-iu-germany?ref=X7arUU"
+                  heading="Master of Business Administration (90 ECTS) | Master's Degree"
+                  para="International University of applied Sciences"
+                />
+                <Course
+                  img="/abroad.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/mba-60-ects-iu-germany?ref=X7arUU"
+                  heading="Master of Business Administration (60 ECTS) | Master's Degree"
+                  para="International University of applied Sciences"
+                />
+                <Course
+                  img="/abroad.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.comin/ms-data-science-iu-germany?ref=X7arUU"
+                  heading="Master in Data Science (120 ECTS) | Master's Degree"
+                  para="International University of applied Sciences"
+                />
+              </div>
+            </div>
+            <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
+              What are the Job Guaranteed courses of upGrad?
+            </h1>
+            <div className="flex justify-center">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                <Course
+                  img="/job.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/management-pgp-imt/?ref=X7arUU"
+                  heading="PG Program in Management | PG Program"
+                  para=" IMT Ghaziabad"
+                />
+                <Course
+                  img="/job.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/full-stack-development-bootcamp/?ref=X7arUU"
+                  heading="Full Stack Development Bootcamp | PG Certification"
+                  para="upGrad"
+                />
+                <Course
+                  img="/job.jpg"
+                  height="250px"
+                  width="400px"
+                  download="Check out here"
+                  refer="https://www.upgrad.com/mba-business-analytics-nmims?ref=X7arUU"
+                  heading="PG Certification in Software Engineering | PG Certification"
+                  para="upGrad"
+                />
+              </div>
+            </div>
+            <button
+              id={navbar.font}
+              type="button"
+              className="flex justify-center text-3xl no-underline text-[#2F4858] font-extrabold mt-16 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto  mb-4 "
+            >
+              Thank you
+            </button>
+            <button
+              id={navbar.font}
+              type="button"
+              className="text-3xl no-underline text-[#2F4858] font-extrabold justify-start  mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block mb-4"
+            >
+              Akshit Kumar rests his words here...
+            </button>
           </section>
         </section>
       </section>
-      <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
-        What are the Data Science courses offered by upGrad?
-      </h1>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          <Course
-            img="/data-science.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/data-science-masters-degree-iiitb?ref=X7arUU"
-            heading="Master of Science in Data Science | Master of Science"
-            para="Liverpool John Moores University"
-          />
-          <Course
-            img="/data-science.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/data-science-pgd-iiitb?ref=X7arUU"
-            heading="Executive PG Programme in Data Science | Executive PG Programme"
-            para="IIIT Bangalore"
-          />
-          <Course
-            img="/data-science.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/data-science-professional-certificate-bdm-iimk/?ref=X7arUU"
-            heading="Professional Certificate Program in Data Science for Business Decision Making | Professional Certification"
-            para="IIM Kozhikode"
-          />
-        </div>
-      </div>
-      <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
-        What are the MBA courses offered by upGrad?
-      </h1>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          <Course
-            img="/mba.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/mba-liverpool-business-school?ref=X7arUU"
-            heading="Master of Business Administration (MBA) Liverpool Business School | MBA"
-            para="Liverpool John Moores University"
-          />
-          <Course
-            img="/mba.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/executive-mba-ssbm/?ref=X7arUU"
-            heading="Executive MBA | MBA"
-            para=" SSBM Geneva"
-          />
-          <Course
-            img="/mba.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/mba-business-analytics-nmims?ref=X7arUU"
-            heading="MBA (Executive) with Specialisation in Business Analytics | MBA"
-            para="NMIMS Global CE"
-          />
-        </div>
-      </div>
-      <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
-        What are the Doctorate courses offered by upGrad?
-      </h1>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          <Course
-            img="/phd.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/doctor-of-business-administration-ssbm?ref=X7arUU"
-            heading="Doctor of Business Administration | Swiss School of Business Management | Doctorate"
-            para="SSBM Geneva"
-          />
-        </div>
-      </div>
-      <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
-        What are the Software and Technology courses offered by upGrad?
-      </h1>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          <Course
-            img="/software.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/software-engineering-mcs-ljmu/?ref=X7arUU"
-            heading="Master of Science in Computer Science | Master's Degree"
-            para="Liverpool John Moores University"
-          />
-          <Course
-            img="/software.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/full-stack-developer-course-pgd-iiitb/?ref=X7arUU"
-            heading="Executive PGP in Software Development - Full Stack | Executive PG Programme"
-            para="IIIT Bangalore"
-          />
-          <Course
-            img="/software.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/full-stack-development-bootcamp/?ref=X7arUU"
-            heading="Full Stack Development Bootcamp | Bootcamp"
-            para="upGrad"
-          />
-        </div>
-      </div>
-      <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
-        What are the Management courses offered by upGrad?
-      </h1>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          <Course
-            img="/management.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/leadership-and-management-certificate-program-wharton?ref=X7arUU"
-            heading="Leadership and Management in New Age Business | Certification"
-            para="University of Pennsylvania"
-          />
-          <Course
-            img="/management.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/product-management?ref=X7arUU"
-            heading="Product Management Certification Program | Certification"
-            para="Duke Corporate Education"
-          />
-          <Course
-            img="/management.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/human-resource-management-epgp-liba?ref=X7arUU"
-            heading="Executive PG Programme in Human Resource Management | Executive PG Programme"
-            para="Loyola Institute of Business Administration"
-          />
-        </div>
-      </div>
-      <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
-        What are the Business Analytics courses offered by upGrad?
-      </h1>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          <Course
-            img="/analytics.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/master-certificate-business-analytics-msu?ref=X7arUU"
-            heading="Global Master Certificate - Business Analytics | Global Master Certificate"
-            para="Michigan State University"
-          />
-          <Course
-            img="/analytics.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/business-analytics-epgp-liba/?ref=X7arUU"
-            heading="Executive PG Programme in Business Analytics | Executive PG Programme"
-            para="Loyola Institute of Business Administration"
-          />
-          <Course
-            img="/analytics.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/business-analytics-certification/?ref=X7arUU"
-            heading="Business Analytics Certification Program | Certification"
-            para="upGrad"
-          />
-        </div>
-      </div>
-      <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
-        What are the Law courses offered by upGrad?
-      </h1>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          <Course
-            img="/law.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/law-llm-intellectual-property-technology-law-jgls?ref=X7arUU"
-            heading="LL.M. in Intellectual Property & Technology Law | LL.M."
-            para="Jindal Global Law School (JGLS)"
-          />
-          <Course
-            img="/law.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/law-llm-corporate-and-finance-jgu/?ref=X7arUU"
-            heading="LL.M. in Corporate & Financial Law | LL.M. in Corporate & Financial Law (Degree)"
-            para="Jindal Global Law School (JGLS)"
-          />
-          <Course
-            img="/law.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/law-llm-dispute-resolution-jgls?ref=X7arUU"
-            heading="LL.M. in Dispute Resolution | LL.M."
-            para="Jindal Global Law School (JGLS)"
-          />
-        </div>
-      </div>
-      <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
-        What are the Marketing courses offered by upGrad?
-      </h1>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          <Course
-            img="/marketing.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/digital-marketing-and-communication-pgc-mica?ref=X7arUU"
-            heading="Advanced Certificate in Digital Marketing and Communication | MICA, upGrad | Advanced Certificate"
-            para="MICA and upGrad"
-          />
-          <Course
-            img="/marketing.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/edp-in-digital-marketing-from-xlri/?ref=X7arUU"
-            heading="Executive Development Program In Digital Marketing"
-            para="Xavier School of Management"
-          />
-        </div>
-      </div>
-      <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
-        What are the AI/ML courses offered by upGrad?
-      </h1>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          <Course
-            img="/ai.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/machine-learning-ms-ljmu-iitm/?ref=X7arUU"
-            heading="MS in Machine Learning & AI | Master of Science"
-            para="IIT Madras and Liverpool John Moores University"
-          />
-          <Course
-            img="/ai.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/masters-in-ml-ai-ljmu-iiitb/?ref=X7arUU"
-            heading="MS in Machine Learning & AI | Master of Science"
-            para="IIIT Bangalore"
-          />
-          <Course
-            img="/ai.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/machine-learning-ai-pgd-iiitb/?ref=X7arUU"
-            heading="Executive PG Programme in Machine Learning & AI | Executive PG Programme"
-            para="IIIT Bangalore"
-          />
-        </div>
-      </div>
-      <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
-        How to study abroad with upGrad?
-      </h1>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          <Course
-            img="/abroad.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/study-abroad-mba-in-iu-germany?ref=X7arUU"
-            heading="Master of Business Administration (90 ECTS) | Master's Degree"
-            para="International University of applied Sciences"
-          />
-          <Course
-            img="/abroad.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/mba-60-ects-iu-germany?ref=X7arUU"
-            heading="Master of Business Administration (60 ECTS) | Master's Degree"
-            para="International University of applied Sciences"
-          />
-          <Course
-            img="/abroad.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.comin/ms-data-science-iu-germany?ref=X7arUU"
-            heading="Master in Data Science (120 ECTS) | Master's Degree"
-            para="International University of applied Sciences"
-          />
-        </div>
-      </div>
-      <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
-        What are the Job Guaranteed courses of upGrad?
-      </h1>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          <Course
-            img="/job.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/management-pgp-imt/?ref=X7arUU"
-            heading="PG Program in Management | PG Program"
-            para=" IMT Ghaziabad"
-          />
-          <Course
-            img="/job.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/full-stack-development-bootcamp/?ref=X7arUU"
-            heading="Full Stack Development Bootcamp | PG Certification"
-            para="upGrad"
-          />
-          <Course
-            img="/job.jpg"
-            height="250px"
-            width="400px"
-            download="Check out here"
-            refer="https://www.upgrad.com/mba-business-analytics-nmims?ref=X7arUU"
-            heading="PG Certification in Software Engineering | PG Certification"
-            para="upGrad"
-          />
-        </div>
-      </div>
-      <button
-        id={navbar.font}
-        type="button"
-        className="flex justify-center text-3xl no-underline text-[#2F4858] font-extrabold mt-16 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto  mb-4 "
-      >
-        Thank you
-      </button>
-      <button
-        id={navbar.font}
-        type="button"
-        className="text-3xl no-underline text-[#2F4858] font-extrabold justify-start  mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block mb-4"
-      >
-        Akshit Kumar rests his words here...
-      </button>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          <Card
-            heading="Connect on Telegram"
-            para="This is Akshit Kumar. Join our telegram group. Link Below."
-            refer="https://t.me/thevillagepur"
-            name="Join"
-          />
-          <Card
-            heading="Connect on Facebook"
-            para="This is Akshit Kumar. Follow our facebook page and connect with us."
-            refer="https://www.facebook.com/villagepur/"
-            name="Follow"
-          />
-          <Card
-            heading="Connect on Instagram"
-            para="This is Akshit Kumar. Follow our page and connect with us. "
-            refer="https://www.instagram.com/thevillagepur"
-            name="Follow"
-          />
-        </div>
-      </div>
+            <div className="flex justify-center">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                <Card
+                  heading="Connect on Telegram"
+                  para="This is Akshit Kumar. Join our telegram group. Link Below."
+                  refer="https://t.me/thevillagepur"
+                  name="Join"
+                />
+                <Card
+                  heading="Connect on Facebook"
+                  para="This is Akshit Kumar. Follow our facebook page and connect with us."
+                  refer="https://www.facebook.com/villagepur/"
+                  name="Follow"
+                />
+                <Card
+                  heading="Connect on Instagram"
+                  para="This is Akshit Kumar. Follow our page and connect with us. "
+                  refer="https://www.instagram.com/thevillagepur"
+                  name="Follow"
+                />
+              </div>
+            </div>
       <Footer />
     </>
   );
