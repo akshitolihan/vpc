@@ -89,6 +89,14 @@ const blog4 = () => {
                 getting involved in wrongdoing and child trafficking by some
                 greedy people.
               </p>
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="3645737946"
+              ></ins>
+
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] p-0 md:p-4 pt-4 px-3 md:px-14">
                 People think that their children will waste time in school and
                 instead of that they can go to some labour work and earn some
@@ -118,6 +126,14 @@ const blog4 = () => {
                 infrastructure, teaching quality, accessibility, affordability
                 and interest in the education among the kids.
               </p>
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="9617902313"
+              ></ins>
+
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] p-0 md:p-4 pt-4 px-3 md:px-14">
                 We see the models of the Delhi government in which they have
                 improved the infrastructure of the school by creating a new
@@ -147,6 +163,14 @@ const blog4 = () => {
                 also study the education systems of top-performing countries
                 like Sweden, Canada and the US.
               </p>
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="6991738978"
+              ></ins>
+
               <h1 className="flex justify-start text-justify text-2xl font-bold text-[#000000] p-0 md:p-4 pt-4 px-3 md:px-14">
                 Apart from the Right to Education, the thing matter is the Right
                 Education.
@@ -179,6 +203,13 @@ const blog4 = () => {
                 something new coming in every field and people need to update
                 their skill sets.
               </p>
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="6080329593"
+              ></ins>
 
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] p-0 md:p-4 pt-4 px-3 md:px-14">
                 There are a lot of things to do but students are lacking the
@@ -203,6 +234,13 @@ const blog4 = () => {
                 the Indian Youth but the result of this scheme is not as per
                 expected. Government should work on making it more effective.
               </p>
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="7201839576"
+              ></ins>
 
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] p-0 md:p-4 pt-4 px-3 md:px-14">
                 People still believe in the degree culture and we need to get
@@ -238,6 +276,14 @@ const blog4 = () => {
           </section>
         </section>
       </section>
+      <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="2888842434"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
           <Card

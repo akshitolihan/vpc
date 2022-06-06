@@ -135,11 +135,13 @@ const internshala = () => {
         </section>
       </section>
       <ins
-        className="adsbygoogle flex justify-center"
-        data-ad-format="autorelaxed"
+        className="adsbygoogle  flex justify-center"
         data-ad-client="ca-pub-6898963328156558"
-        data-ad-slot="2259917355"
+        data-ad-slot="2888842434"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
       ></ins>
+
 
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">

@@ -71,6 +71,14 @@ const blog2 = () => {
                 internet for the children and open discussions should happen in
                 the society for the proper discussion of the society.
               </p>
+              <ins
+        className="adsbygoogle flex justify-center"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="3645737946"
+      ></ins>
+
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] p-0 md:p-4 pt-4 px-3 md:px-14">
                 Protection does not mean that children should not be allowed to
                 use the internet or they can’t go online at all. Protection here
@@ -92,6 +100,15 @@ const blog2 = () => {
                 like YouTUbe, Hotstar, etc. where age-relevant content is
                 available for the kids.
               </p>
+              
+      <ins
+        className="adsbygoogle flex justify-center"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="9617902313"
+      ></ins>
+
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] p-0 md:p-4 pt-4 px-3 md:px-14">
                 Society should not have a taboo about the internet and fulfil
                 their roles with good responsibility. We know that, on the
@@ -108,6 +125,14 @@ const blog2 = () => {
                 that society should give good moral values and ethics to their
                 children so that we can build a better society.
               </p>
+              <ins
+        className="adsbygoogle flex justify-center"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="6991738978"
+      ></ins>
+
             </div>
             <button
               id={navbar.font}
@@ -126,6 +151,14 @@ const blog2 = () => {
           </section>
         </section>
       </section>
+      <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="2888842434"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
           <Card

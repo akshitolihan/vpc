@@ -75,6 +75,14 @@ const blog5 = () => {
                 educational platforms. Today we are going to discuss one such
                 organization.
               </p>
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="3645737946"
+              ></ins>
+
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] p-0 pt-4 md:p-4 px-3 md:px-14">
                 Now, coming to the jobs of the humans, we mainly have two types
                 of jobs, one is skilled and the other is unskilled. As per my
@@ -96,6 +104,15 @@ const blog5 = () => {
                 to take your job as the human brain is behind it and we have
                 only developed it.
               </p>
+
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="9617902313"
+              ></ins>
+
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] p-0 pt-4 md:p-4 px-3 md:px-14">
                 upGrad is an online learning platform that is providing a good
                 quality of education to working professionals who want to
@@ -111,6 +128,14 @@ const blog5 = () => {
                 now enrol themselves in the course to learn from the top
                 universities.
               </p>
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="6991738978"
+              ></ins>
+
               <p className="flex justify-start text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
                 The universities which are providing courses on upGrad:
               </p>
@@ -153,6 +178,14 @@ const blog5 = () => {
               <h1 className="flex justify-start text-justify text-2xl font-normal text-[#191919] p-0 pt-4 md:p-4 px-3 md:px-14">
                 13. and many others.
               </h1>
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="6080329593"
+              ></ins>
+
               <p className="flex justify-start text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
                 The upGrad offers numerous courses in different fields from the
                 experts in the fields and the top universities. <br />
@@ -192,19 +225,27 @@ const blog5 = () => {
               <h1 className="flex justify-start text-justify text-2xl font-normal text-[#191919] p-0 pt-4 md:p-4 px-3 md:px-14">
                 11. Job Guaranteed
               </h1>
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="7201839576"
+              ></ins>
+
               <div className=" flex justify-center">
                 <div className="max-w-lg shadow-2xl shadow-top m-2 md:m-10  bg-white rounded-3xl p-6 text-white  scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl mt-[16px]">
                   <h1
                     id={navbar.font}
                     type="button"
-                    className="text-center max-w-[300px] text-3xl no-underline text-[#ffffff] cursor-text font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
+                    className="text-center max-w-[300px] text-3xl no-underline text-[#42e798] cursor-text font-extrabold justify-center bg-[#ffffff] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
                   >
                     If you want to enroll, use Our Code for discount.
                   </h1>
                   <h1
                     id={navbar.font3}
                     type="button"
-                    className="text-center max-w-[120px] text-xl no-underline cursor-text text-[#000000] font-extrabold justify-center mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
+                    className="text-center max-w-[120px] text-xl no-underline cursor-text text-[#ffffff] font-extrabold justify-center mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block bg-[#42e798]"
                   >
                     X7arUU
                   </h1>
@@ -260,6 +301,14 @@ const blog5 = () => {
                 />
               </div>
             </div>
+            <ins
+              className="adsbygoogle  flex justify-center"
+              data-ad-client="ca-pub-6898963328156558"
+              data-ad-slot="2888842434"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+
             <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
               What are the MBA courses offered by upGrad?
             </h1>
@@ -310,6 +359,14 @@ const blog5 = () => {
                 />
               </div>
             </div>
+            <ins
+              className="adsbygoogle  flex justify-center"
+              data-ad-client="ca-pub-6898963328156558"
+              data-ad-slot="2888842434"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+
             <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
               What are the Software and Technology courses offered by upGrad?
             </h1>
@@ -344,6 +401,14 @@ const blog5 = () => {
                 />
               </div>
             </div>
+            <ins
+              className="adsbygoogle  flex justify-center"
+              data-ad-client="ca-pub-6898963328156558"
+              data-ad-slot="9100394540"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+
             <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
               What are the Management courses offered by upGrad?
             </h1>
@@ -378,6 +443,14 @@ const blog5 = () => {
                 />
               </div>
             </div>
+            <ins
+              className="adsbygoogle  flex justify-center"
+              data-ad-client="ca-pub-6898963328156558"
+              data-ad-slot="9100394540"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+
             <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
               What are the Business Analytics courses offered by upGrad?
             </h1>
@@ -412,6 +485,14 @@ const blog5 = () => {
                 />
               </div>
             </div>
+            <ins
+              className="adsbygoogle  flex justify-center"
+              data-ad-client="ca-pub-6898963328156558"
+              data-ad-slot="4412024707"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+
             <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
               What are the Law courses offered by upGrad?
             </h1>
@@ -446,6 +527,14 @@ const blog5 = () => {
                 />
               </div>
             </div>
+            <ins
+              className="adsbygoogle  flex justify-center"
+              data-ad-client="ca-pub-6898963328156558"
+              data-ad-slot="4412024707"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+
             <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
               What are the Marketing courses offered by upGrad?
             </h1>
@@ -471,6 +560,14 @@ const blog5 = () => {
                 />
               </div>
             </div>
+            <ins
+              className="adsbygoogle  flex justify-center"
+              data-ad-client="ca-pub-6898963328156558"
+              data-ad-slot="9071107405"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+
             <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
               What are the AI/ML courses offered by upGrad?
             </h1>
@@ -505,6 +602,14 @@ const blog5 = () => {
                 />
               </div>
             </div>
+            <ins
+              className="adsbygoogle  flex justify-center"
+              data-ad-client="ca-pub-6898963328156558"
+              data-ad-slot="9071107405"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+
             <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
               How to study abroad with upGrad?
             </h1>
@@ -539,6 +644,14 @@ const blog5 = () => {
                 />
               </div>
             </div>
+            <ins
+              className="adsbygoogle  flex justify-center"
+              data-ad-client="ca-pub-6898963328156558"
+              data-ad-slot="7758025731"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+
             <h1 className="flex justify-center text-justify text-2xl font-bold text-[#191919] p-0 pt-16 pb-8 md:p-4 px-3 md:px-14">
               What are the Job Guaranteed courses of upGrad?
             </h1>
@@ -590,28 +703,36 @@ const blog5 = () => {
           </section>
         </section>
       </section>
-            <div className="flex justify-center">
-              <div className="grid md:grid-cols-2 lg:grid-cols-3">
-                <Card
-                  heading="Connect on Telegram"
-                  para="This is Akshit Kumar. Join our telegram group. Link Below."
-                  refer="https://t.me/thevillagepur"
-                  name="Join"
-                />
-                <Card
-                  heading="Connect on Facebook"
-                  para="This is Akshit Kumar. Follow our facebook page and connect with us."
-                  refer="https://www.facebook.com/villagepur/"
-                  name="Follow"
-                />
-                <Card
-                  heading="Connect on Instagram"
-                  para="This is Akshit Kumar. Follow our page and connect with us. "
-                  refer="https://www.instagram.com/thevillagepur"
-                  name="Follow"
-                />
-              </div>
-            </div>
+      <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="2888842434"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+
+      <div className="flex justify-center">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3">
+          <Card
+            heading="Connect on Telegram"
+            para="This is Akshit Kumar. Join our telegram group. Link Below."
+            refer="https://t.me/thevillagepur"
+            name="Join"
+          />
+          <Card
+            heading="Connect on Facebook"
+            para="This is Akshit Kumar. Follow our facebook page and connect with us."
+            refer="https://www.facebook.com/villagepur/"
+            name="Follow"
+          />
+          <Card
+            heading="Connect on Instagram"
+            para="This is Akshit Kumar. Follow our page and connect with us. "
+            refer="https://www.instagram.com/thevillagepur"
+            name="Follow"
+          />
+        </div>
+      </div>
       <Footer />
     </>
   );

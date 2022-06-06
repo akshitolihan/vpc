@@ -90,6 +90,14 @@ const blog3 = () => {
                 to take your job as the human brain is behind it and we have
                 only developed it.
               </p>
+              <ins
+        className="adsbygoogle flex justify-center"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="3645737946"
+      ></ins>
+
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] p-0 pt-4 md:p-4 px-3 md:px-14">
                 If the robots are going to be developed then we can have
                 employment in the development of robots, providing services, and
@@ -106,6 +114,15 @@ const blog3 = () => {
                 automation are the future and it is better for us as soon as we
                 accept this fact.
               </p>
+              
+      <ins
+        className="adsbygoogle flex justify-center"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="9617902313"
+      ></ins>
+
             </div>
             <button
               id={navbar.font}
@@ -124,6 +141,14 @@ const blog3 = () => {
           </section>
         </section>
       </section>
+      <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="2888842434"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
           <Card

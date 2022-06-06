@@ -72,6 +72,14 @@ const blog1 = () => {
                 exchange their thoughts, talk to each other, and can do a lot of
                 stuff we will be talking about.
               </p>
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="3645737946"
+              ></ins>
+
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] px-3 pt-4 md:px-14">
                 Social media is also evolving and evolved very far from what it
                 was in starting. Every social media has its own story on how it
@@ -95,6 +103,15 @@ const blog1 = () => {
                 communication between two people or a limited number of people
                 like groups and personal chats.
               </p>
+
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="9617902313"
+              ></ins>
+
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] px-3 pt-4 md:px-14">
                 We have apps like YouTube which is a massive video-sharing
                 platform in which people can share their content online on this
@@ -121,6 +138,14 @@ const blog1 = () => {
                 talent if they have any. We can see a lot of clutter as well on
                 these types of apps. People spend a lot of time on these apps.
               </p>
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="6991738978"
+              ></ins>
+
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] px-3 pt-4 md:px-14">
                 Another social media app we have is Snapchat where you can chat
                 with the people who are your friends and can share their snaps
@@ -137,6 +162,7 @@ const blog1 = () => {
                 collaborate to solve a particular problem. Programmers can share
                 their codes on the platform.
               </p>
+
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] px-3 pt-4 md:px-14">
                 We have apps like Twitter and Koo where you can share your views
                 on any topic. You can tweet your opinion on these apps on
@@ -149,6 +175,14 @@ const blog1 = () => {
                 the process to achieve a final product that is feasible and
                 helpful to the community.
               </p>
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="6080329593"
+              ></ins>
+
               <h1 className="flex justify-start text-justify text-2xl font-bold text-[#000000] px-3 pt-4 md:px-14">
                 What are the advantages of Social Media platforms or Apps?
               </h1>
@@ -180,6 +214,14 @@ const blog1 = () => {
                 youtube and grow yourself. You can keep yourself updated through
                 the news as all the news is available on youtube.
               </p>
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="7201839576"
+              ></ins>
+
               <h1 className="flex justify-start text-justify text-2xl font-bold text-[#000000] px-3 pt-4 md:px-14">
                 2. Positive sides of Instagram, Facebook, and Twitter
               </h1>
@@ -208,6 +250,14 @@ const blog1 = () => {
                 increase your sales. You can set up an online store as well on
                 these apps.
               </p>
+              <ins
+                className="adsbygoogle flex justify-center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="7201839576"
+              ></ins>
+
               <h1 className="flex justify-start text-justify text-2xl font-bold text-[#000000] px-3 pt-4 md:px-14">
                 3. Importance of Messaging apps
               </h1>
@@ -226,6 +276,14 @@ const blog1 = () => {
                 calling. Another good feature of these apps is that they provide
                 us with the feature to create groups and engage with each other.
               </p>
+              <ins
+                className="adsbygoogle  flex justify-center"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="2888842434"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+              ></ins>
+
               <h1 className="flex justify-start text-justify text-2xl font-bold text-[#000000] px-3 pt-4 md:px-14">
                 What are the disadvantages of Social Media?
               </h1>
@@ -253,6 +311,14 @@ const blog1 = () => {
                 other people in these apps. We have seen many cases of social
                 media trials on many people who are accused of something.
               </p>
+              <ins
+                className="adsbygoogle  flex justify-center"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="9100394540"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+              ></ins>
+
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] px-3 pt-4 md:px-14">
                 The whole social media is divided into many sections and people
                 are abusing each other from each side. It creates a sense of
@@ -282,6 +348,14 @@ const blog1 = () => {
                 famous saying that every rose has its thorns. So social media is
                 a rose to express and a thorn that hurts.
               </p>
+              <ins
+                className="adsbygoogle  flex justify-center"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="9100394540"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+              ></ins>
+
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] px-3 pt-4 md:px-14">
                 Social media has its pros and cons as other things have. It
                 gives you some good things but a lot of bad things or we can say
@@ -303,6 +377,14 @@ const blog1 = () => {
                 handles. It brings to you a positive vibe throughout the day.
                 So, according to me, you should follow these handles.
               </p>
+              <ins
+                className="adsbygoogle  flex justify-center"
+                data-ad-client="ca-pub-6898963328156558"
+                data-ad-slot="4412024707"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+              ></ins>
+
               <p className="flex justify-start text-justify text-2xl font-normal text-[#191919] px-3 pt-4 md:px-14">
                 There also exists social media handles that create a ruckus,
                 negativity, and disappointment in your mind. It may spoil your
@@ -335,6 +417,14 @@ const blog1 = () => {
           </section>
         </section>
       </section>
+      <ins
+        className="adsbygoogle  flex justify-center"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="2888842434"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
           <Card
