@@ -33,6 +33,14 @@ const internshala = () => {
               refer="https://trainings.internshala.com/refer/copy_link/ISRP14152888s"
               name="Join here"
             />
+            <ins
+              className="adsbygoogle flex justify-center"
+              data-ad-layout="in-article"
+              data-ad-format="fluid"
+              data-ad-client="ca-pub-6898963328156558"
+              data-ad-slot="3645737946"
+            ></ins>
+
             <Para
               para="Internshala, as clear from the name is a platform at which you can apply for internships. It provides students with three things namely Internships, trainings and Specializations.
               "
@@ -48,6 +56,14 @@ const internshala = () => {
               refer="https://internshala.com/internships"
               name="Join here"
             />
+            <ins
+              className="adsbygoogle flex justify-center"
+              data-ad-layout="in-article"
+              data-ad-format="fluid"
+              data-ad-client="ca-pub-6898963328156558"
+              data-ad-slot="9617902313"
+            ></ins>
+
             <Para para="Internshala also provides more than 75+ training in different fields from engineering to arts. The training offered by Internshala is very affordable and the concepts are covered in deep. I have also completed training in C/C++ from this platform and it was really enriching. You can get any training for about one and a half thousand." />
             <Card
               heading="Intenshala Trainings"
@@ -62,6 +78,14 @@ const internshala = () => {
               refer="https://trainings.internshala.com/internshala_skill_pass/?payment_init_source=homepage_menu_dropdown"
               name="Get here"
             />
+            <ins
+              className="adsbygoogle flex justify-center"
+              data-ad-layout="in-article"
+              data-ad-format="fluid"
+              data-ad-client="ca-pub-6898963328156558"
+              data-ad-slot="6991738978"
+            ></ins>
+
             <Para para="Internshala lately introduced the specialization program in several fields. They are guaranteeing a 10k internship after completing the specialization course. The specialization course is also very affordable. Specializations are offered in Digital Marketing, Data Science, and Human Resource Management. The program fee is about 19,000 rupees for now." />
             <Card
               heading="Intenshala Specialization Programs"
@@ -73,6 +97,14 @@ const internshala = () => {
               para="You can also become a campus ambassador of your college or university for Internshala and can win exciting prizes by creating awareness and promoting their platform with your fellows.
               "
             />
+            <ins
+              className="adsbygoogle flex justify-center"
+              data-ad-layout="in-article"
+              data-ad-format="fluid"
+              data-ad-client="ca-pub-6898963328156558"
+              data-ad-slot="6080329593"
+            ></ins>
+
             <Card
               heading="Intenshala Student Partner"
               para="You can join ISP with the below given link."
@@ -90,10 +122,25 @@ const internshala = () => {
               refer="https://trainings.internshala.com/Ist_practicals/refer/whatsapp/15733753"
               name="Join here"
             />
+            <ins
+              className="adsbygoogle flex justify-center"
+              data-ad-layout="in-article"
+              data-ad-format="fluid"
+              data-ad-client="ca-pub-6898963328156558"
+              data-ad-slot="7201839576"
+            ></ins>
+
             <End />
           </section>
         </section>
       </section>
+      <ins
+        className="adsbygoogle flex justify-center"
+        data-ad-format="autorelaxed"
+        data-ad-client="ca-pub-6898963328156558"
+        data-ad-slot="2259917355"
+      ></ins>
+
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
           <Card
