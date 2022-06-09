@@ -7,7 +7,7 @@ const Para = (props) => {
       <section
         id={navbar.font1}
         style={{ fontFamily: "Georgia serif" }}
-        className="flex justify-start text-justify text-[22px] font-normal text-[#191919] p-0 pt-4 md:p-4 px-3 md:px-14"
+        className="flex justify-start text-justify text-[22px] font-normal text-[#191919] p-0 py-4"
       >
         {props.para}
       </section>

@@ -25,7 +25,7 @@ const blog = () => {
       <Heading heading="Blogs Here" refer="/blog" />
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          {/* <Books
+          <Books
             img="/top-learning-platforms.jpg"
             height="250px"
             width="400px"
@@ -33,8 +33,8 @@ const blog = () => {
             refer1="/blog/top-online-learning-platforms"
             refer2="/blog/top-online-learning-platforms"
             heading="Top Online Learning Platforms"
-            para="In this blog are going to talk about the top online learning platform that are available for the people of different grades. We will be talking about both free and paid platforms that are availabe to us for enriching ourselves..."
-          /> */}
+            para="In this blog, we will target college students and talk about Top Online Learning Platforms and their resources that can benefit any student. This will be useful for anyone who wants to learn deeply ..."
+          />
           <Books
             img="/internshala.svg"
             height="250px"

@@ -49,7 +49,7 @@ const index = () => {
       <Heading heading="Our Latest Blogs" refer="/blog" />
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          {/* <Books
+        <Books
             img="/top-learning-platforms.jpg"
             height="250px"
             width="400px"
@@ -57,8 +57,8 @@ const index = () => {
             refer1="/blog/top-online-learning-platforms"
             refer2="/blog/top-online-learning-platforms"
             heading="Top Online Learning Platforms"
-            para="In this blog are going to talk about the top online learning platform that are available for the people of different grades. We will be talking about both free and paid platforms that are availabe to us for enriching ourselves..."
-          /> */}
+            para="In this blog, we will target college students and talk about Top Online Learning Platforms and their resources that can benefit any student. This will be useful for anyone who wants to learn deeply ..."
+          />
           <Books
             img="/internshala.svg"
             height="250px"
@@ -81,7 +81,7 @@ const index = () => {
                 process. We have evolved so much that we can educate ourselves
                 by sitting at home. There are so many platforms that are..."
           />
-          <Books
+          {/* <Books
             img="/education.jpg"
             height="250px"
             width="400px"
@@ -90,7 +90,7 @@ const index = () => {
             refer2="/blog/right-to-education-and-right-education"
             heading="Right To Education and Right Education"
             para="There is not any clearcut answer to this question. We can consider the good or the bad things about social media. In this article, we will be having a view on that.Social media has its pros an ..."
-          />
+          /> */}
         </div>
       </div>
 
