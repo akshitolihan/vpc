@@ -20,7 +20,7 @@ const internshala = () => {
 
       <Navbar />
       <section className="flex justify-center flex-wrap md:flex-nowrap md:bg-[#F8F9FA] ">
-        <section className="p-0 pt-4 md:p-4 px-3 md:px-14  w-auto flex justify-center bg-white rounded-xl shadow-lg my-10">
+        <section className="p-2 pt-4 md:p-4 px-3 md:px-14  w-auto flex justify-center bg-white rounded-xl shadow-lg my-10">
           <section className="shadow-top m-0 md:m-0 rounded-3xl text-black lg:w-[900px] ">
             <Date date="01 June 2022" />
             <MainHeading heading="Internshala: Trainings and Internships" />
