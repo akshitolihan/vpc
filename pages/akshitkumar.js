@@ -80,9 +80,9 @@ const Me = () => {
               </div>
             </section>
           </section>
-          <section className="hidden md:flex justify-center ml-20 rounded-2xl -skew-x-6 shadow-xl">
+          <section className="hidden md:flex justify-center ml-20 rounded-2xl -skew-x-6 shadow-xl bg-[#EDE7F6] ">
             <Image
-              src="/A8.jpg"
+              src="/Akshit_T.png"
               width={360 + "px"}
               height={400 + "px"}
               alt="Akshit Kumar"
@@ -91,13 +91,13 @@ const Me = () => {
           </section>
         </section>
         <section className="grid grid-cols-1">
-          <section className="flex justify-center px-20 md:hidden  ">
+          <section className="flex justify-center px-20 md:hidden">
             <Image
-              src="/A8.jpg"
+              src="/Akshit_T.png"
               width={180 + "px"}
               height={190 + "px"}
               alt="Akshit Kumar"
-              className="fill-white cursor-pointer -skew-x-3 rounded-full"
+              className="fill-white cursor-pointer -skew-x-3 rounded-full bg-[#EDE7F6]"
             />
           </section>
           <section className="px-20 md:hidden">
