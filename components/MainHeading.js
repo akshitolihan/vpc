@@ -6,7 +6,7 @@ const MainHeading = (props) => {
     <>
       <section
         style={{ fontFamily: "Georgia serif" }}
-        className="flex justify-center text-4xl font-bold p-0 pt-4 md:p-4"
+        className="flex justify-center text-4xl font-bold p-0 py-4"
       >
         {props.heading}
       </section>
