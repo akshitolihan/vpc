@@ -17,7 +17,7 @@ const Navbar = () => {
           content="5P3r_-9DRMSS2coMO412nNDmsXRWk3W4zECVmpBexvY"
         />
       </Head>
-      <header id={navbar.font} className="shadow-d text-center rounded--2xl ">
+      <header id={navbar.font} className="text-center">
         <nav className="flex items-center justify-between w-full mx-auto flex-wrap flex-col md:flex-row card ">
           <div className="lg:justify-start md:inline-flex ml-4">
             <Link href="/" className="justify-items-start " passHref>
@@ -135,6 +135,7 @@ const Navbar = () => {
             )}
           </Transition>
         </div>
+        <hr/>
       </header>
       {/* <hr/> */}
     </>
