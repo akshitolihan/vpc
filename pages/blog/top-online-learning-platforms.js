@@ -21,8 +21,8 @@ const blog6 = () => {
       <Navbar />
       <section className="flex justify-center flex-wrap md:flex-nowrap md:bg-[#F8F9FA] ">
         <section className="w-auto flex justify-center bg-white rounded-xl shadow-lg my-10">
-          <section className="m-2 md:m-10 rounded-3xl text-black lg:w-[900px]  ">
-            <section className=" pt-4 md:px-14">
+          <section className="shadow-top m-0 md:m-0 rounded-3xl text-black lg:w-[900px] ">
+            <section className="pt-4 md:px-14">
             <Date date="9 June 2022" />
             <MainHeading heading="Top Online Learning Platforms" />
             <Images src="/top-learning-platforms.jpg" />
