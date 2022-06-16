@@ -15,7 +15,7 @@ import Card from "../../components/Card";
 const test = () => {
   return (
     <>
-      <section className="flex justify-center md:bg-[#F8F9FA] p-8">
+      <section className="flex justify-center md:bg-[#F8F9FA] md:p-8">
         <section className="shadow-lg rounded-lg bg-white max-w-[900px] p-8">
           {/* <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
