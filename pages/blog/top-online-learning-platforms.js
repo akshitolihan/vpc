@@ -46,7 +46,7 @@ const blog6 = () => {
                 para="On this platform, the subject experts are creating a lot of courses related to each field. On Udemy the courses are free as well as paid. The quality of the courses is very good whether it is a free or a paid course. There are having a very affordable fee for the courses.
 "
               />
-              <section className="flex justify-center text-2xl md:text-4xl font-bold py-4">
+              {/* <section className="flex justify-center text-2xl md:text-4xl font-bold py-4">
 
                 <ins
                   className="adsbygoogle flex justify-center"
@@ -55,7 +55,7 @@ const blog6 = () => {
                   data-ad-client="ca-pub-6898963328156558"
                   data-ad-slot="3645737946"
                 ></ins>
-              </section>
+              </section> */}
               <Link_Head link="https://www.edx.org/" Link_Head="3. Edx" />
               <Para
                 para="It is the platform which is brought by MIT and Harvard University for providing online education and certifications. The quality of the resources is guaranteed as they are offered by these prestigious organizations.
@@ -75,7 +75,7 @@ const blog6 = () => {
 
 "
               />
-              <section className="flex justify-center text-2xl md:text-4xl font-bold py-4">
+              {/* <section className="flex justify-center text-2xl md:text-4xl font-bold py-4">
 
                 <ins
                   className="adsbygoogle flex justify-center"
@@ -84,7 +84,7 @@ const blog6 = () => {
                   data-ad-client="ca-pub-6898963328156558"
                   data-ad-slot="9617902313"
                 ></ins>
-              </section>
+              </section> */}
               <Link_Head link="https://www.udacity.com/" Link_Head="5. Udacity" />
               <Para
                 para="It also provides both free and paid courses to the students that want to excel in any field. They have courses offered by the companies like Google on their site.
@@ -98,7 +98,7 @@ const blog6 = () => {
                 para="This is the platform owned by Microsoft. It focuses n skill oriented courses and introductory courses. It provides comparatively short courses to the learners.
 "
               />
-              <section className="flex justify-center text-2xl md:text-4xl font-bold py-4">
+              {/* <section className="flex justify-center text-2xl md:text-4xl font-bold py-4">
 
                 <ins
                   className="adsbygoogle flex justify-center"
@@ -107,7 +107,7 @@ const blog6 = () => {
                   data-ad-client="ca-pub-6898963328156558"
                   data-ad-slot="6991738978"
                 ></ins>
-              </section>
+              </section> */}
               <Link_Head
                 link="https://swayam.gov.in/"
                 Link_Head="7. Swayam/NPTEL"
@@ -124,7 +124,7 @@ const blog6 = () => {
                 para="Founded by Mr Sal Khan to provide free education online to the students. It is completely free. It is a platform for schools as well as college students. It contains many advanced concepts courses in mathematics, programming, and others.
 "
               />
-              <section className="flex justify-center text-2xl md:text-4xl font-bold py-4">
+              {/* <section className="flex justify-center text-2xl md:text-4xl font-bold py-4">
 
                 <ins
                   className="adsbygoogle flex justify-center"
@@ -133,7 +133,7 @@ const blog6 = () => {
                   data-ad-client="ca-pub-6898963328156558"
                   data-ad-slot="6080329593"
                 ></ins>
-              </section>
+              </section> */}
               <Link_Head
                 link="https://www.mygreatlearning.com/academy"
                 Link_Head="9. Great Learning Academy"
@@ -147,7 +147,7 @@ const blog6 = () => {
                 para="This is a free learning site that provided courses and diplomas for free with certificates. You can learn the fields like computer science, health, business, management, etc.
 "
               />
-              <section className="flex justify-center text-2xl md:text-4xl font-bold py-4">
+              {/* <section className="flex justify-center text-2xl md:text-4xl font-bold py-4">
 
                 <ins
                   className="adsbygoogle flex justify-center"
@@ -156,7 +156,7 @@ const blog6 = () => {
                   data-ad-client="ca-pub-6898963328156558"
                   data-ad-slot="7201839576"
                 ></ins>
-              </section>
+              </section> */}
               <Link_Head
                 link="https://www.upgrad.com/free-courses/"
                 Link_Head="11. upGrad"
@@ -178,7 +178,7 @@ const blog6 = () => {
           </section>
         </section>
       </section>
-      <section className="flex justify-center text-2xl md:text-4xl font-bold py-4">
+      {/* <section className="flex justify-center text-2xl md:text-4xl font-bold py-4">
 
         <ins
           className="adsbygoogle  flex justify-center"
@@ -187,7 +187,7 @@ const blog6 = () => {
           data-ad-format="auto"
           data-full-width-responsive="true"
         ></ins>
-      </section>
+      </section> */}
 
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
