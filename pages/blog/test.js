@@ -15,9 +15,10 @@ import Card from "../../components/Card";
 const test = () => {
   return (
     <>
-      <section className="flex justify-center md:bg-[#F8F9FA] md:p-8">
-        <section className="shadow-lg rounded-lg bg-white max-w-[900px] p-8">
-          {/* <p>
+      <section className="flex justify-center flex-wrap md:flex-nowrap md:bg-[#F8F9FA] md:p-8">
+        <section className="w-auto">
+        <section className="shadow-lg rounded-lg bg-white w-auto max-w-[900px] p-2 md:p-8">
+          <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
               totam sit, minima doloremque fugit dicta enim optio perferendis
               maiores incidunt repellendus quis placeat suscipit tempore ad
@@ -34,9 +35,19 @@ const test = () => {
               molestiae voluptatem corporis quaerat architecto! Porro rem rerum
               dolorem quia corrupti nobis exercitationem ratione iure libero at.
             </p>
-            <Para para="Today we are going to talk about a platform that is very useful for college students.  In this blog, we are going to talk about what is Internshala and it can be useful for us." /> */}
+            <Date date="01 June 2022" />
+            <MainHeading heading="Internshala: Trainings and Internships" />
+            <Images src="/internshala.svg" />
+            <Begin />
+            <Para para="Today we are going to talk about a platform that is very useful for college students.  In this blog, we are going to talk about what is Internshala and it can be useful for us." />
+            <Card
+              heading="Internshala"
+              para="You can visit Internshala with the below given link."
+              refer="https://trainings.internshala.com/refer/copy_link/ISRP14152888s"
+              name="Join here"
+            />
 
-          <Date date="01 June 2022" />
+          {/* <Date date="01 June 2022" />
           <MainHeading heading="Internshala: Trainings and Internships" />
           <Images src="/internshala.svg" />
           <Begin />
@@ -144,9 +155,9 @@ const test = () => {
             data-ad-slot="7201839576"
           ></ins>
 
-          <End />
+          <End /> */}
         </section>
-      </section>
+      </section></section>
     </>
   );
 };
