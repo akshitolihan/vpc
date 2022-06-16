@@ -11,14 +11,15 @@ import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import Begin from "../../components/Begin";
 import Card from "../../components/Card";
-
+import Ads
+ from "../../components/Ads";
 const test = () => {
   return (
     <>
       <section className="flex justify-center flex-wrap md:flex-nowrap md:bg-[#F8F9FA] md:p-8">
         <section className="w-auto">
-        <section className="shadow-lg rounded-lg bg-white w-auto max-w-[900px] p-2 md:p-8">
-          <p>
+          <section className="shadow-lg rounded-lg bg-white w-auto max-w-[900px] p-2 md:p-8">
+            <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
               totam sit, minima doloremque fugit dicta enim optio perferendis
               maiores incidunt repellendus quis placeat suscipit tempore ad
@@ -46,8 +47,10 @@ const test = () => {
               refer="https://trainings.internshala.com/refer/copy_link/ISRP14152888s"
               name="Join here"
             />
+            {/* <Ads heading =""/> */}
+ 
 
-          {/* <Date date="01 June 2022" />
+            {/* <Date date="01 June 2022" />
           <MainHeading heading="Internshala: Trainings and Internships" />
           <Images src="/internshala.svg" />
           <Begin />
@@ -156,8 +159,9 @@ const test = () => {
           ></ins>
 
           <End /> */}
+          </section>
         </section>
-      </section></section>
+      </section>
     </>
   );
 };
