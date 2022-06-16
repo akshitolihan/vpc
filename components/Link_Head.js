@@ -18,7 +18,7 @@ const Link_Head = (props) => {
     <>
           <span
             id={navbar.georgia}
-            className="flex justify- text-[26px] font-bold p-0 md:p-4 pt-4"
+            className="flex justify- text-[26px] font-bold p-0 py-4"
           >
       <Link href={props.link} passHref>
         <a target="_blank" rel="noopener noreferrer" className="cursor-pointer">
