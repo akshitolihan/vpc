@@ -80,7 +80,7 @@ const Me = () => {
               </div>
             </section>
           </section>
-          <section className="hidden md:flex justify-center ml-20 rounded-2xl -skew-x-6 shadow-xl bg-[#EDE7F6] ">
+          <section className="hidden md:flex justify-center ml-20 rounded-2xl -skew-x-6 shadow-xl bg-[#C5CAE9] ">
             <Image
               src="/Akshit_T.png"
               width={360 + "px"}
@@ -97,7 +97,7 @@ const Me = () => {
               width={180 + "px"}
               height={190 + "px"}
               alt="Akshit Kumar"
-              className="fill-white cursor-pointer -skew-x-3 rounded-full bg-[#EDE7F6]"
+              className="fill-white cursor-pointer -skew-x-3 rounded-full bg-[#C5CAE9]"
             />
           </section>
           <section className="px-20 md:hidden">

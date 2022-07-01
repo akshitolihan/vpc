@@ -19,9 +19,9 @@ const blog6 = () => {
       </Head>
 
       <Navbar />
-      <section className="flex justify-center flex-wrap md:flex-nowrap md:bg-[#F8F9FA] ">
-        <section className="w-auto flex justify-center bg-white rounded-xl shadow-lg my-10">
-          <section className="shadow-top m-0 md:m-0 rounded-3xl text-black lg:w-[900px] ">
+      <section className="flex justify-center flex-wrap md:flex-nowrap ">
+        <section className="w-auto flex justify-center bg-white rounded-[30px] shadow-lg my-10 md:bg-gradient-to-r from-[#42e798] via-[#1DE9B6] to-[#00B0FF] md:hover:bg-gradient-to-l  md:p-2">
+          <section className="shadow-top m-0 md:m-0 rounded-3xl text-black lg:w-[900px] bg-white">
             <section className="p-2 pt-4 md:px-14">
               <Date date="9 June 2022" />
               <MainHeading heading="Top Online Learning Platforms" />
@@ -189,7 +189,7 @@ const blog6 = () => {
         ></ins>
       </section> */}
 
-      <div className="flex justify-center">
+      <div className="flex justify-center bg-[#ffffff]">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
           <Card
             heading="Connect on Telegram"

@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Script
         strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-DFZ3EC0TFK`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-FKQ9S82H4D`}
       />
 
       <Script id="analytics" strategy="lazyOnload">
@@ -28,17 +28,13 @@ function MyApp({ Component, pageProps }) {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
               
-            gtag('config', 'G-DFZ3EC0TFK');
+            gtag('config', 'G-FKQ9S82H4D');
         `}
       </Script>
-{/* 
-      <Script
-        async="true"
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6898963328156558"
-      ></Script> */}
+
       <Script
         id="Adsense-id"
-        data-ad-client="ca-pub-6898963328156558"
+        data-ad-client="ca-pub-7529627306532187"
         async="true"
         strategy="beforeInteractive"
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
