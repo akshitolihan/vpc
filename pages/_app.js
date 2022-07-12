@@ -17,9 +17,10 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      {/* <Script
+    {/* Analytics Code  */}
+      <Script
         strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-FKQ9S82H4D`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-MZ240ZGR0H`}
       />
 
       <Script id="analytics" strategy="lazyOnload">
@@ -28,9 +29,9 @@ function MyApp({ Component, pageProps }) {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
               
-            gtag('config', 'G-FKQ9S82H4D');
+            gtag('config', 'G-MZ240ZGR0H');
         `}
-      </Script> */}
+      </Script>
 
 {/* Adsense code */}
       <Script
