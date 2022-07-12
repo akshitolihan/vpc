@@ -5,15 +5,20 @@ import Link from "next/link";
 import Image from "next/image";
 import { Transition } from "@headlessui/react";
 import { FaWineBottle, FaApple, FaAngleUp } from "react-icons/fa";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const router = useRouter();
   return (
     <>
       <Head>
+        <meta
+          name="google-site-verification"
+          content="5P3r_-9DRMSS2coMO412nNDmsXRWk3W4zECVmpBexvY"
+        />
       </Head>
-      <header id={navbar.font} className="shadow-lg  text-center ">
+      <header id={navbar.font} className="text-center">
         <nav className="flex items-center justify-between w-full mx-auto flex-wrap flex-col md:flex-row card ">
           <div className="lg:justify-start md:inline-flex ml-4">
             <Link href="/" className="justify-items-start " passHref>
@@ -26,7 +31,6 @@ const Navbar = () => {
               />
             </Link>
           </div>
-
           <div className="text-center no-underline text-[#2F4858] font-extrabold justify-center  hidden md:flex flex-wrap rounded-xl">
             <Link href="/">
               <a className="p-4 text-xl block">Home</a>
@@ -126,13 +130,13 @@ const Navbar = () => {
                   <Link href="/contact">
                     <a className="p-2 text-xl block">Contact</a>
                   </Link>
+                  
                 </div>
               </div>
             )}
-                    <hr/>
           </Transition>
         </div>
-
+        <hr/>
       </header>
       {/* <hr/> */}
     </>

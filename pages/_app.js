@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <Script
+      {/* <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=G-FKQ9S82H4D`}
       />
@@ -30,11 +30,12 @@ function MyApp({ Component, pageProps }) {
               
             gtag('config', 'G-FKQ9S82H4D');
         `}
-      </Script>
+      </Script> */}
 
+{/* Adsense code */}
       <Script
         id="Adsense-id"
-        data-ad-client="ca-pub-7529627306532187"
+        data-ad-client="ca-pub-2728688115283691"
         async="true"
         strategy="beforeInteractive"
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"

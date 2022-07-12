@@ -1,11 +1,10 @@
 import React from "react";
 import Image from "next/dist/client/image";
-
+import Note from "../components/Note";
 const trys = () => {
   return (
     <>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/FWDhVBkcTqo" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
-
+      <Note />
       {/* <section classNameName='shadow-lg max-w-lg flex justify-between p-'>
             <Image
                 alt="image"
