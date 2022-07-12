@@ -13,10 +13,6 @@ const Navbar = () => {
   return (
     <>
       <Head>
-        <meta
-          name="google-site-verification"
-          content="5P3r_-9DRMSS2coMO412nNDmsXRWk3W4zECVmpBexvY"
-        />
       </Head>
       <header id={navbar.font} className="text-center">
         <nav className="flex items-center justify-between w-full mx-auto flex-wrap flex-col md:flex-row card ">
@@ -130,7 +126,7 @@ const Navbar = () => {
                   <Link href="/contact">
                     <a className="p-2 text-xl block">Contact</a>
                   </Link>
-                  
+
                 </div>
               </div>
             )}
