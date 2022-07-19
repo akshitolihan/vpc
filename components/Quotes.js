@@ -27,6 +27,7 @@ const Quotes = (props) => {
               className="cursor-pointer"
             >
               <Image
+              alt="quoter"
                 className="rounded-full justify-between mr-4"
                 src={props.img}
                 height={props.height}

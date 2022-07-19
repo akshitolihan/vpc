@@ -20,7 +20,7 @@ const Page = () => {
         height="500px"
         width="910 px"
         heading="404 Error"
-        para="This page doesn't exist. Please route to home. You might have enter a wriong url in the webspage. "
+        para="This page doesn't exist. Please route to home. You might have enter a wrong URL in the browser. "
         one="Page"
         two="Not"
         three="Found"
