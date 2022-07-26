@@ -6,7 +6,7 @@ const SubHead1 = (props) => {
     <>
         <section
         id={navbar.georgia}
-        className="flex justify-center text-[26px] font-bold p-0 py-6">
+        className="flex justify-center text-2xl font-bold p-0 py-6">
             {props.subhead1}
         </section>
     </>

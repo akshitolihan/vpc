@@ -1,9 +1,5 @@
-import React, { useState } from "react";
-import Head from "next/head";
+import React from "react";
 import navbar from "../styles/Navbar.module.css";
-import Link from "next/link";
-import Image from "next/image";
-import { Transition } from "@headlessui/react";
 import {
   FaLinkedin,
   FaFacebook,
@@ -12,70 +8,145 @@ import {
   FaInstagram,
   FaTwitter,
 } from "react-icons/fa";
-
-const Footer = () => {
+import Link from "next/link";
+const Footer = (props) => {
   return (
     <>
-      <footer
-        id={navbar.font}
-        className="p-2 rounded-t-2xl shadow-aksh flex justify-center w-full"
-      >
-        <div className="md:grid md:grid-cols-2">
-          <h1 className="text-center p-2 text-xl font-bold text-[#2F4858] ">
-            &copy; Copyrights Reserved @Villagepur
+      <section className="grid justify-center md:flex md:justify-evenly bg-[#ffffff] shadow-aksh rounded-lg mt-12">
+        <section className="m-2  justify-center">
+          <h1
+            id={navbar.font}
+            type="button"
+            className="text-3xl font-bold m-4 pt-4 py-6 text-center md:text-justify"
+          >
+            <span>Village</span>
+            <span className="text-[#448AFF]">Pur</span>
           </h1>
-          <div className="flex justify-center text-[#2F4858]">
-            <a
-              className="p-3 text-xl"
-              href="https://www.linkedin.com/in/akshitvillager/"
-              target="_blank"
-              rel="noopener noreferrer"
+
+          <h1
+            id={navbar.font}
+            className="text-xl font-bold m-4 text-center md:text-justify w-auto tracking-wider"
+          >
+            We talk informative and needful.
+          </h1>
+          <h1
+            id={navbar.font}
+            className="text-xl font-bold m-4 text-center md:text-justify w-auto tracking-wider"
+          >
+            We talk about India and people in India.
+          </h1>
+        </section>
+        <hr />
+        <section className="m-4 pt-4 grid justify-center">
+          <Link href="/" passHref>
+            <h1
+              id={navbar.font}
+              className="text-xl font-bold m-2 cursor-pointer text-justify w-auto tracking-wider"
             >
-              <FaLinkedin />
-            </a>
-            <a
-              className="p-3 text-xl"
-              href="https://www.youtube.com/channel/UCR3Py_Ko1w8Y8tK8rg5wwqA"
-              target="_blank"
-              rel="noopener noreferrer"
+              Home
+            </h1></Link>
+          <Link href="blog" passHref>
+            <h1
+              id={navbar.font}
+              className="text-xl font-bold m-2 cursor-pointer text-justify w-auto tracking-wider"
             >
-              <FaYoutube />
-            </a>
-            <a
-              className="p-3 text-xl"
-              href="https://twitter.com/akshitvillager"
-              target="_blank"
-              rel="noopener noreferrer"
+              Blog
+            </h1></Link>
+          <Link href="/videos" passHref>
+
+            <h1
+              id={navbar.font}
+              className="text-xl font-bold m-2 cursor-pointer text-justify w-auto tracking-wider"
             >
-              <FaTwitter />
-            </a>
-            <a
-              className="p-3 text-xl"
-              href="https://www.instagram.com/akshitvillager/"
-              target="_blank"
-              rel="noopener noreferrer"
+              Videos
+            </h1></Link>
+          <Link href="/quotes" passHref>
+
+            <h1
+              id={navbar.font}
+              className="text-xl font-bold m-2 cursor-pointer text-justify w-auto tracking-wider"
             >
-              <FaInstagram />
-            </a>
-            <a
-              className="p-3 text-xl"
-              href="https://github.com/akshitvillager"
-              target="_blank"
-              rel="noopener noreferrer"
+              Quotes
+            </h1></Link>
+          <Link href="/about" passHref>
+
+            <h1
+              id={navbar.font}
+              className="text-xl font-bold m-2 cursor-pointer text-justify w-auto tracking-wider"
             >
-              <FaGithub />
-            </a>
-            <a
-              className="p-3 text-xl"
-              href="https://www.facebook.com/akshitvillager"
-              target="_blank"
-              rel="noopener noreferrer"
+              About
+            </h1></Link>
+        </section>
+        <hr />
+        <section>
+          <main className="m-4 pt-4">
+            <h1
+              id={navbar.font}
+              className="text-center text-xl font-bold my-4 px-3 md:text-justify w-auto tracking-wider"
             >
-              <FaFacebook />
-            </a>
-          </div>
-        </div>
-      </footer>
+              Drop a message!
+            </h1>
+            <section className="flex justify-center md:flex md:justify-start text-[#000000] ">
+              <a
+                className="p-3 text-xl hover:text-[#448AFF]"
+                href="https://www.linkedin.com/in/akshitvillager/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                className="p-3 text-xl hover:text-[#448AFF]"
+                href="https://www.youtube.com/channel/UCR3Py_Ko1w8Y8tK8rg5wwqA"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaYoutube />
+              </a>
+              <a
+                className="p-3 text-xl hover:text-[#448AFF]"
+                href="https://twitter.com/akshitvillager"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTwitter />
+              </a>
+              <a
+                className="p-3 text-xl hover:text-[#448AFF]"
+                href="https://www.instagram.com/akshitvillager/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                className="p-3 text-xl hover:text-[#448AFF]"
+                href="https://github.com/akshitvillager"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </a>
+              <a
+                className="p-3 text-xl hover:text-[#448AFF]"
+                href="https://www.facebook.com/akshitvillager"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebook />
+              </a>
+            </section>
+            <hr className="md:hidden" />
+            <h1
+              id={navbar.font}
+              className="text-center p-3 pt-8 text-xl font-bold text-[#000000] "
+            >
+              &copy; Copyrights Reserved @<span>Village</span>
+              <span className="text-[#448AFF]">Pur</span>
+            </h1>
+          </main>
+        </section>
+      </section>
     </>
   );
 };

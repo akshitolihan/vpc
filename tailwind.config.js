@@ -21,6 +21,7 @@ module.exports = {
       },
       boxShadow: {
         'aksh': '0px 0px 10px rgba(100, 100, 111, 0.2)',
+        'aksh2': '0px 7px 29px 0px rgba(100, 100, 111, 0.2)' ,
       },
       screens: {
         'break1': '1220px',

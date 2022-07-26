@@ -8,7 +8,7 @@ const Video = (props) => {
   return (
     <>
       <div className="flex justify-center">
-        <div className="shadow-2xl shadow-top m-2 md:m-10  bg-white rounded-3xl p-6 text-white  scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl mt-[16px]">
+        <div className="shadow-2xl shadow-top m-2 md:m-10  bg-white rounded-3xl p-6 text-white hover:shadow-3xl scale-100 hover:scale-110 ease-in-out duration-[2000ms] mt-[16px]">
           <a
             href={props.refer}
             target="_blank"
@@ -23,18 +23,10 @@ const Video = (props) => {
               width={props.width}
             />
           </a>
-          {/* <div className="flex justify-center">
-            <button
-              type="button"
-              id={navbar.font}
-              className="text-center mr-6 no-underline text-white font-extrabold flex justify-center bg-[#2F4858] mt-4 w-auto h-auto rounded-t-[50px] px-1 rounded-r-[50px] "
-            >
-              Latest By Akshit Kumar
-            </button>
-          </div> */}
           <h1
-            id={navbar.font1}
-            className="text-black text-xl text-justify font-bold pt-5 block"
+            id={navbar.lora}
+            className="text-[#000000] text-xl text-justify font-extrabold pt-5 block"
+            // style={{ fontFamily: "Georgia serif" }}
           >
             {props.heading}
           </h1>
@@ -47,7 +39,7 @@ const Video = (props) => {
             <button
               type="button"
               id={navbar.font}
-              className="text-center mr-6 no-underline text-[#fff] font-extrabold flex justify-center bg-[#1DE9B6] mt-4 w-auto h-auto px-1  rounded-t-[50px]  rounded-r-[50px] "
+              className="text-center mr-6 no-underline text-[#fff] font-extrabold flex justify-center bg-[#448AFF] mt-4 w-auto h-auto px-1  rounded-t-[50px]  rounded-r-[50px] "
             >
               Watch for Free
             </button>

@@ -1,26 +1,14 @@
 import React from "react";
 import Head from "next/head";
-import { FaApple, BiHome } from "react-icons/fa";
 import Navbar from "../components/Navbar";
 import Carousel from "../components/Carousel";
 import Image from "next/dist/client/image";
 import Footer from "../components/Footer";
-import Code from "../components/Code";
-import Books from "../components/Books";
-import Video from "../components/Video";
+import Carousel2 from "../components/Carousel2";
 import Heading from "../components/Heading";
-import Quotes from "../components/Quotes";
 import navbar from "../styles/Navbar.module.css";
-import Book1 from "../components/Book1";
 import Link from "next/link";
-import {
-  FaLinkedin,
-  FaFacebook,
-  FaGithub,
-  FaYoutube,
-  FaInstagram,
-  FaTwitter,
-} from "react-icons/fa";
+import BlogCard from "../components/BlogCard";
 
 const index = () => {
   return (
@@ -29,346 +17,116 @@ const index = () => {
         <title>Villagepur ~ Home</title>
       </Head>
       <Navbar />
+      {/* <BlogCard
+        img="/top-learning-platforms.jpg"
+        height="400px"
+        width="500px"
+        date="22 July 2022"
+        heading="This is Akshit."
+        para="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            alias, cum eveniet rem quos "
+            one="Read More"
+            refer="/blog"
+      /> */}
       <Carousel
-        img="/home.svg"
-        height="500px"
-        width="910 px"
+        img="/microsites-pana.svg"
+        height="450px"
+        width="910px"
         heading="Welcome To Villagepur"
-        para="We believe in the continuous growth of a person. We here provide
-      some good content to read, quotes that will motivate you, polls
-      where you can express your opinion and some learning content."
+        para="We believe in the continuous growth..."
+        one="We talk informative."
+      />
+      <Heading refer="" heading="What we have ? " />
+      <Carousel2
+        img="/post-pana.svg"
+        height="300px"
+        width="300px"
+        num="1."
+        heading="We have blogs to read."
+        para="Keep Reading, Keep Knowing."
         one="Blogs"
-        two="Quotes"
-        three="Books"
+        refer="/blog"
       />
 
-      <Heading heading="Our Latest Blogs" refer="/blog" />
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
-        <Books
-            img="/top-learning-platforms.jpg"
-            height="250px"
-            width="400px"
-            download="Read More"
-            refer1="/blog/top-online-learning-platforms"
-            refer2="/blog/top-online-learning-platforms"
-            heading="Top Online Learning Platforms"
-            para="In this blog, we will target college students and talk about Top Online Learning Platforms and their resources that can benefit any student. This will be useful for anyone who wants to learn deeply ..."
-          />
-          <Books
-            img="/internshala.svg"
-            height="250px"
-            width="400px"
-            download="Read More"
-            refer1="/blog/internshala"
-            refer2="/blog/internshala"
-            heading="Internshala: Trainings and Internships"
-            para="Today we are going to talk about a platform that is very useful for college students. In this blog, we are going to talk about what is Internshala and it can be useful  ..."
-          />
-          <Books
-            img="/upgrad.jpg"
-            height="250px"
-            width="400px"
-            download="Read More"
-            refer1="/blog/upgrad-courses"
-            refer2="/blog/upgrad-courses"
-            heading="Online Learning : Courses Offered By upGrad"
-            para=" Online education has become an important part of one’s learning
-                process. We have evolved so much that we can educate ourselves
-                by sitting at home. There are so many platforms that are..."
-          />
-          {/* <Books
-            img="/education.jpg"
-            height="250px"
-            width="400px"
-            download="Read More"
-            refer1="/blog/right-to-education-and-right-education"
-            refer2="/blog/right-to-education-and-right-education"
-            heading="Right To Education and Right Education"
-            para="There is not any clearcut answer to this question. We can consider the good or the bad things about social media. In this article, we will be having a view on that.Social media has its pros an ..."
-          /> */}
-        </div>
-      </div>
+      <Carousel2
+        img="/dictionary-rafiki.svg"
+        height="300px"
+        width="300px"
+        num="2."
+        heading="We have videos to watch."
+        para="Beware and Keep Watching..."
+        one="Videos"
+        refer="/videos"
+      />
 
-      <div>
-        <ins
-          className="adsbygoogle flex justify-center"
-          data-ad-client="ca-pub-6898963328156558"
-          data-ad-slot="2888842434"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
-      </div>
+      <Carousel2
+        img="/comfort-zone.svg"
+        height="300px"
+        width="300px"
+        num="3."
+        heading="We have quotes to motivate."
+        para="Stay motivated, Stay energetic..."
+        one="Quotes"
+        refer="/quotes"
+      />
+      <Carousel2
+        img="/Contact-us-cuate.svg"
+        height="300px"
+        width="300px"
+        num="4."
+        heading="Know about us more here."
+        para="Stay informed, Stay Connected..."
+        one="Know Us"
+        refer="/about"
+      />
+      <Carousel2
+        img="/more-rafiki.svg"
+        height="300px"
+        width="300px"
+        num="5."
+        heading="A lot coming your way."
+        para=""
+        one="Home"
+        refer=""
+      />
 
-      <Heading heading="Our Latest Videos" refer="/learn" />
-
-      <div className="grid md:grid-cols-2 lg:grid-cols-3">
-        <Video
-          img="/thumbnail/Wel_to_CP.png"
-          height="250px"
-          width="500px"
-          heading="WELCOME TO CODEPINE"
-          para=""
-          refer="https://www.youtube.com/embed/ApZL5T5fQuA"
-          watch="https://www.youtube.com/embed/ApZL5T5fQuA"
-        />
-        <Video
-          img="/thumbnail/Install_VS_Code_Thumbnail.png"
-          height="250px"
-          width="500px"
-          heading="INSTALLING VS CODE FOR WINDOWS"
-          para=""
-          refer="https://www.youtube.com/embed/eC0WWw8Chnw"
-          watch="https://www.youtube.com/embed/eC0WWw8Chnw"
-        />
-        <Video
-          img="/thumbnail/Vs_Code_for_Python.png"
-          height="250px"
-          width="500px"
-          heading="VS CODE FOR PYTHON"
-          para=""
-          refer="https://www.youtube.com/embed/YkjPeFRTfGk"
-          watch="https://www.youtube.com/embed/YkjPeFRTfGk"
-        />
-        <Video
-          img="/thumbnail/VS_Code_For_Java.png"
-          height="250px"
-          width="500px"
-          heading="VS CODE FOR JAVA"
-          para=""
-          refer="https://www.youtube.com/embed/I84YeM5lHhM"
-          watch="https://www.youtube.com/embed/I84YeM5lHhM"
-        />
-        <Video
-          img="/thumbnail/VS_Code_For_Cpp.png"
-          height="250px"
-          width="500px"
-          heading="VS CODE FOR C++"
-          para=""
-          refer="https://www.youtube.com/embed/UOYtHPrZheg"
-          watch="https://www.youtube.com/embed/UOYtHPrZheg"
-        />
-        <Video
-          img="/thumbnail/VS_Code_Unsinstallation_Thumbnail_English.png"
-          height="250px"
-          width="500px"
-          heading="UNINSTALLING VS CODE FROM WINDOWS"
-          para=""
-          refer="https://www.youtube.com/embed/o5ZoQc3Zv4c"
-          watch="https://www.youtube.com/embed/o5ZoQc3Zv4c"
-        />
-      </div>
-      <ins
-        className="adsbygoogle  flex justify-center"
-        data-ad-client="ca-pub-6898963328156558"
-        data-ad-slot="9100394540"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
-
-      <Heading heading="Quotes" refer="/quotes" />
-
-      <div className="grid md:grid-cols-2">
-        <Quotes
-          img="/avatar.svg"
-          height="84px"
-          width="84px"
-          heading="Someone"
-          para="Things are declined that are not up to the requirements."
-        />
-        <Quotes
-          img="/avatar.svg"
-          height="84px"
-          width="84px"
-          heading="Someone"
-          para="Dedication is the best virtue."
-        />
-        <Quotes
-          img="/avatar.svg"
-          height="84px"
-          width="84px"
-          heading="Someone"
-          para="Learn from your failures to achieve success."
-        />
-        <Quotes
-          img="/avatar.svg"
-          height="84px"
-          width="84px"
-          heading="Someone"
-          para="Honesty is the best policy."
-        />
-        <Quotes
-          img="/avatar.svg"
-          height="84px"
-          width="84px"
-          heading="Someone"
-          para="Communication works for those who work on communication."
-        />
-        <Quotes
-          img="/avatar.svg"
-          height="84px"
-          width="84px"
-          heading="Someone"
-          para="Choose your words wisely while speaking."
-        />
-      </div>
-      <ins
-        className="adsbygoogle  flex justify-center"
-        data-ad-client="ca-pub-6898963328156558"
-        data-ad-slot="4412024707"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
-
-      <Heading heading="Books" refer="/book" />
-
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
-          <Book1
-            img="/html5.png"
-            height="400px"
-            width="300px"
-            download="Download"
-            heading="HTML Notes For Professionals"
-            para=""
-            refer="https://books.goalkicker.com/HTML5Book/"
-          />
-          <Book1
-            img="/css.png"
-            height="400px"
-            width="300px"
-            download="Download"
-            heading="CSS Notes For Professionals"
-            para=""
-            refer="https://books.goalkicker.com/CSSBook/"
-          />
-          <Book1
-            img="/js.png"
-            height="400px"
-            width="300px"
-            download="Download"
-            heading="JavaScript Notes For Profess"
-            para=""
-            refer="https://books.goalkicker.com/JavaScriptBook/"
-          />
-        </div>
-      </div>
-
-      <ins
-        className="adsbygoogle  flex justify-center"
-        data-ad-client="ca-pub-6898963328156558"
-        data-ad-slot="9071107405"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
-
-      <Heading heading="Creator" refer="#creator" />
-
-      <div className="flex justify-center pb-4">
-        <div className=" shadow-aksh m-2 bg-[#1DE9B6] rounded-3xl p-0  scale-100 transition max-w-3xl sm:m-12 grid">
-          <div className="bg-[#ebf9ff]">
+      <Heading heading="Creator" refer="/akshitkumar" />
+      {/* photoframe */}
+      <article className="md:flex md:justify-center grid justify-center my-4">
+        <section className="flex justify-start mt-4 px-10">
+          <section className="bg-[#82B1FF] rounded-2xl px-4 pt-16 pb-12 break2: ">
+            <Image
+              style={{
+                backgroundImage: `url("background1.jpg")`,
+                width: "80%",
+                height: "50%",
+              }}
+              src="/Akshit_T.png"
+              width={300 + "px"}
+              height={350 + "px"}
+              alt="Akshit Kumar"
+              className="rounded-2xl m-0 p-0"
+            />
             <h1
-              className="text-[#2F4858] text-lg text-justify font-normal max-w-[800px] p-6"
-              style={{ fontFamily: "Georgia serif" }}
+              id={navbar.font}
+              className="text-white font-bold text-3xl text-center tracking-wider pt-4"
             >
-              Hi, This is Akshit Kumar. I am a CSE student at Chandigarh
-              University. My passion is to code and design some beautiful and
-              life-impacting software. I love writing some beautiful articles
-              that are informational as well as helpful.
+              @akshitvillager
             </h1>
-          </div>
-          <div className="flex justify-between rounded-xl p-6">
-            <div>
-              <h1
-                id={navbar.font}
-                className="text-[#fff] text-2xl text-justify font-bold"
-              >
-                Akshit Kumar
-              </h1>
-              <h1
-                id={navbar.font}
-                className="text-[#fff] text-2xl text-justify font-bold"
-              >
-                @akshitvillager
-              </h1>
-              <h1
-                id={navbar.font}
-                className="text-[#fff] text-xl text-justify font-normal pr-3"
-              >
-                Frontend Developer, Designer, and Content Writer
-              </h1>
-              <h1
-                id={navbar.font}
-                className="text-[#fff] text-2xl text-justify font-bold"
-              >
-                <div className="flex text-[#ffffff] text-2xl text-justify font-bold">
-                  <a
-                    className="p-3 text-xl"
-                    href="https://www.linkedin.com/in/akshitvillager/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaLinkedin />
-                  </a>
-                  <a
-                    className="p-3 pl-0 text-xl"
-                    href="https://www.youtube.com/channel/UCR3Py_Ko1w8Y8tK8rg5wwqA"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaYoutube />
-                  </a>
-                  <a
-                    className="p-3 pl-0 text-xl"
-                    href="https://twitter.com/akshitvillager"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaTwitter />
-                  </a>
-                  <a
-                    className="p-3 pl-0 text-xl"
-                    href="https://www.instagram.com/akshitvillager/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaInstagram />
-                  </a>
-                  <a
-                    className="p-3 pl-0 text-xl"
-                    href="https://github.com/akshitvillager"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaGithub />
-                  </a>
-                  <a
-                    className="p-3 pl-0 text-xl"
-                    href="https://www.facebook.com/akshitvillager"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaFacebook />
-                  </a>
-                </div>
-              </h1>
-            </div>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cursor-pointer"
-            >
-              <Image
-                alt="image"
-                className="rounded-full justify-between mr-4"
-                src="/A8.jpg"
-                height="128px"
-                width="128px"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
+            <div className="mt-4 ml-16 w-20 h-4 rounded-lg bg-white"></div>
+          </section>
+        </section>
+        <section id={navbar.font} className="my-8 mx-2 md:mt-48 px-10">
+          <h1 className="font-bold text-3xl tracking-wide">Hi! I am, </h1>
+          <h1 className="text-[#82B1FF] text-4xl font-bold">Akshit Kumar</h1>
+          <h1 className="font-bold text-3xl tracking-wide mt-20">
+            More info here:
+          </h1>
+          <span className="text-2xl cursor-pointer text-[#ffffff] bg-[#448AFF] hover:bg-[#42e798] scale-90 hover:scale-100 ease-in-out duration-1000 px-2 rounded-t-[50px] rounded-r-[50px] my-8 font-bold">
+            <Link href="/akshitkumar">akshitA</Link>
+          </span>
+        </section>
+      </article>
       <Footer />
     </>
   );

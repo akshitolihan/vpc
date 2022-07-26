@@ -4,81 +4,76 @@ import navbar from "../styles/Navbar.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import { Transition } from "@headlessui/react";
-import { FaWineBottle, FaApple, FaAngleUp } from "react-icons/fa";
+import { FaWineBottle, FaApple, FaLocationArrow } from "react-icons/fa";
 import { useRouter } from "next/router";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
   return (
     <>
-      <Head>
-      </Head>
-      <header id={navbar.font} className="text-center ">
+      <Head></Head>
+      <header style={{ backgroundColor: `${props.bColor}` }} id={navbar.font} className="text-center ">
         <nav className="flex items-center justify-between w-full mx-auto flex-wrap flex-col md:flex-row card ">
-          <div className="lg:justify-start md:inline-flex ml-4">
-            <Link href="/" className="justify-items-start " passHref>
-              <Image
-                src="/vp.svg"
-                width={102 + "px"}
-                height={40 + "px"}
-                alt="Web Icon"
-                className="fill-white cursor-pointer"
-              />
-            </Link>
-          </div>
-          <div className="text-center no-underline text-[#2F4858] font-extrabold justify-center  hidden md:flex flex-wrap rounded-xl">
-            <Link href="/">
-              <a className="p-4 text-xl block">Home</a>
-            </Link>
-            <Link href="/blog">
-              <a className="p-4 text-xl block">Blogs</a>
-            </Link>
-            <Link href="/learn">
-              <a className="p-4 text-xl block">Learn</a>
-            </Link>
-            <Link href="/quotes">
-              <a className="p-4 text-xl block">Quotes</a>
-            </Link>
-            <Link href="/book">
-              <a className="p-4 text-xl block">Books</a>
-            </Link>
-            {/* <Link href="/entertainment">
-              <a className="p-4 text-xl block">Enjoy</a>
-            </Link> */}
-            <Link href="/contact">
-              <a className="p-4 text-xl block">Contact</a>
-            </Link>
-            <Link href="/akshitkumar">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                className="cursor-pointer"
-              >
-                <button
-                  type="button"
-                  className="text-center mr-4 no-underline text-[#ffffff] text-xl font-semibold justify-center bg-gradient-to-r from-[#42e798] via-[#1DE9B6] to-[#00B0FF] hover:bg-gradient-to-l mt-4 w-auto h-auto px-2 rounded-tr-[20px] rounded-tl-[20px] rounded-br-[20px]"
-                >
-                  AkshitA
-                </button>
-              </a>
-            </Link>
+          <Link href="/" className="justify-items-start " passHref>
+            <div className="lg:justify-start md:inline-flex ml-4 text-center no-underline text-[#2F4858] text-3xl font-extrabold justify-center flex-wrap rounded-xl cursor-pointer">
+              <span>Village</span> <span className="text-[#448AFF]">Pur</span>
+            </div>
+          </Link>
+          <div className="text-center no-underline text-[#2F4858] text-xl font-extrabold justify-center  hidden md:flex flex-wrap rounded-xl">
+            <span className="p-4 text-xl block">
+              <Link href="/">
+                <a className={router.pathname == "/" ? "active" : ""}>Home</a>
+              </Link>
+            </span>
+            <span className="p-4 text-xl block">
+              <Link href="/blog">
+                <a style={{ color: `${props.Color}` }} className={router.pathname == "/blog" ? "active" : ""}>
+                  Blog
+                </a>
+              </Link>
+            </span>
+            <span className="p-4 text-xl block">
+              <Link href="/videos">
+                <a style={{ color: `${props.vColor}` }}  className={router.pathname == "/videos" ? "active" : ""}>
+                  Videos
+                </a>
+              </Link>
+            </span>
+            <span className="p-4 text-xl block">
+              <Link href="/quotes">
+                <a className={router.pathname == "/quotes" ? "active" : ""}>
+                  Quotes
+                </a>
+              </Link>
+            </span>
+            <span className="p-4 text-xl block">
+              <Link href="/about">
+                <a className={router.pathname == "/about" ? "active" : ""}>
+                  About
+                </a>
+              </Link>
+            </span>
           </div>
         </nav>
         <div className="mr-10 flex justify-between md:hidden ">
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
-            className="bg-[#2F4858] inline-flex items-center justify-center p-2 rounded-md text-white  hover:bg-[blue-600] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-[#42e798] focus:ring-white"
+            className="bg-[#448AFF] inline-flex items-center justify-center p-2 rounded-md text-white  hover:bg-[blue-600] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-[#fff] focus:ring-white "
             aria-controls="mobile-menu "
             aria-expanded="false"
           >
-            <span className="sr-only">Open main menu</span>
-            {!isOpen ? <FaWineBottle /> : <FaAngleUp />}
+            <span className="sr-only -rotate-6">Open main menu</span>
+            {!isOpen ? (
+              <FaWineBottle />
+            ) : (
+              <FaLocationArrow className="-rotate-45" />
+            )}
           </button>
           <button
             type="button"
-            className="text-left no-underline text-[#2F4858] font-extrabold justify-center"
+            className="text-left no-underline text-[#000000] font-extrabold justify-center"
           >
             <Link href="/akshitkumar">
               <a
@@ -105,36 +100,55 @@ const Navbar = () => {
                   ref={ref}
                   className="bg-[#] block px-2 pt-2 pb-3 space-y-1 sm:px-3 font-extrabold rounded"
                 >
-                  <Link href="/">
-                    <a className="p-2 text-xl block">Home</a>
-                  </Link>
-                  <Link href="/blog">
-                    <a className="p-2 text-xl block">Blogs</a>
-                  </Link>
-                  <Link href="/learn">
-                    <a className="p-2 text-xl block">Learn</a>
-                  </Link>
-                  <Link href="/quotes">
-                    <a className="p-2 text-xl block">Quotes</a>
-                  </Link>
-                  <Link href="/book">
-                    <a className="p-2 text-xl block">Books</a>
-                  </Link>
-                  {/* <Link href="/entertainment">
-                    <a className="p-2 text-xl block">Enjoy</a>
-                  </Link> */}
-                  <Link href="/contact">
-                    <a className="p-2 text-xl block">Contact</a>
-                  </Link>
-
+                  <span className="p-4 text-xl block">
+                    <Link href="/">
+                      <a className={router.pathname == "/" ? "active" : ""}>
+                        Home
+                      </a>
+                    </Link>
+                  </span>
+                  <span className="p-4 text-xl block">
+                    <Link href="/blog">
+                      <a className={router.pathname == "/blog" ? "active" : ""}>
+                        Blog
+                      </a>
+                    </Link>
+                  </span>
+                  <span className="p-4 text-xl block">
+                    <Link href="/videos">
+                      <a
+                        className={router.pathname == "/videos" ? "active" : ""}
+                      >
+                        Learn
+                      </a>
+                    </Link>
+                  </span>
+                  <span className="p-4 text-xl block">
+                    <Link href="/quotes">
+                      <a
+                        className={router.pathname == "/quotes" ? "active" : ""}
+                      >
+                        Quotes
+                      </a>
+                    </Link>
+                  </span>
+                  <span className="p-4 text-xl block">
+                    <Link href="/about">
+                      <a
+                        className={
+                          router.pathname == "/about" ? "active" : ""
+                        }
+                      >
+                        About
+                      </a>
+                    </Link>
+                  </span>
                 </div>
               </div>
             )}
           </Transition>
         </div>
-        <hr/>
       </header>
-      {/* <hr/> */}
     </>
   );
 };

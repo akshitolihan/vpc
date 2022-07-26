@@ -42,7 +42,7 @@ function MyApp({ Component, pageProps }) {
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       />
       <NextNProgress
-        color="#1DE9B6"
+        color="#448AFF"
         startPosition={0.5}
         stopDelayMs={100}
         height={3}

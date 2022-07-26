@@ -4,6 +4,7 @@ import Head from "next/head";
 import Carousel from "../components/Carousel";
 import Heading from "../components/Heading";
 import Quotes from "../components/Quotes";
+import Quote from "../components/Quote";
 import Footer from "../components/Footer";
 import Image from "next/dist/client/image";
 const quotes = () => {
@@ -14,18 +15,26 @@ const quotes = () => {
       </Head>
       <Navbar />
       <Carousel
-        img="/quotes.jpg"
-        height="500px"
-        width="910 px"
+        img="/comfort-zone.svg"
+        height="450px"
+        width="910px"
         heading="Welcome To Quotes"
-        para="Keeping ourselves motivated is one the need of the time. We need to be energetic and the enthusiastic all the time. Here you can read the quote that can give you motivation."
-        one="Blogs"
-        two="Quotes"
-        three="Books"
-      />
-      <Heading heading="Quotes" refer="/quotes" />
+        para="Stay motivated, Stay energetic..."
+        one="Quotes"
 
-      <div className="grid md:grid-cols-2">
+      />
+      <Heading heading="Top Quotes" refer="/quotes" />
+      <Quote
+        img="/gandhiji.png"
+        height="450px"
+        width="350px"
+        refer="/blog"
+        name="Mahatma Gandhi Ji"
+        quote="Future of India lives in the villages of India."
+        bgColor="rgb(216 225 231)"
+      />
+
+      {/* <div className="grid md:grid-cols-2">
         <Quotes
           img="/avatar.svg"
           height="84px"
@@ -180,7 +189,7 @@ const quotes = () => {
           heading="Someone"
           para="Introspection helps you to become better in your life in all aspects."
         />
-      </div>
+      </div> */}
       <Footer />
     </>
   );

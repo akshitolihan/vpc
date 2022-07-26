@@ -8,7 +8,8 @@ const Course = (props) => {
   return (
     <>
       <div className="flex justify-center max-w-[460px] ">
-        <div className="shadow-2xl shadow-top m-2 md:m- bg-white rounded-3xl p-2 text-white  scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl mt-[16px] ">
+        <div style={{ fontFamily: "Georgia serif" }}
+          className="shadow-2xl shadow-top m-2 md:m- bg-white rounded-3xl p-2 text-white  scale-95 hover:scale-100 transition duration-700 ease-in-out hover:shadow-3xl mt-[16px] ">
           <Link href={props.refer} scroll={false} passHref>
             <a
               className="cursor-pointer"
@@ -27,14 +28,14 @@ const Course = (props) => {
                 id={navbar.font1}
                 className="text-black text-xl text-justify font-bold pt-5 relative "
               >
-                
+
                 {props.heading}
               </h1>
               <p
                 id={navbar.font1}
                 className="text-[#2F4858] text-justify text-lg font-normal pt-4"
               >
-                
+
                 {props.para}
               </p>
 

@@ -1,36 +1,47 @@
 import React from "react";
+import Image from "next/image";
 import navbar from "../styles/Navbar.module.css";
+import Link from "next/link";
+import { RiMessage3Fill } from "react-icons/ri";
 
 const Card = (props) => {
   return (
     <>
-      <div className="flex justify-center">
-        <div className="flex justify-center w-full max-w-[400px] mt-4">
-          <div className="m-2 md:m-10  bg-white rounded-2xl p-6 text-white shadow-lg scale-95 hover:scale-100 transition duration-700 ease-in-out mt-4 hover:shadow-2xl">
-            <h2
-              id={navbar.font}
-              className="text-[#2F4858] text-2xl text-justify font-bold pb-6"
-            >
-              {props.heading}
-            </h2>
-            <p
-              id={navbar.font}
-              className="text-black text-xl text-justify pb-6"
-            >
-              {props.para}
-            </p>
-            <a
-              id={navbar.font}
-              href={props.refer}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-center mr-6 no-underline text-[#2F4858] font-extrabold justify-center bg-[#1DE9B6] mt-4 w-auto h-auto px-2 rounded-t-[50px]  rounded-r-[50px] align-bottom"
-            >
-              {props.name}
-            </a>
-          </div>
-        </div>
-      </div>
+      <section className="flex justify-center">
+        <Link href={props.refer} passHref>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <section style={{ backgroundColor: `${props.bgColor}` }} className="flex cursor-pointer shadow-lg hover:shadow-2xl rounded-xl p-4 max-w-[400px] md:max-w-[400px] m-4">
+              <section>
+                <div className="md:flex justify-center">
+                  <div
+
+                    className="w-auto md:flex md:justify-center md:w-full rounded-lg"
+                  >
+                    <Image
+                      alt="home"
+                      className="block rounded-lg"
+                      src={props.img}
+                      height={props.height}
+                      width={props.width}
+                    />
+                  </div>
+                </div>
+              </section>
+              <section className="mx-4">
+                <section className="inline-flex justify-evenly my-4">
+                  <h1
+                    id={navbar.font}
+                    type="button"
+                    className="text-3xl text-center font-bold text-[#ffffff] min-w-lg max-w-xl"
+                  >
+                    {props.heading}
+                  </h1>
+                </section>
+              </section>
+            </section>
+          </a>
+        </Link>
+      </section>
     </>
   );
 };

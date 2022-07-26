@@ -11,7 +11,7 @@ const Heading = (props) => {
           <h1
             type="button"
             id={navbar.font}
-            className="text-center mr-6 no-underline text-[#ffffff] font-extrabold flex justify-center  bg-gradient-to-r from-[#42e798] via-[#1DE9B6] to-[#00B0FF]  text-transparent bg-clip-text hover:bg-gradient-to-l mt-4 w-auto h-auto text-4xl rounded-t-[50px]  rounded-r-[50px] cursor-pointer"
+            className="text-center mr-6 no-underline font-extrabold flex justify-center text-[#448AFF] mt-4 w-auto h-auto text-5xl rounded-t-[50px] rounded-r-[50px] cursor-pointer my-8"
           >
             {props.heading}
           </h1>

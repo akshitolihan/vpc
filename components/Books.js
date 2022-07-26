@@ -25,15 +25,15 @@ const Books = (props) => {
             id={navbar.font1}
             className="text-black text-xl text-justify font-bold pt-5 relative "
           >
-            {" "}
-            {props.heading}{" "}
+
+            {props.heading}
           </h1>
           <p
             id={navbar.font1}
             className="text-[#2F4858] text-justify text-lg font-normal pt-4"
           >
-            {" "}
-            {props.para}{" "}
+
+            {props.para}
           </p>
 
           <button

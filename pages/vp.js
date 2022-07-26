@@ -1,12 +1,20 @@
-import React from 'react'
-import navbar from "../styles/Navbar.module.css";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
-const vp = () => {
+
+export const MyNav = () => {
+
+  const router = useRouter();
+
   return (
-    <>
-        <h1 id={navbar.edu} className="text-[100px] font-bold">VillagePur</h1>
-    </>
-  )
-}
-
-export default vp;
+    <ul>
+      <li className={router.pathname == "/" ? "active" : ""}>
+        <Link href="/">home</Link>
+      </li>
+      <li className={router.pathname == "/about" ? "active" : ""}>
+        <Link href="/about">about</Link>
+      </li>
+    </ul>
+  );
+};
+export default MyNav;
