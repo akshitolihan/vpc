@@ -6,8 +6,8 @@ const Text = (props) => {
     <>
       <section className="flex justify-center">
         <p
-        style = {{color: `${props.color}`}}
-          id={navbar.font}
+          style={{ color: `${props.color}` }}
+          id={navbar.uchen}
           className="text-2xl font-bold text-center max-w-xl py-2"
         >
           {props.text}

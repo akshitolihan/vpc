@@ -30,7 +30,7 @@ const Card = (props) => {
               <section className="mx-4">
                 <section className="inline-flex justify-evenly my-4">
                   <h1
-                    id={navbar.font}
+                    id={navbar.uchen}
                     type="button"
                     className="text-3xl text-center font-bold text-[#ffffff] min-w-lg max-w-xl"
                   >

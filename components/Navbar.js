@@ -13,10 +13,10 @@ const Navbar = (props) => {
   return (
     <>
       <Head></Head>
-      <header style={{ backgroundColor: `${props.bColor}` }} id={navbar.font} className="text-center ">
-        <nav className="flex items-center justify-between w-full mx-auto flex-wrap flex-col md:flex-row card ">
+      <header style={{ backgroundColor: `${props.bColor}` }} id={navbar.font} className="text-center pb-12 ">
+        <nav className="flex items-center justify-between w-full mx-auto flex-wrap flex-col md:flex-row card md:fixed  bg-[#ffffff] md:z-[1] md:shadow-lg shadow-[#EEEEEE]">
           <Link href="/" className="justify-items-start " passHref>
-            <div className="lg:justify-start md:inline-flex ml-4 text-center no-underline text-[#2F4858] text-3xl font-extrabold justify-center flex-wrap rounded-xl cursor-pointer">
+            <div className="hidden lg:justify-start md:inline-flex ml-4 text-center no-underline text-[#2F4858] text-3xl font-extrabold justify-center flex-wrap rounded-xl cursor-pointer">
               <span>Village</span> <span className="text-[#448AFF]">Pur</span>
             </div>
           </Link>
@@ -35,7 +35,7 @@ const Navbar = (props) => {
             </span>
             <span className="p-4 text-xl block">
               <Link href="/videos">
-                <a style={{ color: `${props.vColor}` }}  className={router.pathname == "/videos" ? "active" : ""}>
+                <a style={{ color: `${props.vColor}` }} className={router.pathname == "/videos" ? "active" : ""}>
                   Videos
                 </a>
               </Link>
@@ -56,7 +56,14 @@ const Navbar = (props) => {
             </span>
           </div>
         </nav>
-        <div className="mr-10 flex justify-between md:hidden ">
+        <section className="flex justify-between w-full mx-auto flex-wrap flex-col md:flex-row card fixed  bg-[#ffffff] z-[1] shadow-lg shadow-[#EEEEEE]">
+        <Link href="/" className="" passHref>
+            <div className="md:hidden inline-flex ml-4 text-center no-underline text-[#2F4858] text-3xl font-extrabold justify-center flex-wrap rounded-xl cursor-pointer">
+              <span>Village</span> <span className="text-[#448AFF]">Pur</span>
+            </div>
+          </Link>
+        <div className="mr-10 flex justify-between md:hidden  ">
+          
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
@@ -147,8 +154,9 @@ const Navbar = (props) => {
               </div>
             )}
           </Transition>
-        </div>
+        </div></section>
       </header>
+
     </>
   );
 };

@@ -12,22 +12,22 @@ import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 const video7 = () => {
     return (
         <>
-                        <Head>
+            <Head>
                 <title>VS Code for Python</title>
             </Head>
             <Navbar vColor="#448AFF" />
-            <section className="grid grid-cols-1 md:flex md:justify-around bg-[#FAFAFA]">
+            <section className="grid grid-cols-1 break1:flex break1:justify-around bg-[#FAFAFA]">
                 <section>
                     <Video2
-                        title="VS Code for Python"
+                        title="VS Code for Python || How to install VS Code for Python 2022 on Windows || Python Programming/Coding"
                         id="YkjPeFRTfGk"
                         description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil in rerum neque sequi assumenda quos doloremque? Itaque officia quasi totam ut voluptatum ea molestiae sequi in nobis? Voluptates, aliquam ipsum?"
                         height="100px"
                         width="200px"
                     />
                 </section>
-                <section>
-                    <h1 id={navbar.lora} className="m-4 my-10 text-2xl text-center font-bold"> More Videos </h1>
+                <section className="grid justify-center">
+                    <h1 id={navbar.uchen} className="m-4 my-10 text-2xl text-center font-bold"> More Videos </h1>
 
                     <VideoS
                         img="/thumbnail/R.png"

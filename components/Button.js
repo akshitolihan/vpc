@@ -7,7 +7,7 @@ const Button = (props) => {
     <>
       <Link href={props.refer}>
         <button
-          id={navbar.font}
+          id={navbar.uchen}
           type="button"
           className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
         >

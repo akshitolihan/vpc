@@ -16,7 +16,7 @@ const Quotes = (props) => {
           </div>
           <div className="flex justify-between bg-[#] rounded-xl p-6">
             <h1
-              id={navbar.font1}
+              id={1}
               className="text-black text-xl text-justify font-bold p-6"
             >
               {props.heading}
@@ -36,7 +36,7 @@ const Quotes = (props) => {
             </a>
           </div>
           {/* <button
-              type="button" id={navbar.font}
+              type="button" id={navbar.uchen}
               className="text-center mr-6 no-underline text-[#2F4858] font-extrabold justify-center bg-[#42e798] mt-4 w-auto h-8 rounded-t-[50px]  rounded-r-[50px] align-bottom "
             >
               {props.download}
@@ -55,7 +55,7 @@ const Quotes = (props) => {
           </div>
           <div>
             <button
-              id={navbar.font}
+              id={navbar.uchen}
               type="button"
               className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block animate-translate"
             >
@@ -68,21 +68,21 @@ const Quotes = (props) => {
             </p>
             <div className="grid md:grid-cols-3 justify-center">
               <button
-                id={navbar.font}
+                id={navbar.uchen}
                 type="button"
                 className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#2F4858] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
               >
                 {props.one}
               </button>
               <button
-                id={navbar.font}
+                id={navbar.uchen}
                 type="button"
                 className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#2F4858] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
               >
                 {props.two}
               </button>
               <button
-                id={navbar.font}
+                id={navbar.uchen}
                 type="button"
                 className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#2F4858] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
               >

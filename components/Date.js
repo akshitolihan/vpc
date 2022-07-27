@@ -5,7 +5,7 @@ const Date = (props) => {
   return (
     <>
       <section
-        id={navbar.font}
+        id={navbar.uchen}
         className="flex justify-center text-xl font-bold text-[#2F4858] p-0 py-2"
       >
         {props.date}

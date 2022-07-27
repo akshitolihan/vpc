@@ -24,7 +24,7 @@ const Book1 = (props) => {
           </a>
 
           <h1
-            id={navbar.font1}
+            id={1}
             className="text-black text-lg text-justify font-bold mt-2 relative"
           >
             {props.heading}
@@ -39,7 +39,7 @@ const Book1 = (props) => {
               <div className="flex justify-center pt-2">
                 <button
                   type="button"
-                  id={navbar.font}
+                  id={navbar.uchen}
                   className="text-center text-[#fff] font-extrabold bg-[#1DE9B6] w-auto h-auto px-2 py-1 rounded-t-[50px]  rounded-r-[50px]"
                 >
                   {props.download}

@@ -12,22 +12,22 @@ import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 const video4 = () => {
     return (
         <>
-                        <Head>
-                <title>Installation of Node js on Windows</title>
+            <Head>
+                <title>Installing Nodejs on Windows || 2 min Install  || An easy tutorial to install || Web Development</title>
             </Head>
             <Navbar vColor="#448AFF" />
-            <section className="grid grid-cols-1 md:flex md:justify-around bg-[#FAFAFA]">
+            <section className="grid grid-cols-1 break1:flex break1:justify-around bg-[#FAFAFA]">
                 <section>
                     <Video2
-                        title="Installation of Node js on Windows"
+                        title="Installing Nodejs on Windows || 2 min Install  || An easy tutorial to install || Web Development"
                         id="uJKUnkCB7Qg"
                         description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil in rerum neque sequi assumenda quos doloremque? Itaque officia quasi totam ut voluptatum ea molestiae sequi in nobis? Voluptates, aliquam ipsum?"
                         height="100px"
                         width="200px"
                     />
                 </section>
-                <section>
-                    <h1 id={navbar.lora} className="m-4 my-10 text-2xl text-center font-bold"> More Videos </h1>
+                <section className="grid justify-center">
+                    <h1 id={navbar.uchen} className="m-4 my-10 text-2xl text-center font-bold"> More Videos </h1>
 
                     <VideoS
                         img="/thumbnail/R.png"

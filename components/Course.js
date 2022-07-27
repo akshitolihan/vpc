@@ -25,14 +25,14 @@ const Course = (props) => {
               />
 
               <h1
-                id={navbar.font1}
+                id={1}
                 className="text-black text-xl text-justify font-bold pt-5 relative "
               >
 
                 {props.heading}
               </h1>
               <p
-                id={navbar.font1}
+                id={1}
                 className="text-[#2F4858] text-justify text-lg font-normal pt-4"
               >
 
@@ -41,7 +41,7 @@ const Course = (props) => {
 
               <button
                 type="button"
-                id={navbar.font}
+                id={navbar.uchen}
                 className="text-center mr-6 no-underline text-[#2F4858] font-extrabold justify-center bg-[#42e798] mt-4 w-auto h-8 rounded-t-[50px]  rounded-r-[50px] align-bottom "
               ></button>
             </a>

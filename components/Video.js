@@ -24,9 +24,9 @@ const Video = (props) => {
             />
           </a>
           <h1
-            id={navbar.lora}
+            id={navbar.uchen}
             className="text-[#000000] text-xl text-justify font-extrabold pt-5 block"
-            // style={{ fontFamily: "Georgia serif" }}
+          // style={{ fontFamily: "Georgia serif" }}
           >
             {props.heading}
           </h1>
@@ -38,7 +38,7 @@ const Video = (props) => {
           >
             <button
               type="button"
-              id={navbar.font}
+              id={navbar.uchen}
               className="text-center mr-6 no-underline text-[#fff] font-extrabold flex justify-center bg-[#448AFF] mt-4 w-auto h-auto px-1  rounded-t-[50px]  rounded-r-[50px] "
             >
               Watch for Free

@@ -12,21 +12,21 @@ import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 const video6 = () => {
     return (
         <>                <Head>
-        <title>VS Code for Java</title>
-    </Head>
+            <title>VS Code for Java</title>
+        </Head>
             <Navbar vColor="#448AFF" />
-            <section className="grid grid-cols-1 md:flex md:justify-around bg-[#FAFAFA]">
+            <section className="grid grid-cols-1 break1:flex break1:justify-around bg-[#FAFAFA]">
                 <section>
                     <Video2
-                        title="VS Code for Java"
+                        title="VS Code installation for Java || How to install Java || Java setup for VS Code || Complete Tutorial"
                         id="I84YeM5lHhM"
                         description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil in rerum neque sequi assumenda quos doloremque? Itaque officia quasi totam ut voluptatum ea molestiae sequi in nobis? Voluptates, aliquam ipsum?"
                         height="100px"
                         width="200px"
                     />
                 </section>
-                <section>
-                    <h1 id={navbar.lora} className="m-4 my-10 text-2xl text-center font-bold"> More Videos </h1>
+                <section className="grid justify-center">
+                    <h1 id={navbar.uchen} className="m-4 my-10 text-2xl text-center font-bold"> More Videos </h1>
 
                     <VideoS
                         img="/thumbnail/R.png"

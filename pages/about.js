@@ -24,12 +24,16 @@ const contact = () => {
       <Heading heading="About Us" refer="/about" />
       <section className="flex justify-center ">
         <section className="shadow-lg bg-[#448AFF] max-w-2xl rounded-lg hover:shadow-xl p-2">
-      <Text color="#ffffff" text = "Hi, This is Akshit Kumar."/>
-      <Text color="#ffffff" text = "We talk about different things."/>
-      <Text color="#ffffff" text = "We talk about people, and thigs related to them."/>
-      <Text color="#ffffff" text = "We talk about India."/>
-      <Text color="#ffffff" text = "To know more, Stay in touch."/>
-      </section></section>
+          <Text color="#ffffff" text="Hi, This is Akshit Kumar." />
+          <Text color="#000" text="We talk about different things." />
+          <Text
+            color="#ffffff"
+            text="We talk about people, and thigs related to them."
+          />
+          <Text color="#000" text="We talk about India." />
+          <Text color="#ffffff" text="To know more, Stay in touch." />
+        </section>
+      </section>
       <Heading heading="We Social" refer="/about" />
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">

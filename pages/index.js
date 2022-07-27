@@ -34,7 +34,7 @@ const index = () => {
         width="910px"
         heading="Welcome To Villagepur"
         para="We believe in the continuous growth..."
-        one="We talk informative."
+        one="Informative"
       />
       <Heading refer="" heading="What we have ? " />
       <Carousel2
@@ -108,7 +108,7 @@ const index = () => {
               className="rounded-2xl m-0 p-0"
             />
             <h1
-              id={navbar.font}
+              id={navbar.uchen}
               className="text-white font-bold text-3xl text-center tracking-wider pt-4"
             >
               @akshitvillager
@@ -116,15 +116,15 @@ const index = () => {
             <div className="mt-4 ml-16 w-20 h-4 rounded-lg bg-white"></div>
           </section>
         </section>
-        <section id={navbar.font} className="my-8 mx-2 md:mt-48 px-10">
+        <section id={navbar.uchen} className="my-8 mx-20 md:mt-48 ">
           <h1 className="font-bold text-3xl tracking-wide">Hi! I am, </h1>
           <h1 className="text-[#82B1FF] text-4xl font-bold">Akshit Kumar</h1>
           <h1 className="font-bold text-3xl tracking-wide mt-20">
             More info here:
           </h1>
-          <span className="text-2xl cursor-pointer text-[#ffffff] bg-[#448AFF] hover:bg-[#42e798] scale-90 hover:scale-100 ease-in-out duration-1000 px-2 rounded-t-[50px] rounded-r-[50px] my-8 font-bold">
+          <h1 className="text-2xl cursor-pointer text-[#ffffff] bg-[#82B1FF] hover:scale-110 ease-in-out duration-1000 hover:bg-[#42e798] rounded-t-[50px] rounded-r-[50px] mt-8 font-bold w-24 text-center">
             <Link href="/akshitkumar">akshitA</Link>
-          </span>
+          </h1>
         </section>
       </article>
       <Footer />

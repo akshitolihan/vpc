@@ -12,21 +12,21 @@ import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 const video8 = () => {
     return (
         <>                <Head>
-        <title>VS Code Installation for Windows</title>
-    </Head>
+            <title>VS Code Installation for Windows</title>
+        </Head>
             <Navbar vColor="#448AFF" />
-            <section className="grid grid-cols-1 md:flex md:justify-around bg-[#FAFAFA]">
+            <section className="grid grid-cols-1 break1:flex break1:justify-around bg-[#FAFAFA]">
                 <section>
                     <Video2
-                        title="VS Code Installation for Windows"
+                        title="VS Code Installation || How to Install VS Code || A tutorial for beginners || VS Code on Windows"
                         id="eC0WWw8Chnw"
                         description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil in rerum neque sequi assumenda quos doloremque? Itaque officia quasi totam ut voluptatum ea molestiae sequi in nobis? Voluptates, aliquam ipsum?"
                         height="100px"
                         width="200px"
                     />
                 </section>
-                <section>
-                    <h1 id={navbar.lora} className="m-4 my-10 text-2xl text-center font-bold"> More Videos </h1>
+                <section className="grid justify-center">
+                    <h1 id={navbar.uchen} className="m-4 my-10 text-2xl text-center font-bold"> More Videos </h1>
 
                     <VideoS
                         img="/thumbnail/R.png"

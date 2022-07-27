@@ -4,7 +4,7 @@ import Navbar from "../../components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 import Footer from "../../components/Footer";
-import Video2 from "../../components/Video1";
+import Video1 from "../../components/Video1";
 import VideoS from "../../components/VideoS";
 import navbar from "../../styles/Navbar.module.css";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
@@ -16,19 +16,17 @@ const video2 = () => {
                 <title>Installation of R and R Studio</title>
             </Head>
             <Navbar vColor="#448AFF" />
-            <section className="grid grid-cols-1 md:flex md:justify-around bg-[#FAFAFA]">
+            <section className="grid grid-cols-1 break1:flex break1:justify-around bg-[#FAFAFA]">
                 <section>
-                    <Video2
+                    <Video1
                         title="Installation of R and R Studio | How to install R | How to install R
                             Studio | Data Science in R Lang "
                         id="FWDhVBkcTqo"
                         description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil in rerum neque sequi assumenda quos doloremque? Itaque officia quasi totam ut voluptatum ea molestiae sequi in nobis? Voluptates, aliquam ipsum?"
-                        height="100px"
-                        width="200px"
                     />
                 </section>
-                <section>
-                    <h1 id={navbar.lora} className="m-4 my-10 text-2xl text-center font-bold"> More Videos </h1>
+                <section className="grid justify-center">
+                    <h1 id={navbar.uchen} className="m-4 my-10 text-2xl text-center font-bold"> More Videos </h1>
 
                     <VideoS
                         img="/thumbnail/R.png"

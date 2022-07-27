@@ -17,7 +17,7 @@ const FooterX = () => {
   return (
     <>
       <footer
-        id={navbar.font}
+        id={navbar.uchen}
         className="p-2 rounded-t-2xl shadow-aksh flex justify-center w-full"
       >
         <div className="md:grid md:grid-cols-2">

@@ -48,7 +48,7 @@ const akki = () => {
               id={navbar.edu}
               className="text-white font-bold text-3xl text-center tracking-wider pt-4"
             >
-              akshitvillager
+              @akshitvillager
             </h1>
             <div className="mt-4 ml-16 w-20 h-4 rounded-lg bg-white"></div>
           </section>

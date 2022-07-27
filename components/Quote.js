@@ -55,7 +55,7 @@ const Quote = (props) => {
               />
             </div>
             <h2
-              id={navbar.font}
+              id={navbar.uchen}
               type="button"
               className="text-xl font-bold text-center text-[#000000]"
             >
@@ -66,14 +66,14 @@ const Quote = (props) => {
             </span>
             <h1
               // style={{ fontFamily: "Georgia serif" } }
-              id={navbar.font}
+              id={navbar.uchen}
               type="button"
               className="text-3xl text-center font-bold py-8 text-[#000000] tracking-[0.04em] min-w-lg max-w-xl"
             >
               {props.quote}
             </h1>
             <span className="flex justify-end text-2xl">
-              <BsChatQuoteFill className="text-[#000000]"/>
+              <BsChatQuoteFill className="text-[#000000]" />
             </span>
           </section>
         </section>

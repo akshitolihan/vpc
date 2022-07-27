@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Script from "next/script";
 import { useRouter } from "next/router";
 import NextNProgress from "nextjs-progressbar";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -11,13 +12,16 @@ function MyApp({ Component, pageProps }) {
     for (var i = 0; i < ads; i++) {
       try {
         (adsbygoogle = window.adsbygoogle || []).push({});
-      } catch (e) {}
+      } catch (e) { }
     }
   }, []);
 
   return (
     <>
-    {/* Analytics Code  */}
+      <Head>
+        <link rel="shortcut icon" href="/vpur.svg" />
+      </Head>
+      {/* Analytics Code  */}
       <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=G-MZ240ZGR0H`}
@@ -33,7 +37,7 @@ function MyApp({ Component, pageProps }) {
         `}
       </Script>
 
-{/* Adsense code */}
+      {/* Adsense code */}
       <Script
         id="Adsense-id"
         data-ad-client="ca-pub-2728688115283691"
