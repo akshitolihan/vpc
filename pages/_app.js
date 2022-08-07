@@ -1,6 +1,5 @@
 import "../styles/globals.css";
 import "prismjs/themes/prism-tomorrow.min.css";
-
 import { useEffect } from "react";
 import Script from "next/script";
 import { useRouter } from "next/router";
