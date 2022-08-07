@@ -4,8 +4,10 @@ import Head from "next/head";
 import Carousel from "../components/Carousel";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
-import Heading from "../components/Heading";
+import MainHeading from "../components/MainHeading";
 import Text from "../components/Text";
+import navbar from "../styles/Navbar.module.css";
+
 const contact = () => {
   return (
     <>
@@ -21,48 +23,46 @@ const contact = () => {
         para="Stay informed, Stay Connected... "
         one="Contact"
       />
-      <Heading heading="About Us" refer="/about" />
-      <section className="flex justify-center ">
-        <section className="shadow-lg bg-[#448AFF] max-w-2xl rounded-lg hover:shadow-xl p-2">
-          <Text color="#ffffff" text="Hi, This is Akshit Kumar." />
-          <Text color="#000" text="We talk about different things." />
+      <section className="flex justify-center my-16">
+        <section className="shadow-lg max-w-2xl rounded-lg hover:shadow-xl p-2">
+          <Text color="#000000" text="Hi, This is Akshit Kumar and co." />
           <Text
-            color="#ffffff"
-            text="We talk about people, and thigs related to them."
+            color="#448AFF"
+            text="We talk about things that are related to common people."
           />
-          <Text color="#000" text="We talk about India." />
-          <Text color="#ffffff" text="To know more, Stay in touch." />
+          <Text color="#000000" text="To know more, Stay in touch." />
         </section>
       </section>
-      <Heading heading="We Social" refer="/about" />
+
+      <h1 id={navbar.josefin} className="text-center text-4xl p-6 font-extrabold">We Social</h1>
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
           <Card
-            bgColor="#448AFF"
+            bgColor="#"
             img="/telegram.svg"
-            height="128px"
-            width="128px"
-            heading="Connect on Telegram"
+            height="64px"
+            width="64px"
+            heading="Join"
             para="This is Akshit Kumar. Join our telegram group. Link Below."
             refer="https://t.me/thevillagepur"
             name="Join"
           />
           <Card
-            bgColor="#448AFF"
+            bgColor="#"
             img="/facebook.svg"
-            height="128px"
-            width="128px"
-            heading="Connect on Facebook"
+            height="64px"
+            width="64px"
+            heading="Follow"
             para="This is Akshit Kumar. Follow our facebook page and connect with us."
             refer="https://www.facebook.com/villagepur/"
             name="Follow"
           />
           <Card
-            bgColor="#448AFF"
+            bgColor="#"
             img="/instagram.svg"
-            height="128px"
-            width="128px"
-            heading="Connect on Instagram"
+            height="64px"
+            width="64px"
+            heading="Follow"
             para="This is Akshit Kumar. Follow our page and connect with us. "
             refer="https://www.instagram.com/thevillagepur"
             name="Follow"

@@ -17,31 +17,27 @@ const index = () => {
         <title>Villagepur ~ Home</title>
       </Head>
       <Navbar />
-      {/* <BlogCard
-        img="/top-learning-platforms.jpg"
-        height="400px"
-        width="500px"
-        date="22 July 2022"
-        heading="This is Akshit."
-        para="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            alias, cum eveniet rem quos "
-            one="Read More"
-            refer="/blog"
-      /> */}
       <Carousel
-        img="/microsites-pana.svg"
+        img="/code.svg"
         height="450px"
         width="910px"
         heading="Welcome To Villagepur"
         para="We believe in the continuous growth..."
         one="Informative"
       />
-      <Heading refer="" heading="What we have ? " />
+      <Carousel2
+        img="/comfort-zone.svg"
+        height="300px"
+        width="300px"
+        heading="We have Code to Learn."
+        para="Learn to Code for future."
+        one="CoDe"
+        refer="/code"
+      />
       <Carousel2
         img="/post-pana.svg"
         height="300px"
         width="300px"
-        num="1."
         heading="We have blogs to read."
         para="Keep Reading, Keep Knowing."
         one="Blogs"
@@ -52,7 +48,6 @@ const index = () => {
         img="/dictionary-rafiki.svg"
         height="300px"
         width="300px"
-        num="2."
         heading="We have videos to watch."
         para="Beware and Keep Watching..."
         one="Videos"
@@ -63,7 +58,6 @@ const index = () => {
         img="/comfort-zone.svg"
         height="300px"
         width="300px"
-        num="3."
         heading="We have quotes to motivate."
         para="Stay motivated, Stay energetic..."
         one="Quotes"
@@ -73,7 +67,6 @@ const index = () => {
         img="/Contact-us-cuate.svg"
         height="300px"
         width="300px"
-        num="4."
         heading="Know about us more here."
         para="Stay informed, Stay Connected..."
         one="Know Us"
@@ -83,7 +76,6 @@ const index = () => {
         img="/more-rafiki.svg"
         height="300px"
         width="300px"
-        num="5."
         heading="A lot coming your way."
         para=""
         one="Home"
@@ -108,7 +100,7 @@ const index = () => {
               className="rounded-2xl m-0 p-0"
             />
             <h1
-              id={navbar.uchen}
+              id={navbar.josefin}
               className="text-white font-bold text-3xl text-center tracking-wider pt-4"
             >
               @akshitvillager
@@ -116,7 +108,7 @@ const index = () => {
             <div className="mt-4 ml-16 w-20 h-4 rounded-lg bg-white"></div>
           </section>
         </section>
-        <section id={navbar.uchen} className="my-8 mx-20 md:mt-48 ">
+        <section id={navbar.josefin} className="my-8 mx-20 md:mt-48 ">
           <h1 className="font-bold text-3xl tracking-wide">Hi! I am, </h1>
           <h1 className="text-[#82B1FF] text-4xl font-bold">Akshit Kumar</h1>
           <h1 className="font-bold text-3xl tracking-wide mt-20">

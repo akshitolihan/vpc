@@ -1,18 +1,19 @@
 import React from "react";
 import navbar from "../styles/Navbar.module.css";
-import Link from "react-scroll/modules/components/Link";
+import Link from "next/link";
 
 const Button = (props) => {
   return (
     <>
-      <Link href={props.refer}>
-        <button
-          id={navbar.uchen}
+      <Link href={props.refer} passHref>
+        <span
+          style={{ backgroundColor: `${props.bgColor}` }}
+          id={navbar.josefin}
           type="button"
-          className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
+          className=" cursor-pointer text-2xl  px-2 rounded-lg rounded-t-2xl rounded-r-xl m-4 font-semibold"
         >
-          {props.button}
-        </button>
+          {props.name}
+        </span>
       </Link>
     </>
   );

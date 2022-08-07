@@ -22,11 +22,16 @@ const video3 = () => {
             title="Pycharm Installation for Windows || Python Programming || Best IDE for Python || Coding with Pycharm"
             id="irNss8-_ZLM"
             description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil in rerum neque sequi assumenda quos doloremque? Itaque officia quasi totam ut voluptatum ea molestiae sequi in nobis? Voluptates, aliquam ipsum?"
-
           />
         </section>
         <section className="grid justify-center">
-          <h1 id={navbar.uchen} className="m-4 my-10 text-2xl text-center font-bold"> More Videos </h1>
+          <h1
+            id={navbar.josefin}
+            className="m-4 my-10 text-2xl text-center font-bold"
+          >
+            {" "}
+            More Videos{" "}
+          </h1>
 
           <VideoS
             img="/thumbnail/R.png"
@@ -110,9 +115,8 @@ const video3 = () => {
 
 export default video3;
 
-
-
-{/* <div className="grid md:grid-cols-2 lg:grid-cols-3">
+{
+  /* <div className="grid md:grid-cols-2 lg:grid-cols-3">
         <VideoS
           img="/thumbnail/R.png"
           height="250px"
@@ -186,4 +190,5 @@ export default video3;
           id="ApZL5T5fQuA"
           refer = "/videos/welcome-to-villagepur"
         />
-      </div> */}
+      </div> */
+}

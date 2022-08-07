@@ -10,8 +10,8 @@ const Heading = (props) => {
         <Link href={props.refer} className="cursor-pointer" passHref>
           <h1
             type="button"
-            id={navbar.uchen}
-            className="text-center mr-6 no-underline font-extrabold flex justify-center text-[#448AFF] mt-4 w-auto h-auto text-5xl rounded-t-[50px] rounded-r-[50px] cursor-pointer my-8"
+            id={navbar.josefin}
+            className="text-center mr-6 no-underline font-extrabold flex justify-center text-[#000000] mt-4 w-auto h-auto text-5xl rounded-t-[50px] rounded-r-[50px] cursor-pointer my-8"
           >
             {props.heading}
           </h1>

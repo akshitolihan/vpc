@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 import Carousel from "../components/Carousel";
-import Heading from "../components/Heading";
+import Heading2 from "../components/Heading2";
 import Quotes from "../components/Quotes";
 import Quote from "../components/Quote";
 import Footer from "../components/Footer";
@@ -23,7 +23,7 @@ const quotes = () => {
         one="Quotes"
 
       />
-      <Heading heading="Top Quotes" refer="/quotes" />
+      <Heading2 heading = "Quote of the Day"/>
       <Quote
         img="/gandhiji.png"
         height="450px"

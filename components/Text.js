@@ -4,11 +4,11 @@ import navbar from "../styles/Navbar.module.css";
 const Text = (props) => {
   return (
     <>
-      <section className="flex justify-center">
+      <section className="flex justify-center my-16">
         <p
           style={{ color: `${props.color}` }}
-          id={navbar.uchen}
-          className="text-2xl font-bold text-center max-w-xl py-2"
+          id={navbar.josefin}
+          className="text-2xl font-bold text-center max-w-xl "
         >
           {props.text}
         </p>

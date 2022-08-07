@@ -25,20 +25,18 @@ const Books = (props) => {
             id={1}
             className="text-black text-xl text-justify font-bold pt-5 relative "
           >
-
             {props.heading}
           </h1>
           <p
             id={1}
             className="text-[#2F4858] text-justify text-lg font-normal pt-4"
           >
-
             {props.para}
           </p>
 
           <button
             type="button"
-            id={navbar.uchen}
+            id={navbar.josefin}
             className="text-center mr-6 no-underline text-[#fff] font-extrabold justify-center bg-[#1DE9B6] mt-4 w-auto h-auto px-1 rounded-t-[50px]  rounded-r-[50px] align-bottom "
           >
             <Link href={props.refer2}>{props.download}</Link>

@@ -4,7 +4,7 @@ import Head from "next/head";
 import Carousel from "../../components/Carousel";
 import BlogCard from "../../components/BlogCard";
 import Books from "../../components/Books";
-import Heading from "../../components/Heading";
+import Heading2 from "../../components/Heading2";
 import Footer from "../../components/Footer";
 import BlogCardR from "../../components/BlogCardR";
 
@@ -23,7 +23,6 @@ const blog = () => {
         para="Keep Reading, Keep Knowing."
         one="Blogs"
       />
-      <Heading heading="Blogs Here" refer="/blog" />
 
         <div className="my-4">
           {/* <Books
@@ -38,6 +37,7 @@ const blog = () => {
             heading="Top Online Learning Platforms"
             para="In this blog, we will target college students and talk about Top Online Learning Platforms and their resources that can benefit any student. This will be useful for anyone who wants to learn deeply ..."
           /> */}
+          <Heading2 heading="Blogs" />
           <BlogCard
             date="9 June 2022"
             img="/top-learning-platforms.jpg"

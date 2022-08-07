@@ -36,7 +36,7 @@ const Quotes = (props) => {
             </a>
           </div>
           {/* <button
-              type="button" id={navbar.uchen}
+              type="button" id={navbar.josefin}
               className="text-center mr-6 no-underline text-[#2F4858] font-extrabold justify-center bg-[#42e798] mt-4 w-auto h-8 rounded-t-[50px]  rounded-r-[50px] align-bottom "
             >
               {props.download}
@@ -55,7 +55,7 @@ const Quotes = (props) => {
           </div>
           <div>
             <button
-              id={navbar.uchen}
+              id={navbar.josefin}
               type="button"
               className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#42e798] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block animate-translate"
             >
@@ -68,21 +68,21 @@ const Quotes = (props) => {
             </p>
             <div className="grid md:grid-cols-3 justify-center">
               <button
-                id={navbar.uchen}
+                id={navbar.josefin}
                 type="button"
                 className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#2F4858] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
               >
                 {props.one}
               </button>
               <button
-                id={navbar.uchen}
+                id={navbar.josefin}
                 type="button"
                 className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#2F4858] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
               >
                 {props.two}
               </button>
               <button
-                id={navbar.uchen}
+                id={navbar.josefin}
                 type="button"
                 className="text-3xl no-underline text-[#ffffff] font-extrabold justify-center bg-[#2F4858] mt-4 w-auto  rounded-t-[50px]  rounded-r-[50px] m-auto block"
               >

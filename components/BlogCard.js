@@ -33,7 +33,7 @@ const BlogCard = (props) => {
                 />
               </div>
               <h2
-                id={navbar.uchen}
+                id={navbar.josefin}
                 type="button"
                 className="md:text-base font-extrabold text-[#616161] mb-4"
               >
@@ -53,7 +53,7 @@ const BlogCard = (props) => {
                 {props.para}
               </p>
               <span
-                id={navbar.uchen}
+                id={navbar.josefin}
                 type="button"
                 className="text-base text-[#ffffff] bg-[#448AFF] px-2 rounded-t-[50px] rounded-r-[50px] mt-4 font-bold "
               >

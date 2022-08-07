@@ -17,13 +17,13 @@ const FooterX = () => {
   return (
     <>
       <footer
-        id={navbar.uchen}
+        id={navbar.josefin}
         className="p-2 rounded-t-2xl shadow-aksh flex justify-center w-full"
       >
         <div className="md:grid md:grid-cols-2">
           <h1 className="text-center p-2 text-2xl font-bold text-[#000000] ">
-            &copy; Copyrights Reserved @<span>Village</span><span className="text-[#448AFF]">Pur</span>
-
+            &copy; Copyrights Reserved @<span>Village</span>
+            <span className="text-[#448AFF]">Pur</span>
           </h1>
           <div className="flex justify-center text-[#000000] ">
             <a

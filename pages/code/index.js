@@ -1,35 +1,60 @@
 import React from "react";
+import Head from "next/dist/shared/lib/head";
+import Navbar from "../../components/Navbar";
 import Code from "../../components/Code";
-import { useEffect } from "react";
-import Prism from "prismjs";
-import "prismjs/themes/prism-tomorrow.css";
-
+import { useEffect, useState } from "react";
+import "prismjs/themes/aksh.css";
+import Heading from "../../components/Heading";
+import Heading2 from "../../components/Heading2";
+import Image from "next/dist/client/image";
+import navbar from "../../styles/Navbar.module.css";
+import Link from "next/dist/client/link";
+import Button from "../../components/Button";
+import Footer from "../../components/Footer";
+import Carousel from "../../components/Carousel";
 export default function Page(props) {
   useEffect(() => {
     Prism.highlightAll();
   }, []);
-
-  var code1 = `var x, y, z;  // Declare 3 variables
-  x = 5;    // Assign the value 5 to x
-  y = 6;    // Assign the value 6 to y
-  z = x + y;  // Assign the sum of x and y to z
+  var code1 = `#include <iostream>
+  using namespace std;
   
-  document.getElementById("demo").innerHTML =
-  "The value of z is " + z + ".";`;
+  int main(){
+  
+      //  Print program
+      cout << "Hello Akshit";
+      return 0;
+  }`;
 
   var code2 = `print("Hello world")
 print("Hello world")`;
 
   return (
-    <div className="flex justify-center">
-      <main className="max-w-2xl lg:w-[800px] sm:w-[800px] w-72">
-        <pre className="line-numbers">
-          <code className="language-jsx">{code1}</code>
-        </pre>
-        <pre className="line-numbers">
-          <code className="language-jsx">{code2}</code>
-        </pre>
-      </main>
-    </div>
+    <>
+      <Head>
+        <title>Learn to Code</title>
+      </Head>
+      <Navbar />
+      <section className="flex justify-center pb-20 bg-white w-full">
+      <section className="grid grid-cols-3 md:flex md:justify-center w-full mt-8 bg-white text-[#448AFF] ">
+        <Button refer="/code/html" name="HTML" bgColo="#FF9671" />
+        <Button refer="/code/css" name="CSS" bgColo="#F9F871" />
+        <Button refer="/code/javascript" name="JavaScript" bgColo="#FF9671" />
+        <Button refer="/code/python" name="Python" bgColo="#F9F871" />
+        <Button refer="/code/cpp" name="C++" bgColo="#FF9671" />
+        <Button refer="/code/java" name="Java" bgColo="#F9F871" />
+      </section></section>
+      <Carousel
+        img="/code.svg"
+        height="450px"
+        width="910px"
+        heading="Learn To CoDe"
+        para="Keep Coding Solutions"
+        one="Code"
+      />
+
+      <Heading2 heading="Start Learning to Code" />
+      <Footer />
+    </>
   );
 }

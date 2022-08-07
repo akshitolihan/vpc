@@ -24,7 +24,13 @@ Studio | Data Science in R Lang "
           />
         </section>
         <section>
-          <h1 id={navbar.uchen} className="m-4 my-10 text-2xl text-center font-bold"> More Videos </h1>
+          <h1
+            id={navbar.josefin}
+            className="m-4 my-10 text-2xl text-center font-bold"
+          >
+            {" "}
+            More Videos{" "}
+          </h1>
 
           <VideoS
             title="Installation of R and R Studio | How to install R | How to install R

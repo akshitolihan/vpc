@@ -9,8 +9,7 @@ export default function Page(props) {
   useEffect(() => {
     Prism.highlightAll();
   }, []);
-  var codeSample = `print("Hello world")
-print("Hello world")`;
+  var codeSample = `${props.code}`;
 
   return (
     <main>

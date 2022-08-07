@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar";
 import Head from "next/head";
 import Carousel from "../../components/Carousel";
 import Video from "../../components/Video";
-import Heading from "../../components/Heading";
+import Heading2 from "../../components/Heading2";
 import Footer from "../../components/Footer";
 import VideoV from "../../components/VideoV";
 const learn = () => {
@@ -20,12 +20,9 @@ const learn = () => {
         heading="Learn With Us"
         para="Beware and Keep Watching..."
         one="Watch"
-
       />
-      <Heading heading="Video" refer="./videos" />
+          <Heading2 heading="Videos" />
       <div className="flex justify-around">
-
-
         <div className="grid md:grid-cols-2 justify-items-stretch">
           <VideoV
             img="/thumbnail/R.png"
@@ -100,7 +97,8 @@ const learn = () => {
             id="ApZL5T5fQuA"
             refer="/videos/welcome-to-villagepur"
           />
-        </div>  </div>
+        </div>{" "}
+      </div>
 
       {/* <div className="grid md:grid-cols-2 lg:grid-cols-3">
         <Video
@@ -188,7 +186,6 @@ const learn = () => {
       </div> */}
 
       <Footer />
-
     </>
   );
 };

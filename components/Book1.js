@@ -39,7 +39,7 @@ const Book1 = (props) => {
               <div className="flex justify-center pt-2">
                 <button
                   type="button"
-                  id={navbar.uchen}
+                  id={navbar.josefin}
                   className="text-center text-[#fff] font-extrabold bg-[#1DE9B6] w-auto h-auto px-2 py-1 rounded-t-[50px]  rounded-r-[50px]"
                 >
                   {props.download}

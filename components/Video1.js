@@ -6,7 +6,7 @@ import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 const Video1 = (props) => {
   return (
     <>
-      <section id={navbar.uchen} className="">
+      <section id={navbar.josefin} className="">
         <div className="m-2 md:m-10 rounded-md">
           <LiteYouTubeEmbed
             className="rounded-xl"

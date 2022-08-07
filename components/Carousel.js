@@ -5,25 +5,25 @@ import navbar from "../styles/Navbar.module.css";
 const Carousel = (props) => {
   return (
     <>
-      <section className="flex justify-evenly shadow-lg ">
+      <section className="flex justify-evenly">
         <section className="md:m-20 md:my-8 sm:m-10 sm:my-6 m-4 my-3">
           <h1
-            id={navbar.uchen}
+            id={navbar.josefin}
             type="button"
-            className="text-4xl md:text-5xl font-extrabold text-[#448AFF] leading-[60px] my-10"
+            className="text-4xl md:text-5xl font-[1000] text-[#448AFF] leading-[60px] my-10 text-center md:text-left"
           >
             {props.heading}
           </h1>
 
           <p
-            id={navbar.uchen}
+            id={navbar.josefin}
             className="text-justify my-6 max-w-4xl w-auto md:w-80 text-xl font-[600] tracking-wider"
           >
             {props.para}
           </p>
 
           <span
-            id={navbar.uchen}
+            id={navbar.josefin}
             type="button"
             className="text-2xl text-[#ffffff] bg-[#448AFF] px-2 rounded-t-[50px] rounded-r-[50px] my-8 font-bold"
           >
@@ -39,9 +39,10 @@ const Carousel = (props) => {
               height={props.height}
               width={props.width}
             />
-          </div></div>
-      </section>
 
+          </div>
+        </div>
+      </section>
     </>
   );
 };

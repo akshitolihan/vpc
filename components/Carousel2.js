@@ -10,7 +10,7 @@ import {
   FaYoutube,
   FaInstagram,
   FaTwitter,
-  FaArrowAltCircleRight
+  FaArrowAltCircleRight,
 } from "react-icons/fa";
 
 const Carousel2 = (props) => {
@@ -32,14 +32,14 @@ const Carousel2 = (props) => {
         </section>
         <section className="md:m-20 md:my-8 sm:m-10 sm:my-6 m-4 my-3">
           {/* <h1
-            id={navbar.uchen}
+            id={navbar.josefin}
             type="button"
             className="text-4xl md:text-5xl font-extrabold text-[#000000] leading-[60px]"
           >
             {props.num}
           </h1> */}
           <h1
-            id={navbar.uchen}
+            id={navbar.josefin}
             type="button"
             className="text-4xl md:text-5xl font-extrabold text-[#448AFF] leading-[60px] my-10"
           >
@@ -47,19 +47,21 @@ const Carousel2 = (props) => {
           </h1>
 
           <p
-            id={navbar.uchen}
+            id={navbar.josefin}
             className="text-justify my-6 max-w-6xl text-xl font-[600]"
           >
             {props.para}
           </p>
           <span
-            id={navbar.uchen}
+            id={navbar.josefin}
             type="button"
             className="text-2xl cursor-pointer text-[#ffffff] bg-[#448AFF] hover:bg-[#42e798] scale-90 hover:scale-100 ease-in-out duration-1000 px-2 rounded-t-[50px] rounded-r-[50px] my-8 font-bold"
           >
             <Link href={props.refer} passHref>
               <a href="" className="flex justify-center">
-                {props.one}<FaArrowCircleRight className="mx-3 my-1" /></a>
+                {props.one}
+                <FaArrowCircleRight className="mx-3 my-1" />
+              </a>
             </Link>
           </span>
         </section>
