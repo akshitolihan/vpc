@@ -3,7 +3,6 @@ import Head from "next/dist/shared/lib/head";
 import Navbar from "../../components/Navbar";
 import Code from "../../components/Code";
 import { useEffect, useState } from "react";
-import Prism from "Prismjs";
 import Heading from "../../components/Heading";
 import Heading2 from "../../components/Heading2";
 import Image from "next/dist/client/image";
