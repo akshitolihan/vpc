@@ -3,7 +3,6 @@ import Head from "next/dist/shared/lib/head";
 import Navbar from "../../components/Navbar";
 import Code from "../../components/Code";
 import { useEffect, useState } from "react";
-
 import Prism from "Prismjs";
 import Heading from "../../components/Heading";
 import Heading2 from "../../components/Heading2";
@@ -13,8 +12,7 @@ import Link from "next/dist/client/link";
 import Button from "../../components/Button";
 import Footer from "../../components/Footer";
 import Carousel from "../../components/Carousel";
-import "../styles/globals.css";
-import "../styles/aksh.css";
+
 export default function Page(props) {
   useEffect(() => {
     Prism.highlightAll();
