@@ -4,7 +4,7 @@ import CodeHead from "../../../components/CodeHead";
 import Navbar from "../../../components/Navbar";
 import Code from "../../../components/Code";
 import { useEffect, useState } from "react";
-import "prismjs/themes/aksh.css";
+
 import Heading from "../../../components/Heading";
 import Footer from "../../../components/Footer";
 export default function Page(props) {
@@ -49,7 +49,10 @@ export default function Page(props) {
         <title>Greatest Common Divisor of two numbers in C++</title>
       </Head>
       <Navbar />
-      <CodeHead color="#000" heading="Greatest Common Divisor of two numbers in C++" />
+      <CodeHead
+        color="#000"
+        heading="Greatest Common Divisor of two numbers in C++"
+      />
       <div className="flex justify-center ">
         <main className="max-w-2xl lg:w-[800px] sm:w-[700px] w-96">
           <pre className="line-numbers shadow-lg rounded-none">
@@ -57,7 +60,7 @@ export default function Page(props) {
           </pre>
         </main>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

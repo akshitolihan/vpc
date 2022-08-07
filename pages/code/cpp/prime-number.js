@@ -4,7 +4,7 @@ import CodeHead from "../../../components/CodeHead";
 import Navbar from "../../../components/Navbar";
 import Code from "../../../components/Code";
 import { useEffect, useState } from "react";
-import "prismjs/themes/aksh.css";
+
 import Heading from "../../../components/Heading";
 import Footer from "../../../components/Footer";
 export default function Page(props) {

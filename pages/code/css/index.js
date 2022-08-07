@@ -3,7 +3,7 @@ import Head from "next/dist/shared/lib/head";
 import Navbar from "../../../components/Navbar";
 import Code from "../../../components/Code";
 import { useEffect, useState } from "react";
-import "prismjs/themes/aksh.css";
+
 import Heading from "../../../components/Heading";
 import Button from "../../../components/Button";
 import Footer from "../../../components/Footer";
