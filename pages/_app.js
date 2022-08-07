@@ -1,11 +1,10 @@
 import "../styles/globals.css";
-import "prismjs/themes/prism-tomorrow.css";
 import { useEffect } from "react";
 import Script from "next/script";
 import { useRouter } from "next/router";
 import NextNProgress from "nextjs-progressbar";
 import Head from "next/head";
-
+import "prismjs/themes/prism-aksh.css";
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     var ads = document.getElementsByClassName("adsbygoogle").length;

@@ -3,10 +3,10 @@ import Head from "next/dist/shared/lib/head";
 import Navbar from "../../../components/Navbar";
 import Code from "../../../components/Code";
 import { useEffect, useState } from "react";
-// import "prismjs/themes/aksh.css";
 import Heading from "../../../components/Heading";
 import Footer from "../../../components/Footer";
 import Button from "../../../components/Button";
+import "prismjs/themes/prism-aksh.css";
 
 export default function Page(props) {
   useEffect(() => {
@@ -44,7 +44,7 @@ export default function Page(props) {
           </pre>
         </main>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
