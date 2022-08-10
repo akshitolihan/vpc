@@ -6,7 +6,8 @@ import { useEffect, useState } from "react";
 import Heading from "../../../components/Heading";
 import Footer from "../../../components/Footer";
 import Button from "../../../components/Button";
-import "prismjs/themes/prism-aksh.css";
+// import "prismjs/themes/prism-aksh.css";
+// import "prism-themes/themes/prism-darcula.css";
 
 export default function Page(props) {
   useEffect(() => {
@@ -37,7 +38,7 @@ export default function Page(props) {
         <Button refer="/code/java" name="Java" bgColo="#F9F871" />
       </section>
       <Heading refer="/code/cpp" heading="Introduction to C++" />
-      <div className="flex justify-center ">
+      <div className="flex justify-center language-jsx">
         <main className="max-w-2xl lg:w-[800px] sm:w-[700px] w-96">
           <pre className="line-numbers shadow-lg rounded-none">
             <code className="language-jsx">{hello}</code>

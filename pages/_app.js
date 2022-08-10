@@ -1,10 +1,16 @@
 import "../styles/globals.css";
+import "../styles/prism-aksh.css";
 import { useEffect } from "react";
 import Script from "next/script";
 import { useRouter } from "next/router";
 import NextNProgress from "nextjs-progressbar";
 import Head from "next/head";
-// import "prismjs/themes/prism-tomorrow.css";
+import Prism from "prismjs";
+// import "prism-themes/themes/prism-darcula.css";
+import "prismjs/themes/prism.css";
+import "prismjs/components/prism-jsx";
+
+// import "../styles/prism-aksh.css";
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     var ads = document.getElementsByClassName("adsbygoogle").length;
