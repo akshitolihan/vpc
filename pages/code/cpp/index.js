@@ -6,8 +6,7 @@ import { useEffect, useState } from "react";
 import Heading from "../../../components/Heading";
 import Footer from "../../../components/Footer";
 import Button from "../../../components/Button";
-// import "prismjs/themes/prism-aksh.css";
-// import "prism-themes/themes/prism-darcula.css";
+
 
 export default function Page(props) {
   useEffect(() => {
