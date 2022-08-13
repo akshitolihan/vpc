@@ -19,7 +19,7 @@ const Card = (props) => {
                   <div className="w-auto md:flex md:justify-center md:w-full rounded-md bg-white">
                     <Image
                       alt="home"
-                      className="block rounded-lg bg-[#448AFF] p-[-10px]"
+                      className="block rounded-lg p-[-10px]"
                       src={props.img}
                       height={props.height}
                       width={props.width}

@@ -34,9 +34,14 @@ const contact = () => {
         </section>
       </section>
 
-      <h1 id={navbar.josefin} className="text-center text-4xl p-6 font-extrabold">We Social</h1>
+      <h1
+        id={navbar.josefin}
+        className="text-center text-4xl p-6 font-extrabold"
+      >
+        We Social
+      </h1>
       <div className="flex justify-center">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4">
           <Card
             bgColor="#"
             img="/telegram.svg"
@@ -66,6 +71,16 @@ const contact = () => {
             para="This is Akshit Kumar. Follow our page and connect with us. "
             refer="https://www.instagram.com/thevillagepur"
             name="Follow"
+          />
+          <Card
+            bgColor="#"
+            img="/youtube.svg"
+            height="64px"
+            width="64px"
+            heading="Subscribe"
+            para="This is Akshit Kumar. Subscribe our channel. "
+            refer="https://www.youtube.com/channel/UCB-MIYje3UgID2KNvWSl-Eg"
+            name="Subscribe"
           />
         </div>
       </div>

@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import Prism from "prismjs";
-import "prism-themes/themes/prism-darcula.css";
+import "prism-themes/themes/prism-duotone-dark.css";
 import "prismjs/components/prism-jsx.js";
-import "prismjs/plugins/line-numbers/prism-line-numbers.js";
-import "prismjs/plugins/line-numbers/prism-line-numbers.css";
+// import "prismjs/plugins/line-numbers/prism-line-numbers.js";
+// import "prismjs/plugins/line-numbers/prism-line-numbers.css";
 
 export default function Page(props) {
   useEffect(() => {
