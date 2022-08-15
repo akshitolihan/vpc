@@ -1,22 +1,3 @@
-// import React from 'react'
-
-// const Quote = () => {
-//   return (
-//     <>
-//         <section>
-//             <section>
-
-//             </section>
-//             <section>
-
-//             </section>
-//         </section>
-//     </>
-//   )
-// }
-
-// export default Quote;
-
 import React from "react";
 import Image from "next/image";
 import navbar from "../styles/Navbar.module.css";
@@ -32,11 +13,11 @@ const Quote = (props) => {
             <div className="hidden md:flex justify-center">
               <div
                 style={{ backgroundColor: `${props.bgColor}` }}
-                className="w-auto md:flex md:justify-center md:w-full border-2 bg-[#ff2424]  rounded-lg"
+                className="w-auto md:flex md:justify-center md:w-full rounded-lg"
               >
                 <Image
                   alt="home"
-                  className="block"
+                  className="block rounded-lg"
                   src={props.img}
                   height={props.height}
                   width={props.width}

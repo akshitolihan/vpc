@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import Heading from "../../../components/Heading";
 import Footer from "../../../components/Footer";
 import CodeHead from "../../../components/CodeHead";
+import navbar from "../../../styles/Navbar.module.css";
 
 export default function Page(props) {
   useEffect(() => {
@@ -20,7 +21,12 @@ export default function Page(props) {
       </Head>
       <Navbar />
       <CodeHead color={``} heading="Pattern programs in C++" />
-
+      <h1
+        id={navbar.josefin}
+        className="text-center text-3xl p-6 font-extrabold"
+      >
+        Code
+      </h1>
       <Code
         code={`#include <iostream>
 using namespace std;
@@ -46,8 +52,15 @@ int main(){
 
     return 0;
 }`}
-      /><Output
-      
+      />
+
+      <h1
+        id={navbar.josefin}
+        className="text-center text-3xl p-6 font-extrabold"
+      >
+        Output
+      </h1>
+      <Output
         op={`Caused by:
     0: failed to process input file
     1: Syntax Error `}
