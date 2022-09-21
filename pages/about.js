@@ -40,7 +40,7 @@ const contact = () => {
       >
         We Social
       </h1>
-      <div className="flex justify-center">
+      <div className="flex justify-evenly">
         <div className="grid md:grid-cols-2 lg:grid-cols-4">
           <Card
             bgColor="#"

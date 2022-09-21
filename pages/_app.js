@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/vpur.svg" />
+        <link rel="shortcut icon" href="/vp.svg" />
       </Head>
       {/* Analytics Code  */}
       <Script
