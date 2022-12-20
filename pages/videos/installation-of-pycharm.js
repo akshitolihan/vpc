@@ -17,7 +17,7 @@ const video3 = () => {
       </Head>
       <Navbar vColor="#448AFF" />
       <section className="grid grid-cols-1 break1:flex break1:justify-around bg-[#FAFAFA]">
-        <section>
+        <section className="bg-whit ">
           <Video1
             title="Pycharm Installation for Windows || Python Programming || Best IDE for Python || Coding with Pycharm"
             id="irNss8-_ZLM"

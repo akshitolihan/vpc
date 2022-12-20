@@ -7,14 +7,15 @@ const Video1 = (props) => {
   return (
     <>
       <section id={navbar.josefin} className="">
-        <div className="m-2 md:m-10 rounded-md">
+        <div className="m-2 md:m-10 rounded-lg bg-[#d7e8ff] p-2 z-1 overflow-hidden ">
+          <div className="z-1 rounded-lg overflow-hidden"> 
           <LiteYouTubeEmbed
-            className="rounded-xl"
+            className="rounded-xl m-2 z-1"
             aspectHeight={9}
             aspectWidth={16}
             id={props.id}
             title={props.title}
-          />
+          /></div>
         </div>
         <div className="md:m-10 m-2 bg-white shadow-lg p-2">
           <h1 className="m-2 my-4 text-xl font-unde font-[600] max-w-[840px] ">
